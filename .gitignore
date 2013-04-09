@@ -36,3 +36,5 @@ nosetests.xml
 
 *.hdf5
 ipynb/
+
+*.swp
