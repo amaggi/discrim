@@ -7,6 +7,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.grid_search import GridSearchCV
 from sklearn.cross_validation import KFold
 from syn_catalog import *
+from catalog_io_plot import *
 from ml import NeuralNetwork
 from helpers import random_weights
 
