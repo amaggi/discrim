@@ -18,25 +18,28 @@ from helpers import random_weights
 #filename='trimouns.hdf5'
 #eq_cat=generate_eq_catalog(1000,-30,30,-30,30)
 #blast_cat=generate_blast_catalog(1000,0,0,3,3,30,17,0.1)
-#write_catalogs_hdf5(eq_cat, blast_cat, filename)
-#eq, blast = read_catalogs_hdf5(filename)
-#plot_catalogs(eq,blast)
+#write_syn_catalogs_hdf5(eq_cat, blast_cat, filename)
+#X, y, features, labels = read_catalogs_hdf5(filename)
+#plot_catalogs(X, y, features, labels, 'Trimouns synthetic catalog', 'trimouns_syn.pdf')
+
 
 # Mollard
 #filename='mollard.hdf5'
 #eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
 #blast_cat=generate_blast_catalog(1000,0,0,10,10,30,12,2)
-#write_catalogs_hdf5(eq_cat, blast_cat, filename)
-#eq, blast = read_catalogs_hdf5(filename)
-#plot_catalogs(eq,blast)
+#write_syn_catalogs_hdf5(eq_cat, blast_cat, filename)
+#X, y, features, labels = read_catalogs_hdf5(filename)
+#plot_catalogs(X, y, features, labels, 'Mollard synthetic catalog', 'mollard_syn.pdf')
 
 # skew
 #filename='skew.hdf5'
 #eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
 #blast_cat=generate_blast_catalog(1000,0,0,5,15,30,12,2)
-#write_catalogs_hdf5(eq_cat, blast_cat, filename)
-#eq, blast = read_catalogs_hdf5(filename)
-#plot_catalogs(eq,blast)
+#write_syn_catalogs_hdf5(eq_cat, blast_cat, filename)
+#X, y, features, labels = read_catalogs_hdf5(filename)
+#plot_catalogs(X, y, features, labels, 'Skew synthetic catalog', 'skew_syn.pdf')
+
+#exit()
 
 ###########################
 # read and pre-process data
@@ -46,14 +49,7 @@ from helpers import random_weights
 # blast = 1
 
 filename='skew.hdf5'
-eq, blast = read_catalogs_hdf5(filename)
-n_eq, n_f = eq.shape
-n_bl, n_f = blast.shape
-
-X = np.vstack((eq,blast))
-n_s, n_f =  X.shape
-y = np.ones(n_s)
-y[0:n_eq]=0
+X, y, features, labels = read_catalogs_hdf5(filename)
 
 # do feature scaling
 X_scaled = preprocessing.scale(X)
