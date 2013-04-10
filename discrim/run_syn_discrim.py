@@ -50,10 +50,16 @@ from helpers import random_weights
 # blast = 1
 
 filename='skew.hdf5'
+base_title='Skew'
+print filename
+
+basename,ext=os.path.splitext(filename)
 X, y, features, labels = read_catalogs_hdf5(filename)
 
 # do feature scaling
-X_scaled = preprocessing.scale(X)
+scaler = preprocessing.Scaler()
+scaler.fit(X)
+X_scaled = scaler.transform(X)
 
 # do PCA
 #pca = PCA(3)
@@ -63,8 +69,16 @@ X_scaled = preprocessing.scale(X)
 # split out a training set
 X_train, X_test, y_train, y_test = cross_validation.train_test_split(X_scaled, y, test_size=0.7, random_state=0)
 X_cv, X_test, y_cv, y_test = cross_validation.train_test_split(X_test, y_test, test_size=0.5, random_state=0)
+n_cv=len(y_cv)
+n_train=len(y_cv)
 
-print filename
+plot_fname=basename + '_train.pdf'
+title=base_title + ' training set' + '  ( %d samples )'%n_train
+plot_catalogs(scaler.inverse_transform(X_train), y_train, features, labels, title, plot_fname)
+
+plot_fname=basename + '_cv.pdf'
+title=base_title + ' cross validation set' + '  ( %d samples )'%n_cv
+plot_catalogs(scaler.inverse_transform(X_cv), y_cv, features, labels, title, plot_fname)
 ###########################
 # do a naive bayes analysis
 ###########################
@@ -75,7 +89,16 @@ p,r,f,s = precision_recall_fscore_support(y_cv, y_pred)
 #print "Precision for Naive Bayes : ", p
 #print "Recall for Naive Bayes    : ", r
 print "F1 for Naive Bayes        : ", f
-print "Number of mis-labeled points : %d"% np.sum(y_cv != y_pred)
+n_false=np.sum(y_cv != y_pred)
+frac_false=n_false/float(n_cv)
+print "Number of mis-labeled points : %d"% n_false
+
+X_false = X_cv[y_cv != y_pred]
+y_false = y_cv[y_cv != y_pred]
+
+plot_fname=basename + '_NB.pdf'
+title = base_title+' mis-labeled Naive Bayes'+' ( %d / %d   %.2f %% )'%(n_false,n_cv,frac_false*100)
+plot_catalogs(scaler.inverse_transform(X_false), y_false, features, labels, title, plot_fname)
 
 ###########################
 # do a SVM
@@ -88,7 +111,16 @@ p,r,f,s = precision_recall_fscore_support(y_cv, y_pred)
 #print "Precision for SVM : ", p
 #print "Recall for SVM    : ", r
 print "F1 for SVM        : ", f
-print "Number of mis-labeled points : %d"% np.sum(y_cv != y_pred)
+n_false=np.sum(y_cv != y_pred)
+frac_false=n_false/float(n_cv)
+print "Number of mis-labeled points : %d"% n_false
+
+X_false = X_cv[y_cv != y_pred]
+y_false = y_cv[y_cv != y_pred]
+
+plot_fname=basename + '_svm_rbf.pdf'
+title = base_title+' mis-labeled SVM RBF'+' ( %d / %d   %.2f %% )'%(n_false,n_cv,frac_false*100)
+plot_catalogs(scaler.inverse_transform(X_false), y_false, features, labels, title, plot_fname)
 
 #C_range = 10.0 ** np.arange(-2, 9)
 #gamma_range = 10.0 ** np.arange(-5,4)
