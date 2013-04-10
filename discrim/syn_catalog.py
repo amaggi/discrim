@@ -45,26 +45,43 @@ def generate_blast_catalog(n_blast,x_mine,y_mine,dim1,dim2,angle_deg,h,sigma_h):
     blast=np.vstack((x_rot.flatten(), y_rot.flatten(), t, h, d, w))
     return blast.T
 
-def write_catalogs_hdf5(eq_cat, blast_cat, filename):
+def write_syn_catalogs_hdf5(eq_cat, blast_cat, filename):
+
+    X = np.vstack((eq_cat,blast_cat))
+    n_eq, f_f = eq_cat.shape
+    n_s, n_f =  X.shape
+    y = np.ones(n_s)
+    y[0:n_eq]=0
 
     f=h5py.File(filename,'w')
-    f.create_dataset('eq',data=eq_cat)
-    f.create_dataset('blast',data=blast_cat)
+    X_data=f.create_dataset('X',data=X)
+    y_data=f.create_dataset('y',data=y)
+    X_data.attrs['features'] = "x (km),y (km),Time (days),Hour,day/night,week"
+    y_data.attrs['earthquake'] = 0
+    y_data.attrs['blast'] = 1
     f.close()
 
 def read_catalogs_hdf5(filename):
 
     f=h5py.File(filename,'r')
-    eq=f['eq']
-    blast=f['blast']
-    eq_cat=np.array(eq)
-    blast_cat=np.array(blast)
+    X=np.array(f['X'])
+    y=np.array(f['y'])
+    features = f['X'].attrs['features'].split(',')
+    labels={}
+    for key, value in f['y'].attrs.iteritems():
+        labels[key] = value
     f.close()
 
-    return eq_cat, blast_cat
+    return X, y, features, labels
 
 
-def plot_catalogs(eq_cat,blast_cat):
+def plot_catalogs(X, y, features, labels, title, filename):
+
+    eq_label = labels['earthquake']
+    bl_label = labels['blast']
+
+    eq_cat =    X[y == eq_label]
+    blast_cat = X[y == bl_label]
 
     fig = plt.figure()
     ax1=fig.add_subplot(221)
@@ -81,6 +98,8 @@ def plot_catalogs(eq_cat,blast_cat):
     ax1.plot(blast_cat[w_blast.flatten()==1,2],blast_cat[w_blast.flatten()==1,3],'r.')
     ax1.plot(blast_cat[w_blast.flatten()==0,2],blast_cat[w_blast.flatten()==0,3],'.',color='yellow')
     ax1.plot(blast_cat[d_blast.flatten()==0,2],blast_cat[d_blast.flatten()==0,3],'.',color='cyan')
+    #ax1.set_xlabel(features[2])
+    ax1.set_ylabel(features[3])
 
     ax2.plot(eq_cat[w_eq.flatten()==1,0],eq_cat[w_eq.flatten()==1,3],'b.')
     ax2.plot(eq_cat[w_eq.flatten()==0,0],eq_cat[w_eq.flatten()==0,3],'g.')
@@ -88,6 +107,8 @@ def plot_catalogs(eq_cat,blast_cat):
     ax2.plot(blast_cat[w_blast.flatten()==1,0],blast_cat[w_blast.flatten()==1,3],'r.')
     ax2.plot(blast_cat[w_blast.flatten()==0,0],blast_cat[w_blast.flatten()==0,3],'.',color='yellow')
     ax2.plot(blast_cat[d_blast.flatten()==0,0],blast_cat[d_blast.flatten()==0,3],'.',color='cyan')
+    #ax2.set_xlabel(features[0])
+    #ax2.set_ylabel(features[3])
 
     ax3.plot(eq_cat[w_eq.flatten()==1,2],eq_cat[w_eq.flatten()==1,1],'b.')
     ax3.plot(eq_cat[w_eq.flatten()==0,2],eq_cat[w_eq.flatten()==0,1],'g.')
@@ -95,6 +116,8 @@ def plot_catalogs(eq_cat,blast_cat):
     ax3.plot(blast_cat[w_blast.flatten()==1,2],blast_cat[w_blast.flatten()==1,1],'r.')
     ax3.plot(blast_cat[w_blast.flatten()==0,2],blast_cat[w_blast.flatten()==0,1],'.',color='yellow')
     ax3.plot(blast_cat[d_blast.flatten()==0,2],blast_cat[d_blast.flatten()==0,1],'.',color='cyan')
+    ax3.set_xlabel(features[2])
+    ax3.set_ylabel(features[1])
 
     ax4.plot(eq_cat[w_eq.flatten()==1,0],eq_cat[w_eq.flatten()==1,1],'b.')
     ax4.plot(eq_cat[w_eq.flatten()==0,0],eq_cat[w_eq.flatten()==0,1],'g.')
@@ -102,5 +125,12 @@ def plot_catalogs(eq_cat,blast_cat):
     ax4.plot(blast_cat[w_blast.flatten()==1,0],blast_cat[w_blast.flatten()==1,1],'r.')
     ax4.plot(blast_cat[w_blast.flatten()==0,0],blast_cat[w_blast.flatten()==0,1],'.',color='yellow')
     ax4.plot(blast_cat[d_blast.flatten()==0,0],blast_cat[d_blast.flatten()==0,1],'.',color='cyan')
-    plt.show()
+    ax4.set_xlabel(features[0])
+    #ax4.set_ylabel(features[1])
+
+    plt.suptitle(title, fontsize=16)
+
+    #plt.show()
+    plt.savefig(filename)
+    plt.clf()
 
