@@ -3192,7 +3192,6 @@
 991227 124244.50  6.9000 46.1000  2.0f NEIC  2.5 ML STR                                     1721700 Switzerland (Event not reviewed by the ISC)
 991229 092929.64  6.8590 46.1990  5.0f ISC   3.3 ML ZUR                                     1721833 Switzerland (Felt at Martigny and Sion.)
 991229 132016.10  6.9110 46.0340 10.0  ZUR   0.9 ML ZUR                                     1874415 Switzerland (Event not reviewed by the ISC)
-991229 204235.72
 991229 212807.87  6.9450 46.1590 10.0f NEIC  2.2 ML LDG                                     1721888 Switzerland (Event not reviewed by the ISC)
 991230 212111.20  8.3810 46.0900 10.0  ZUR   2.0 ML ZUR                                     1874742 Switzerland (Event not reviewed by the ISC)
 991231 010903.17  7.8500 46.4700  2.0f NEIC  2.2 ML LDG                                     1722016 Switzerland (Event not reviewed by the ISC)
