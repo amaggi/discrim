@@ -45,19 +45,3 @@ def generate_blast_catalog(n_blast,x_mine,y_mine,dim1,dim2,angle_deg,h,sigma_h):
     blast=np.vstack((x_rot.flatten(), y_rot.flatten(), t, h, d, w))
     return blast.T
 
-def write_syn_catalogs_hdf5(eq_cat, blast_cat, filename):
-
-    X = np.vstack((eq_cat,blast_cat))
-    n_eq, f_f = eq_cat.shape
-    n_s, n_f =  X.shape
-    y = np.ones(n_s)
-    y[0:n_eq]=0
-
-    f=h5py.File(filename,'w')
-    X_data=f.create_dataset('X',data=X)
-    y_data=f.create_dataset('y',data=y)
-    X_data.attrs['features'] = "x (km),y (km),Time (days),Hour,day/night,week"
-    y_data.attrs['earthquake'] = 0
-    y_data.attrs['blast'] = 1
-    f.close()
-
