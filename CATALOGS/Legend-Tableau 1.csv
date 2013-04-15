@@ -1,0 +1,15 @@
+Types
+uk=unknown
+ke=known earthquake
+se=suspected earthquake
+kr=known rockburst
+sr=suspected rockburst
+ki=known induced event
+si=suspected induced event
+km=known mine explosion
+sm=suspected mine explosion
+kx=known experimental explosion
+sx=suspected experimental explosion
+kn=known nuclear explosion
+sn=suspected nuclear explosion
+ls=landslide
