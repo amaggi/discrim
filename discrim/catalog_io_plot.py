@@ -135,6 +135,70 @@ def read_isc_catalog(filename):
     X = np.vstack((x,y,t,h,d,w))
     return X.T
 
+def read_chooz_catalog(filename):
+
+    # read file
+    f=open(filename,'r')
+    lines=f.readlines()
+    f.close()
+
+    # set up storage
+    ns = len(lines)
+    x = np.empty(len(lines), dtype=float) 
+    y = np.empty(len(lines), dtype=float) 
+    t = np.empty(len(lines), dtype=float) 
+    h = np.empty(len(lines), dtype=float) 
+    d = np.empty(len(lines), dtype=int) 
+    w = np.empty(len(lines), dtype=int) 
+
+    i=0
+    for line in lines:
+        words = line.split(',')
+        #print words
+
+        # get longitude and latitude (interpret as x and y for now)
+        # TODO : project onto a local coordinate system
+        lat = float(words[2])
+        lon = float(words[3])
+        x[i]=lon
+        y[i]=lat
+
+        # parse date and time strings
+        # get origin time in UTC
+        otime=datetime.strptime(words[0]+' '+words[1], '%Y-%m-%d %H:%M:%S.%f')
+        otime = otime.replace(tzinfo=from_zone)
+
+        # get origin time in local time
+        otime_local = otime.astimezone(to_zone)
+        #print otime.isoformat(' '), otime_local.isoformat(' ')
+
+        # get t, fractional days since base_date
+        t[i]=((otime - base_date).days*86400 + (otime - base_date).seconds) / float(86400)
+
+        # use local time to get h
+        h[i]=(otime_local.hour*3600+otime_local.minute*60+otime_local.second)/float(3600)
+
+
+        # set day/night flag
+        # for now cheat, and use 6-18h as daytime
+        # TODO : use ephemerides to set day or night flag
+        if h[i] > 6.0 and h[i] < 18.0 :
+            d[i] = 1
+        else :
+            d[i] = 0
+
+        # set weekday flag
+        wday = otime_local.weekday()
+        if wday < 5 : 
+            w[i] = 1
+        else :
+            w[i] = 0
+        
+        i=i+1
+
+    X = np.vstack((x,y,t,h,d,w))
+    return X.T
+
 
 def plot_catalog(X, y, features, labels, title, filename, ranges=None):
 
