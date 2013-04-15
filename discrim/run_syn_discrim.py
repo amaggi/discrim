@@ -8,8 +8,6 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.cross_validation import KFold
 from syn_catalog import *
 from catalog_io_plot import *
-from ml import NeuralNetwork
-from helpers import random_weights
 
 #################
 # create datasets
@@ -19,32 +17,32 @@ from helpers import random_weights
 filename='trimouns.hdf5'
 #eq_cat=generate_eq_catalog(1000,-30,30,-30,30)
 #blast_cat=generate_blast_catalog(1000,0,0,3,3,30,17,0.1)
-#write_syn_catalogs_hdf5(eq_cat, blast_cat, filename)
-X, y, features, labels = read_catalogs_hdf5(filename)
+#write__catalogs_hdf5(eq_cat, blast_cat, filename)
+X, y, features, labels = read_catalog_hdf5(filename)
 min_cat=np.min(X, axis=0)
 max_cat=np.max(X, axis=0)
-plot_catalogs(X, y, features, labels, 'Trimouns synthetic catalog', 'trimouns_syn.pdf', ranges=(min_cat,max_cat))
+plot_catalog(X, y, features, labels, 'Trimouns synthetic catalog', 'trimouns_syn.png', ranges=(min_cat,max_cat))
 
 
 # Mollard
 filename='mollard.hdf5'
 #eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
 #blast_cat=generate_blast_catalog(1000,0,0,10,10,30,12,2)
-#write_syn_catalogs_hdf5(eq_cat, blast_cat, filename)
-X, y, features, labels = read_catalogs_hdf5(filename)
+#write__catalogs_hdf5(eq_cat, blast_cat, filename)
+X, y, features, labels = read_catalog_hdf5(filename)
 min_cat=np.min(X, axis=0)
 max_cat=np.max(X, axis=0)
-plot_catalogs(X, y, features, labels, 'Mollard synthetic catalog', 'mollard_syn.pdf', ranges=(min_cat,max_cat))
+plot_catalog(X, y, features, labels, 'Mollard synthetic catalog', 'mollard_syn.png', ranges=(min_cat,max_cat))
 
 # skew
 filename='skew.hdf5'
 #eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
 #blast_cat=generate_blast_catalog(1000,0,0,5,15,30,12,2)
-#write_syn_catalogs_hdf5(eq_cat, blast_cat, filename)
-X, y, features, labels = read_catalogs_hdf5(filename)
+#write__catalogs_hdf5(eq_cat, blast_cat, filename)
+X, y, features, labels = read_catalog_hdf5(filename)
 min_cat=np.min(X, axis=0)
 max_cat=np.max(X, axis=0)
-plot_catalogs(X, y, features, labels, 'Skew synthetic catalog', 'skew_syn.pdf', ranges=(min_cat,max_cat))
+plot_catalog(X, y, features, labels, 'Skew synthetic catalog', 'skew_syn.png', ranges=(min_cat,max_cat))
 
 #exit()
 
@@ -64,7 +62,7 @@ for filename, base_title, C, gamma in zip(filenames, base_titles, C_values, gamm
     print filename, base_title
 
     basename,ext=os.path.splitext(filename)
-    X, y, features, labels = read_catalogs_hdf5(filename)
+    X, y, features, labels = read_catalog_hdf5(filename)
 
     # do feature scaling
     scaler = preprocessing.Scaler()
@@ -79,13 +77,13 @@ for filename, base_title, C, gamma in zip(filenames, base_titles, C_values, gamm
     min_cv=np.min(scaler.inverse_transform(X_cv), axis=0)
     max_cv=np.max(scaler.inverse_transform(X_cv), axis=0)
 
-    plot_fname=basename + '_train.pdf'
+    plot_fname=basename + '_train.png'
     title=base_title + ' training set' + '  ( %d samples )'%n_train
-    plot_catalogs(scaler.inverse_transform(X_train), y_train, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
+    plot_catalog(scaler.inverse_transform(X_train), y_train, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
 
-    plot_fname=basename + '_cv.pdf'
+    plot_fname=basename + '_cv.png'
     title=base_title + ' cross validation set' + '  ( %d samples )'%n_cv
-    plot_catalogs(scaler.inverse_transform(X_cv), y_cv, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
+    plot_catalog(scaler.inverse_transform(X_cv), y_cv, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
 
     ###########################
     # do a naive bayes analysis
@@ -104,9 +102,9 @@ for filename, base_title, C, gamma in zip(filenames, base_titles, C_values, gamm
     X_false = X_cv[y_cv != y_pred]
     y_false = y_cv[y_cv != y_pred]
 
-    plot_fname=basename + '_NB.pdf'
+    plot_fname=basename + '_NB.png'
     title = base_title+' mis-labeled Naive Bayes'+' ( %d / %d   %.2f %% )'%(n_false,n_cv,frac_false*100)
-    plot_catalogs(scaler.inverse_transform(X_false), y_false, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
+    plot_catalog(scaler.inverse_transform(X_false), y_false, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
 
     ###########################
     # do a SVM
@@ -129,15 +127,15 @@ for filename, base_title, C, gamma in zip(filenames, base_titles, C_values, gamm
 
     X_prob_false=svc.predict_proba(X_false)
 
-    plot_fname=basename + '_svm_rbf.pdf'
+    plot_fname=basename + '_svm_rbf.png'
     title = base_title+' mis-labeled SVM RBF'+' ( %d / %d   %.2f %% )'%(n_false,n_cv,frac_false*100)
-    plot_catalogs(scaler.inverse_transform(X_false), y_false, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
+    plot_catalog(scaler.inverse_transform(X_false), y_false, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
 
-    plot_fname=basename + '_svm_rbf_prob.pdf'
+    plot_fname=basename + '_svm_rbf_prob.png'
     title = base_title+' SVM RBF'+' probability'
     plot_prob(scaler.inverse_transform(X_cv), X_prob, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
 
-    plot_fname=basename + '_svm_rbf_false_prob.pdf'
+    plot_fname=basename + '_svm_rbf_false_prob.png'
     title = base_title+' mis-labeled SVM RBF'+' probability  ( %d / %d   %.2f %% )'%(n_false,n_cv,frac_false*100)
     plot_prob(scaler.inverse_transform(X_false), X_prob_false, features, labels, title, plot_fname, ranges=(min_cv, max_cv))
 
@@ -147,23 +145,4 @@ for filename, base_title, C, gamma in zip(filenames, base_titles, C_values, gamm
     #grid = GridSearchCV(svm.SVC(), param_grid=param_grid)
     #grid.fit(X_train, y_train)
     #print("The best classifier is: ", grid.best_estimator_)
-
-    ###########################
-    # try a neural network
-    ###########################
-    #l1_shape = (14,7)
-    #l2_shape = (2,15)
-    #theta1 = random_weights(l1_shape)
-    #theta2 = random_weights(l2_shape)
-    #thetas = (theta1, theta2)
-    #lambda_value = 2
-
-    #nn = NeuralNetwork(thetas, training_set = X_train, labels = y_train)
-    #nn.train(lambda_value, maxiter=10, disp=False)
-    #y_pred = np.array([ np.argmax(nn.predict(vec)) for vec in X_cv])
-
-    #p,r,f,s = precision_recall_fscore_support(y_cv, y_pred)
-    #print "Fit for Neural Network : ", f
-    #print "Number of mis-labeled points : %d"% np.sum(y_cv != y_pred)
-
 
