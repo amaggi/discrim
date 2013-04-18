@@ -40,3 +40,5 @@ ipynb/
 *.swp
 *.pdf
 *.png
+
+*.DS_store
