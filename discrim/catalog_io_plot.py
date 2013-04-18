@@ -199,6 +199,35 @@ def read_chooz_catalog(filename):
     X = np.vstack((x,y,t,h,d,w))
     return X.T
 
+def read_mine_cat(filename):
+
+    f=open(filename,'r')
+    lines=f.readlines()
+    f.close()
+
+    n_mines=len(lines[2:-1])
+
+    mines={}
+    mine_id=np.empty(n_mines, dtype=int)
+    mine_xy=np.empty((n_mines,2),dtype=float)
+    mine_cp=[]
+    mine_name=[]
+
+    i=0
+    for line in lines[2:-1]:
+        words = line.split('\t')
+        mine_id[i] = int(words[0])
+        mine_xy[i,0] = float(words[7])/1000.0
+        mine_xy[i,1] = float(words[8])/1000.0
+        mine_name.append(words[1])
+        mine_cp.append(words[4])
+        i=i+1
+    mines['ID'] = mine_id
+    mines['CP'] = mine_cp
+    mines['name'] = mine_name
+    mines['xy'] = mine_xy
+
+    return mines
 
 def plot_catalog(X, y, features, labels, title, filename, ranges=None):
 
@@ -312,3 +341,78 @@ def plot_prob(X, X_prob, features, labels, title, filename, ranges=None):
     plt.savefig(filename)
     plt.clf()
 
+def dot2(u, v):
+    return u[0]*v[0] + u[1]*v[1]
+
+def cross2(u, v, w):
+    """u x (v x w)"""
+    return dot2(u, w)*v - dot2(u, v)*w
+
+def ncross2(u, v):
+    """|| u x v ||^2"""
+    return sq2(u)*sq2(v) - dot2(u, v)**2
+
+def sq2(u):
+    return dot2(u, u)
+
+
+def plot_mines(mines_dict, title, filename):
+    from scipy.spatial import Delaunay
+    from matplotlib.collections import LineCollection
+
+    fig = plt.figure(figsize=(9.5,4))
+    ax1=fig.add_subplot(121, axisbg='lightgrey')
+    ax2=fig.add_subplot(122, axisbg='lightgrey')
+    
+    # plot scatterplot of mines
+    x=mines_dict['xy'][:,0]
+    y=mines_dict['xy'][:,1]
+    ax1.scatter(x,y,marker='.',color='red', linewidths=(0,))
+    ax1.set_xlim(np.min(x), np.max(x))
+    ax1.set_ylim(np.min(y), np.max(y))
+
+    # plot voronoi cells
+    tri=Delaunay(mines_dict['xy'])
+    p = tri.points[tri.vertices]
+
+    # Triangle vertices
+    A = p[:,0,:].T
+    B = p[:,1,:].T
+    C = p[:,2,:].T
+
+    # See http://en.wikipedia.org/wiki/Circumscribed_circle#Circumscribed_circles_of_triangles
+    # The following is just a direct transcription of the formula there
+    a = A - C
+    b = B - C
+
+    cc = cross2(sq2(a) * b - sq2(b) * a, a, b) / (2*ncross2(a, b)) + C
+
+    # Grab the Voronoi edges
+    vc = cc[:,tri.neighbors]
+    vc[:,tri.neighbors == -1] = np.nan # edges at infinity, plotting those would need more work...
+
+    lines = []
+    lines.extend(zip(cc.T, vc[:,:,0].T))
+    lines.extend(zip(cc.T, vc[:,:,1].T))
+    lines.extend(zip(cc.T, vc[:,:,2].T))
+
+    # Plot it
+
+    lines = LineCollection(lines, edgecolor='k', linewidth=0.2)
+
+    #ax2.plot(points[:,0], points[:,1], '.')
+    #ax2.plot(cc[0], cc[1], '.')
+    ax2.set_xlim(np.min(x), np.max(x))
+    ax2.set_ylim(np.min(y), np.max(y))
+    plt.gca().add_collection(lines)
+
+
+    plt.suptitle(title, fontsize=16)
+    plt.savefig(filename)
+    plt.clf()
+
+if __name__ == '__main__' :
+
+    fname = '../CATALOGS/fiches_new_act.csv'
+    mines = read_mine_cat(fname)
+    plot_mines(mines, 'Mine short-list after J Frechet', 'Frechet_mines.png')
