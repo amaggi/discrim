@@ -1,0 +1,1945 @@
+BEGIN GSE2.0
+MSG_TYPE DATA
+MSG_ID 05-APR-1115:58:42  FRA_NDC
+E-MAIL
+DATA_TYPE BULLETIN
+Reviewed Bulletin (REB) # P2011-012  from French NDC for regional phases     PERIOD 23 MAR 2011 TO 29 MAR 2011 C M., J-P S
+EVENT     257481
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 08:34:40.9     45.4167    6.6680      3.0 f    14    6 137  Ml 1.6  2  Md 1.7  3              js067245    257481
+
+      0.15   +-  0.05       1.5     .7  119.19 +-  0.0    0.10   1.52   +-0.0      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LPG   000.10 035.9 m E Pg      2011/03/23 08:34:43.2  -0.4                          T                                        4663136
+LPG   000.10 035.9 m E Sg      2011/03/23 08:34:45.2   0.1                          T                7.2  .24        Md 1.7  4663130
+LPL   000.11 024.4 m E Pg      2011/03/23 08:34:43.8   0.1                          T                                        4663135
+LPL   000.11 024.4 m E Sg      2011/03/23 08:34:45.6   0.3                          T                5.6  .30        Md 1.6  4663134
+MBDF  000.69 173.9 m E Pg      2011/03/23 08:34:54.3   0.1                          T                                        4663131
+MBDF  000.69 173.9 m E Sg      2011/03/23 08:35:03.3   0.0                          T                2.4  .39        Md 1.6  4663133
+ORIF  000.75 228.5 m E Pg      2011/03/23 08:34:55.2   0.1                          T                                        4663128
+ORIF  000.75 228.5 m E Sg      2011/03/23 08:35:04.9   0.0                          T                1.4  .30                4663127
+CABF  001.26 341.5 m E Pg      2011/03/23 08:35:04.6   0.0                          T                                        4663125
+CABF  001.26 341.5 m E Sg      2011/03/23 08:35:21.0   0.0                          T                1.5  .30 Ml 1.6         4663126
+VIVF  001.52 249.1 m E Pg      2011/03/23 08:35:09.3   0.0                          T                                        4663129
+VIVF  001.52 249.1 m E Sg      2011/03/23 08:35:29.0   0.1                          T                2.2  .59 Ml 1.6         4663132
+
+.
+EVENT     257499
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 10:25:56.1     37.9491    -.4107      2.0      84    7 183  Ml 3.1  5                         js067245    257499
+
+      1.05   +-  0.21       5.0    2.6  147.57 +-  0.0    0.67   7.75   +-0.3                            m i ke
+
+SPAIN
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  004.95 358.7 m E Pn      2011/03/23 10:27:11.0   1.7                          T                                        4663207
+ETSF  004.95 358.7 m E Sn      2011/03/23 10:28:02.4  -1.4                          T               24.6  .79 Ml 3.3         4663201
+EPF   005.11 006.2 m E Pn      2011/03/23 10:27:13.2   1.7                          T                                        4663208
+EPF   005.11 006.2 m E Sn      2011/03/23 10:28:06.2  -1.4                          T               21.7  .70 Ml 3.4         4663200
+SJPF  005.20 353.4 m E Pn      2011/03/23 10:27:13.9   1.3                          T                                        4663209
+SJPF  005.20 353.4 m E Sn      2011/03/23 10:28:08.5  -1.1                          T               10.9  .51 Ml 3.2         4663202
+MTLF  005.74 019.5 m E Pn      2011/03/23 10:27:18.9  -1.3                          T                                        4663206
+MTLF  005.74 019.5 m E Sn      2011/03/23 10:28:21.6  -1.1                          T                4.6  .60 Ml 2.9         4663199
+LMR   007.52 042.2 m E Pn      2011/03/23 10:27:43.4  -0.9                          T                                        4663203
+SMRF  007.53 035.1 m E Pn      2011/03/23 10:27:43.7  -0.8                          T                                        4663205
+FRF   007.75 041.5 m E Pn      2011/03/23 10:27:46.2  -1.2                          T                                        4663204
+
+.
+EVENT     257500
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 14:47:41.6     42.8305    -.0052     15.0       6    3 228  Ml 1.5  1  Md 1.6  3              js067245    257500
+
+      0.22   +-  0.39      15.2    2.2  169.04 +-  0.0    0.32   0.94   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+EPF   000.32 051.7 m E Pg      2011/03/23 14:47:48.6   0.1                          T                                        4663215
+EPF   000.32 051.7 m E Sg      2011/03/23 14:47:52.7  -0.4                          T                5.2  .30        Md 1.6  4663212
+ETSF  000.41 279.7 m E Pg      2011/03/23 14:47:49.0   0.0                          T                                        4663214
+ETSF  000.41 279.7 m E Sg      2011/03/23 14:47:55.7  -0.1                          T                2.3  .26        Md 1.6  4663213
+SJPF  000.94 287.9 m E Pg      2011/03/23 14:47:59.3  -0.2                          T                                        4663210
+SJPF  000.94 287.9 m E Sg      2011/03/23 14:48:12.1   0.4                          T                1.5  .29 Ml 1.5 Md 1.6  4663211
+
+.
+EVENT     257501
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 15:22:40.6     45.4624    6.9806      3.0 f    10    4 264  Ml 1.8  2  Md 1.6  3              js067245    257501
+
+      0.08   +-  0.09       1.5     .7   62.88 +-  0.0    0.17   0.95   +-0.0      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LPG   000.17 282.4 m E Pg      2011/03/23 15:22:44.4  -0.1                          T                                        4663327
+LPG   000.17 282.4 m E Sg      2011/03/23 15:22:46.8   0.1                          T                9.0  .18        Md 1.7  4663322
+LPL   000.18 287.3 m E Pg      2011/03/23 15:22:44.7   0.0                          T                                        4663326
+LPL   000.18 287.3 m E Sg      2011/03/23 15:22:47.2  -0.1                          T                5.3  .22        Md 1.6  4663323
+MBDF  000.75 191.5 m E Pg      2011/03/23 15:22:55.0   0.0                          T                                        4663325
+MBDF  000.75 191.5 m E Sg      2011/03/23 15:23:04.7   0.0                          T                2.9  .24        Md 1.6  4663324
+ORIF  000.95 235.4 m E Pg      2011/03/23 15:22:58.5  -0.1                          T                                        4663320
+ORIF  000.95 235.4 m E Sg      2011/03/23 15:23:10.7  -0.2                          T                2.5  .24 Ml 1.8         4663321
+
+.
+EVENT     257527
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 18:26:07.3     44.4892    6.7530      2.0      14    6 138  Ml 1.5  3  Md 1.6  3              cm165940    257527
+
+      0.16   +-  0.05       1.3     .8   69.78 +-  0.0    0.24   1.17   +-0.2      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.24 003.2 m E Pg      2011/03/23 18:26:11.9  -0.2                          T                                        4663361
+MBDF  000.24 003.2 m E Sg      2011/03/23 18:26:15.3  -0.1                          T                  1  .22        Md 1.6  4663360
+ORIF  000.76 304.9 m E Pg      2011/03/23 18:26:21.8   0.1                          T                                        4663362
+ORIF  000.76 304.9 m E Sg      2011/03/23 18:26:31.7   0.2                          T                 .4  .23        Md 1.6  4663363
+SBF   000.80 141.7 m E Pg      2011/03/23 18:26:22.4   0.0                          T                                        4663365
+SBF   000.80 141.7 m E Sg      2011/03/23 18:26:32.7   0.0                          T                1.4  .32        Md 1.6  4663364
+FRF   000.93 184.8 m E Pg      2011/03/23 18:26:24.8   0.1                          T                                        4663366
+FRF   000.93 184.8 m E Sg      2011/03/23 18:26:36.6  -0.3                          T                1.5  .25 Ml 1.6         4663358
+SMRF  000.99 239.2 m E Pg      2011/03/23 18:26:25.7  -0.2                          T                                        4663356
+SMRF  000.99 239.2 m E Sg      2011/03/23 18:26:38.3  -0.4                          T                1.1  .42 Ml 1.2         4663357
+LMR   001.17 188.8 m E Pg      2011/03/23 18:26:29.2   0.1                          T                                        4663355
+LMR   001.17 188.8 m E Sg      2011/03/23 18:26:44.2   0.0                          T                1.9  .42 Ml 1.6         4663359
+
+.
+EVENT     257512
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 21:16:02.5     42.7405    -.5062      2.0       6    3 240             Md 1.6  3              js067245    257512
+
+      0.26   +-  0.35       9.3    3.0    8.12 +-  0.0    0.16   0.69              +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.16 346.2 m E Pg      2011/03/23 21:16:07.0   1.0                          T                                        4663380
+ETSF  000.16 346.2 m E Sg      2011/03/23 21:16:08.0  -0.3                          T               51.5  .25        Md 1.6  4663379
+SJPF  000.65 305.5 m E Pg      2011/03/23 21:16:14.8   0.0                          T                                        4663375
+SJPF  000.65 305.5 m E Sg      2011/03/23 21:16:23.5   0.3                          T                1.6  .31        Md 1.6  4663378
+EPF   000.69 064.7 m E Pg      2011/03/23 21:16:15.4  -0.1                          T                                        4663376
+EPF   000.69 064.7 m E Sg      2011/03/23 21:16:25.1   0.5                          T                1.2  .26        Md 1.5  4663377
+
+.
+EVENT     257513
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 22:24:22.9     42.3762     .0582      2.0      20    4 081  Ml 1.9  3  Md 2.0  3              js067245    257513
+
+      0.56   +-  0.11       2.4    1.5   22.18 +-  0.0    0.69   1.87   +-0.1      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+EPF   000.69 017.5 m E Pg      2011/03/23 22:24:35.6  -0.3                          T                                        4663407
+EPF   000.69 017.5 m E Sg      2011/03/23 22:24:44.9  -0.1                          T                1.7  .26        Md 1.9  4663406
+ETSF  000.69 319.1 m E Pg      2011/03/23 22:24:35.8  -0.3                          T                                        4663408
+ETSF  000.69 319.1 m E Sg      2011/03/23 22:24:45.0  -0.2                          T                2.4  .34        Md 2.0  4663405
+SJPF  001.20 308.4 m E Pg      2011/03/23 22:24:45.0  -0.3                          T                                        4663403
+SJPF  001.20 308.4 m E Sg      2011/03/23 22:25:00.7  -0.2                          T                2.5  .28 Ml 1.8 Md 2.0  4663404
+MTLF  001.86 058.0 m E Pg      2011/03/23 22:24:57.6   0.1                          T                                        4663401
+MTLF  001.86 058.0 m E Sg      2011/03/23 22:25:21.5   0.1                          T                1.7  .39 Ml 1.8         4663402
+
+.
+EVENT     257503
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 22:25:54.1     42.3328    9.4452      5.0 f    14    6 334  Ml 1.8  5  Md 2.3  1              js067245    257503
+
+      0.91   +-  0.44       7.4    6.1  128.27 +-  0.0    0.39   3.27   +-0.4      +-                    m i ke
+
+CORSICA, FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+PGF   000.39 303.3 m E Pg      2011/03/23 22:26:02.0   0.1                          T                                        4663419
+PGF   000.39 303.3 m E Sg      2011/03/23 22:26:06.8  -0.3                          T               16.1  .20        Md 2.3  4663418
+SBF   002.12 316.8 m E Pn      2011/03/23 22:26:28.5  -0.1                          T                                        4663415
+SBF   002.12 316.8 m E Sn      2011/03/23 22:26:53.6  -0.1                          T                6.7  .56 Ml 2.3         4663413
+FRF   002.39 301.8 m E Pn      2011/03/23 22:26:31.6  -0.5                          T                                        4663417
+FRF   002.39 301.8 m E Sn      2011/03/23 22:27:00.3   0.2                          T                 .6  .22 Ml 1.7         4663411
+LMR   002.38 295.8 m E Pn      2011/03/23 22:26:31.9  -0.1                          T                                        4663416
+LMR   002.38 295.8 m E Sn      2011/03/23 22:27:00.4   0.6                          T                1.6  .35 Ml 2.0         4663412
+MBDF  003.08 321.8 m E Pn      2011/03/23 22:26:41.5  -0.3                          T                                        4663424
+MBDF  003.08 321.8 m E Sn      2011/03/23 22:27:16.6  -0.3                          T                 .1  .19 Ml 1.3         4663423
+SMRF  003.27 301.4 m E Pn      2011/03/23 22:26:45.0   0.8                          T                                        4663414
+SMRF  003.27 301.4 m E Sn      2011/03/23 22:27:21.5   0.3                          T                 .6  .30 Ml 1.8         4663422
+
+.
+EVENT     257504
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 22:41:32.2     44.3085    7.2514      2.0      24   10 159  Ml 1.5 10  Md 1.8  3              js067245    257504
+
+      0.10   +-  0.02        .6     .3   66.11 +-  0.0    0.46   2.17   +-0.4      +-0.1                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SBF   000.46 163.4 m E Pg      2011/03/23 22:41:41.1   0.0                          T                                        4663450
+SBF   000.46 163.4 m E Sg      2011/03/23 22:41:47.0  -0.3                          T                7.2  .20        Md 1.9  4663444
+MBDF  000.54 320.8 m E Pg      2011/03/23 22:41:42.7   0.0                          T                                        4663449
+MBDF  000.54 320.8 m E Sg      2011/03/23 22:41:49.7  -0.2                          T                2.0  .22        Md 1.7  4663446
+FRF   000.87 210.5 m E Pg      2011/03/23 22:41:48.4   0.0                          T                                        4663448
+FRF   000.87 210.5 m E Sg      2011/03/23 22:41:59.6  -0.1                          T                3.4  .22 Ml 2.0 Md 1.8  4663445
+LMR   001.11 209.1 m E Pg      2011/03/23 22:41:53.1   0.1                          T                                        4663447
+LMR   001.11 209.1 m E Sg      2011/03/23 22:42:07.3  -0.1                          T                2.2  .18 Ml 2.0         4663443
+ORIF  001.15 302.4 m E Pg      2011/03/23 22:41:53.9   0.0                          T                                        4663436
+ORIF  001.15 302.4 m E Sg      2011/03/23 22:42:08.8  -0.1                          T                 .7  .27 Ml 1.3         4663439
+LPG   001.24 343.5 m E Pg      2011/03/23 22:41:55.7  -0.1                          T                                        4663434
+LPG   001.24 343.5 m E Sg      2011/03/23 22:42:11.8   0.0                          T                 .3  .27 Ml 1.0         4663441
+SMRF  001.25 255.2 m E Pg      2011/03/23 22:41:55.7   0.1                          T                                        4663433
+SMRF  001.25 255.2 m E Sg      2011/03/23 22:42:11.7  -0.2                          T                2.5  .36 Ml 1.8         4663442
+LPL   001.26 343.2 m E Pg      2011/03/23 22:41:56.0   0.0                          T                                        4663435
+LPL   001.26 343.2 m E Sg      2011/03/23 22:42:12.5   0.1                          T                 .8  .31 Ml 1.4         4663440
+VIVF  001.92 287.4 m E Pn      2011/03/23 22:42:04.2   0.0                          T                                        4663437
+VIVF  001.92 287.4 m E Sn      2011/03/23 22:42:27.5  -0.1                          T                1.1  .44 Ml 1.6         4663438
+PGF   002.17 143.5 m E Pn      2011/03/23 22:42:07.5  -0.2                          T                                        4663432
+PGF   002.17 143.5 m E Sn      2011/03/23 22:42:33.5  -0.1                          T                 .7  .30 Ml 1.8         4663431
+
+.
+EVENT     257505
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 22:43:55.7     42.2938    9.3028      3.0 f    19   11 324  Ml 2.4  4  Md 2.5  1              js067245    257505
+
+      0.71   +-  0.42       7.4    5.3  132.51 +-  0.0    0.34   4.36   +-0.1      +-                    m i ke
+
+CORSICA, FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+PGF   000.34 318.6 m E Pg      2011/03/23 22:44:02.3  -0.2                          T                                        4663469
+PGF   000.34 318.6 m E Sg      2011/03/23 22:44:07.3   0.2                          T               36.7  .29        Md 2.5  4663468
+SBF   002.08 319.5 m E Pn      2011/03/23 22:44:28.7  -1.2                          T                                        4663467
+SBF   002.08 319.5 m E Sn      2011/03/23 22:44:54.3  -0.5                          T                4.6  .24 Ml 2.5         4663460
+LMR   002.30 297.8 m E Pn      2011/03/23 22:44:32.3  -0.5                          T                                        4663466
+LMR   002.30 297.8 m E Sn      2011/03/23 22:45:00.6   0.7                          T                3.8  .33 Ml 2.4         4663459
+FRF   002.33 303.9 m E Pn      2011/03/23 22:44:32.5  -0.6                          T                                        4663465
+FRF   002.33 303.9 m E Sn      2011/03/23 22:45:00.9   0.4                          T                2.3  .30 Ml 2.2         4663458
+MBDF  003.05 323.7 m E Pn      2011/03/23 22:44:41.8  -1.3                          T                                        4663463
+MBDF  003.05 323.7 m E Sn      2011/03/23 22:45:16.9  -1.1                          T                7.4  .72 Ml 2.4         4663457
+SMRF  003.20 302.9 m E Pn      2011/03/23 22:44:45.4   0.3                          T                                        4663464
+ORIF  003.61 317.7 m E Pn      2011/03/23 22:44:52.3   1.5                          T                                        4663462
+LPG   003.70 330.9 m E Pn      2011/03/23 22:44:52.6   0.5                          T                                        4663455
+LPL   003.72 330.9 m E Pn      2011/03/23 22:44:52.8   0.5                          T                                        4663456
+VIVF  004.23 308.9 m E Pn      2011/03/23 22:44:59.3   0.3                          T                                        4663461
+LASF  004.36 295.9 m E Pn      2011/03/23 22:45:00.7  -0.1                          T                                        4663451
+
+.
+EVENT     257506
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 22:56:31.8     45.2205    7.0637      2.0      10    4 241  Ml 1.2  2  Md 1.3  3              js067245    257506
+
+      0.27   +-  0.24       4.9    2.0   91.86 +-  0.0    0.35   0.89   +-0.1      +-0.1                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LPG   000.35 321.7 m E Pg      2011/03/23 22:56:39.0   0.0                          T                                        4663475
+LPG   000.35 321.7 m E Sg      2011/03/23 22:56:42.9  -0.9                          T                1.9  .20        Md 1.4  4663474
+LPL   000.38 321.8 m E Pg      2011/03/23 22:56:39.6   0.3                          T                                        4663476
+LPL   000.38 321.8 m E Sg      2011/03/23 22:56:43.1  -1.3                          T                1.3  .21        Md 1.3  4663473
+MBDF  000.54 202.9 m E Pg      2011/03/23 22:56:42.1  -0.1                          T                                        4663471
+MBDF  000.54 202.9 m E Sg      2011/03/23 22:56:49.1  -0.1                          T                1.2  .16        Md 1.2  4663472
+ORIF  000.89 250.6 m E Pg      2011/03/23 22:56:48.6  -0.1                          T                                        4663479
+ORIF  000.89 250.6 m E Sg      2011/03/23 22:57:00.4   0.1                          T                1.2  .53 Ml 1.1         4663470
+
+.
+EVENT     257507
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 23:31:33.9     42.2986    9.3252      3.0 f    21   12 325  Ml 2.4  4  Md 2.5  1              js067245    257507
+
+      0.62   +-  0.43       7.9    5.8  133.79 +-  0.0    0.35   5.89   +-0.2      +-                    m i ke
+
+CORSICA, FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+PGF   000.35 316.1 m E Pg      2011/03/23 23:31:40.8   0.0                          T                                        4663503
+PGF   000.35 316.1 m E Sg      2011/03/23 23:31:45.9   0.4                          T               84.2  .30        Md 2.5  4663488
+SBF   002.09 319.1 m E Pn      2011/03/23 23:32:06.8  -1.3                          T                                        4663502
+SBF   002.09 319.1 m E Sn      2011/03/23 23:32:32.6  -0.5                          T                3.8  .18 Ml 2.5         4663489
+LMR   002.32 297.5 m E Pn      2011/03/23 23:32:10.6  -0.5                          T                                        4663501
+LMR   002.32 297.5 m E Sn      2011/03/23 23:32:39.0   0.6                          T                3.1  .24 Ml 2.4         4663490
+FRF   002.34 303.6 m E Pn      2011/03/23 23:32:10.6  -0.8                          T                                        4663500
+FRF   002.34 303.6 m E Sn      2011/03/23 23:32:39.2   0.2                          T                1.8  .24 Ml 2.2         4663491
+MBDF  003.06 323.4 m E Pn      2011/03/23 23:32:20.1  -1.3                          T                                        4663495
+MBDF  003.06 323.4 m E P       2011/03/23 23:32:23.6  -0.7                          T                                        4668199
+MBDF  003.06 323.4 m E Sn      2011/03/23 23:32:55.5  -0.9                          T                3.4  .48 Ml 2.3         4663492
+SMRF  003.22 302.7 m E Pn      2011/03/23 23:32:24.2   0.8                          T                                        4663499
+ORIF  003.62 317.5 m E Pn      2011/03/23 23:32:29.5   0.4                          T                                        4663496
+LPG   003.70 330.7 m E Pn      2011/03/23 23:32:30.9   0.6                          T                                        4663498
+LPL   003.72 330.7 m E Pn      2011/03/23 23:32:31.1   0.6                          T                                        4663497
+VIVF  004.24 308.7 m E Pn      2011/03/23 23:32:37.7   0.3                          T                                        4663493
+LASF  004.38 295.8 m E Pn      2011/03/23 23:32:39.0  -0.2                          T                                        4663494
+CAF   005.89 298.9 m E Pn      2011/03/23 23:32:59.9   0.0                          T                                        4663504
+
+.
+EVENT     257508
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 23:39:41.3     42.3041    9.2759      3.0 f    27   17 312  Ml 2.6  5  Md 2.6  1              js067245    257508
+
+      0.50   +-  0.32       6.1    4.0  123.60 +-  0.0    0.32   6.73   +-0.3      +-                    m i ke
+
+CORSICA, FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+PGF   000.32 320.1 m E Pg      2011/03/23 23:39:47.5  -0.2                          T                                        4663534
+PGF   000.32 320.1 m E Sg      2011/03/23 23:39:52.4   0.4                          T              142.1  .32        Md 2.6  4663533
+SBF   002.06 319.7 m E Pn      2011/03/23 23:40:13.9  -1.3                          T                                        4663532
+SBF   002.06 319.7 m E Sn      2011/03/23 23:40:39.7  -0.1                          T               16.1  .38 Ml 2.8         4663508
+LMR   002.28 297.8 m E Pn      2011/03/23 23:40:17.5  -0.5                          T                                        4663531
+LMR   002.28 297.8 m E Sn      2011/03/23 23:40:44.7  -0.3                          T                6.3  .20 Ml 2.8         4663509
+FRF   002.30 303.9 m E Pn      2011/03/23 23:40:17.8  -0.6                          T                                        4663530
+FRF   002.30 303.9 m E Sn      2011/03/23 23:40:45.5   0.0                          T                3.7  .26 Ml 2.5         4663510
+MBDF  003.03 323.9 m E P       2011/03/23 23:40:30.2  -1.2                          T                                        4663525
+MBDF  003.03 323.9 m E Sn      2011/03/23 23:41:02.1  -1.0                          T               11.3  .66 Ml 2.7         4663511
+SMRF  003.18 302.9 m E Pn      2011/03/23 23:40:31.2   0.8                          T                                        4663529
+ORIF  003.59 317.8 m E Pn      2011/03/23 23:40:37.6   1.5                          T                                        4663526
+LPG   003.68 331.1 m E Pn      2011/03/23 23:40:37.9   0.4                          T                                        4663528
+LPG   003.68 331.1 m E Sn      2011/03/23 23:41:19.2   0.4                          T                1.1  .35 Ml 2.1         4663535
+LPL   003.70 331.1 m E Pn      2011/03/23 23:40:38.1   0.4                          T                                        4663527
+VIVF  004.21 308.9 m E Pn      2011/03/23 23:40:44.6   0.3                          T                                        4663524
+LASF  004.34 295.9 m E Pn      2011/03/23 23:40:45.8  -0.3                          T                                        4663523
+MTLF  005.29 283.7 m E Pn      2011/03/23 23:40:58.8  -0.3                          T                                        4663522
+SMF   005.83 320.0 m E Pn      2011/03/23 23:41:06.6   0.2                          T                                        4663518
+CAF   005.85 299.0 m E Pn      2011/03/23 23:41:07.3   0.5                          T                                        4663521
+AVF   006.17 318.7 m E Pn      2011/03/23 23:41:11.0   0.1                          T                                        4663517
+BGF   006.27 314.9 m E Pn      2011/03/23 23:41:12.4   0.1                          T                                        4663519
+LFF   006.73 295.9 m E Pn      2011/03/23 23:41:18.6   0.0                          T                                        4663516
+
+.
+EVENT     257514
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/23 23:52:05.8     43.0588    -.6491      2.0      22    4 110  Ml 1.4  1  Md 1.5  3              js067245    257514
+
+      0.32   +-  0.09       1.9    1.3  162.48 +-  0.0    0.17   2.13   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.17 157.6 m E Pg      2011/03/23 23:52:09.1  -0.3                          T                                        4663541
+ETSF  000.17 157.6 m E Sg      2011/03/23 23:52:11.4  -0.5                          T                5.2  .22        Md 1.5  4663538
+SJPF  000.43 277.6 m E Pg      2011/03/23 23:52:13.7  -0.3                          T                                        4663540
+SJPF  000.43 277.6 m E Sg      2011/03/23 23:52:19.3  -0.3                          T                4.0  .33        Md 1.6  4663539
+EPF   000.73 091.9 m E Pg      2011/03/23 23:52:19.7   0.1                          T                                        4663536
+EPF   000.73 091.9 m E Sg      2011/03/23 23:52:29.1   0.0                          T                 .9  .22        Md 1.5  4663537
+LFF   002.13 027.6 m E Pn      2011/03/23 23:52:40.7   0.1                          T                                        4663543
+LFF   002.13 027.6 m E Sn      2011/03/23 23:53:06.4   0.4                          T                 .6  .26 Ml 1.4         4663542
+
+.
+EVENT     257510
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/24 02:20:27.5     42.3299    9.4611      3.0 f    11    5 334  Ml 1.5  3  Md 2.0  1              js067245    257510
+
+      0.27   +-  0.23       3.8    3.0  124.86 +-  0.0    0.41   3.09   +-0.2      +-                    m i ke
+
+CORSICA, FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+PGF   000.41 302.7 m E Pg      2011/03/24 02:20:35.5   0.1                          T                                        4663550
+PGF   000.41 302.7 m E Sg      2011/03/24 02:20:40.6  -0.2                          T               11.9  .37        Md 2.0  4663546
+SBF   002.13 316.6 m E Pn      2011/03/24 02:21:02.5   0.2                          T                                        4663551
+SBF   002.13 316.6 m E Sn      2011/03/24 02:21:27.6  -0.2                          T                 .9  .29 Ml 1.7         4663548
+FRF   002.40 301.7 m E Pn      2011/03/24 02:21:05.6  -0.3                          T                                        4663552
+FRF   002.40 301.7 m E Sn      2011/03/24 02:21:34.3   0.1                          T                 .3  .18 Ml 1.5         4663547
+LMR   002.39 295.8 m E Pn      2011/03/24 02:21:05.8   0.1                          T                                        4663553
+LMR   002.39 295.8 m E Sn      2011/03/24 02:21:34.3   0.5                          T                 .2  .20 Ml 1.4         4663549
+MBDF  003.09 321.7 m E P       2011/03/24 02:21:17.5  -1.0                          T                                        4668200
+
+.
+EVENT     257515
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/24 03:24:51.3     42.8421    -.4862      2.0       8    4 224  Ml 1.4  1  Md 1.4  3              js067245    257515
+
+      0.16   +-  0.16       4.7    1.2    4.60 +-  0.0    0.08   2.28   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.08 316.5 m E Pg      2011/03/24 03:24:53.1  -0.1                          T                                        4663561
+ETSF  000.08 316.5 m E Sg      2011/03/24 03:24:54.1  -0.3                          T               94.5  .27        Md 1.5  4663558
+SJPF  000.61 296.8 m E Pg      2011/03/24 03:25:02.8   0.0                          T                                        4663556
+SJPF  000.61 296.8 m E Sg      2011/03/24 03:25:11.1   0.3                          T                2.9  .36        Md 1.5  4663560
+EPF   000.64 072.5 m E Pg      2011/03/24 03:25:03.4   0.0                          T                                        4663557
+EPF   000.64 072.5 m E Sg      2011/03/24 03:25:11.9   0.2                          T                1.2  .15        Md 1.4  4663559
+LFF   002.28 022.5 m E Pn      2011/03/24 03:25:28.0  -0.1                          T                                        4663555
+LFF   002.28 022.5 m E Sn      2011/03/24 03:25:55.2   0.2                          T                 .6  .29 Ml 1.4         4663554
+
+.
+EVENT     257509
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/24 05:13:13.5     45.7617    6.9905      2.0      10    4 325  Ml 1.2  3  Md 1.2  3              js067245    257509
+
+      1.20   +-  1.46      24.3   21.2  153.93 +-  0.0    0.30   1.15   +-0.2      +-0.1                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LPL   000.30 216.5 m E Pg      2011/03/24 05:13:19.5  -0.3                          T                                Md 1.3  4663569
+LPL   000.30 216.5 m E Sg      2011/03/24 05:13:20.9  -2.9                          T                6.1  .20                4663566
+LPG   000.31 212.5 m E Pg      2011/03/24 05:13:20.0   0.0                          T                                Md 1.3  4663568
+LPG   000.31 212.5 m E Sg      2011/03/24 05:13:21.7  -2.5                          T                5.8  .29                4663567
+MBDF  001.05 188.6 m E Pg      2011/03/24 05:13:33.0  -0.3                          T                                Md 1.1  4663563
+MBDF  001.05 188.6 m E Sg      2011/03/24 05:13:48.4   1.5                          T                1.3  .37 Ml 1.4         4663565
+ORIF  001.15 223.3 m E Pg      2011/03/24 05:13:34.9  -0.3                          T                                        4663562
+ORIF  001.15 223.3 m E Sg      2011/03/24 05:13:51.5   1.4                          T                 .4  .24 Ml 1.1         4663564
+
+.
+EVENT     257511
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/24 06:52:22.6     47.1408    1.5854      2.0      22    9 193  Ml 2.0 11  Md 1.9  3              js067245    257511
+
+      0.31   +-  0.09       2.0    1.0  166.85 +-  0.0    0.73   1.84   +-0.2      +-0.1                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+HYF   000.73 079.5 m E Pg      2011/03/24 06:52:36.3  -0.2                          T                                        4663600
+HYF   000.73 079.5 m E Sg      2011/03/24 06:52:46.0   0.0                          T                                Md 2.0  4663599
+TCF   000.96 153.0 m E Pg      2011/03/24 06:52:40.8   0.2                          T                                        4663584
+TCF   000.96 153.0 m E Sg      2011/03/24 06:52:53.3   0.3                          T                3.0  .18 Ml 2.1 Md 1.9  4663574
+BGF   001.04 123.5 m E Pg      2011/03/24 06:52:42.6   0.4                          T                                        4663580
+BGF   001.04 123.5 m E Sg      2011/03/24 06:52:55.7   0.0                          T                9.9  .28 Ml 2.4 Md 1.9  4663577
+AVF   001.26 105.5 m E Pg      2011/03/24 06:52:46.3   0.2                          T                                        4663581
+AVF   001.26 105.5 m E Sg      2011/03/24 06:53:02.5   0.0                          T                2.2  .23 Ml 1.9         4663575
+SSF   001.31 092.8 m E Pg      2011/03/24 06:52:47.2   0.0                          T                                        4663583
+SSF   001.31 092.8 m E Sg      2011/03/24 06:53:04.3   0.1                          T                2.9  .43 Ml 1.9         4663572
+MFF   001.30 246.2 m E Pg      2011/03/24 06:52:47.2   0.2                          T                                        4663598
+MFF   001.30 246.2 m E Sg      2011/03/24 06:53:03.8   0.0                          T                1.8  .21 Ml 2.0         4663597
+LOR   001.56 084.5 m E Pg      2011/03/24 06:52:51.4  -0.2 264.6  -1.5              T                                        4663582
+LOR   001.56 084.5 m E Sg      2011/03/24 06:53:11.6  -0.1 263.0  -3.1              T                2.3  .31 Ml 1.9         4663573
+SMF   001.62 106.9 m E Pg      2011/03/24 06:52:52.9   0.0                          T                                        4663605
+SMF   001.62 106.9 m E Sg      2011/03/24 06:53:14.0   0.1                          T                3.0  .37 Ml 2.0         4663576
+RJF   001.84 181.5 m E Pg      2011/03/24 06:52:56.3  -0.5                          T                                        4663595
+RJF   001.84 181.5 m E Sg      2011/03/24 06:53:19.2  -1.3                          T                1.7  .22 Ml 1.7         4663596
+
+.
+EVENT     257554
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/24 12:25:20.3     41.8045    2.9565      8.0 f    81   16 104  Ml 2.8 19  Md 2.6  1              js067245    257554
+
+      0.79   +-  0.12       2.3    1.5  149.80 +-  0.0    0.09   5.49   +-0.3      +-                    m i ke
+
+SPAIN
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MTLF  001.63 340.7 m E Pn      2011/03/24 12:25:47.7   0.0                          T                                        4663686
+MTLF  001.63 340.7 m E Pg      2011/03/24 12:25:50.0  -0.7                          T                                        4663688
+MTLF  001.63 340.7 m E Sg      2011/03/24 12:26:10.8  -1.0                          T               13.2  .20 Ml 2.9 Md 2.6  4663684
+EPF   002.29 303.2 m E Pn      2011/03/24 12:25:56.8   0.1                          T                                        4663717
+EPF   002.29 303.2 m E Pg      2011/03/24 12:26:02.0  -0.9                          T                                        4663687
+EPF   002.29 303.2 m E Sg      2011/03/24 12:26:30.9  -1.6                          T               23.7  .22 Ml 3.3         4663685
+LASF  002.36 015.9 m E Pn      2011/03/24 12:25:57.7   0.0                          T                                        4663719
+LASF  002.36 015.9 m E Sn      2011/03/24 12:26:25.3   0.1                          T                                        4663762
+LASF  002.36 015.9 m E Sg      2011/03/24 12:26:33.6  -1.1                          T                7.2  .20 Ml 2.8         4663682
+ETSF  002.83 293.9 m E Pn      2011/03/24 12:26:03.8  -0.2                          T                                        4663716
+ETSF  002.83 293.9 m E Pg      2011/03/24 12:26:10.7  -2.1                          T                                        4663723
+ETSF  002.83 293.9 m E Sg      2011/03/24 12:26:49.1  -0.1                          T               32.9  .40 Ml 3.3         4663683
+SMRF  002.90 040.7 m E Pn      2011/03/24 12:26:05.0   0.0                          T                                        4663710
+SMRF  002.90 040.7 m E Sn      2011/03/24 12:26:38.4   0.5                          T                                        4663761
+SMRF  002.90 040.7 m E Sg      2011/03/24 12:26:51.4   0.0                          T                5.0  .39 Ml 2.5         4663704
+LMR   003.04 058.6 m E Pn      2011/03/24 12:26:07.0   0.2                          T                                        4663712
+LMR   003.04 058.6 m E Sn      2011/03/24 12:26:42.4   1.2                          T                4.2  .24 Ml 2.7         4663707
+FRF   003.24 055.9 m E Pn      2011/03/24 12:26:09.7   0.1                          T                                        4663711
+FRF   003.24 055.9 m E Sn      2011/03/24 12:26:47.3   1.4                          T                3.4  .24 Ml 2.7         4663705
+VIVF  003.30 021.7 m E Pn      2011/03/24 12:26:10.9   0.5                          T                                        4663718
+VIVF  003.30 021.7 m E Sn      2011/03/24 12:26:47.8   0.4                          T                                        4663763
+VIVF  003.30 021.7 m E Sg      2011/03/24 12:27:03.3  -0.6                          T                5.1  .24 Ml 2.8         4663702
+SJPF  003.36 294.3 m E Pn      2011/03/24 12:26:11.0  -0.2                          T                                        4663715
+SJPF  003.36 294.3 m E Pg      2011/03/24 12:26:21.4  -1.2                          T                                        4663722
+SJPF  003.36 294.3 m E Sg      2011/03/24 12:27:04.2  -1.5                          T                9.0  .30 Ml 3.0         4663701
+LFF   003.53 333.5 m E Pn      2011/03/24 12:26:13.3  -0.2                          T                                        4663714
+LFF   003.53 333.5 m E Pg      2011/03/24 12:26:25.0  -0.6                          T                                        4663720
+LFF   003.53 333.5 m E Sg      2011/03/24 12:27:09.5  -1.4                          T               15.9  .28 Ml 3.1         4663699
+RJF   003.65 343.8 m E Pn      2011/03/24 12:26:15.3   0.1                          T                                        4663713
+RJF   003.65 343.8 m E Sg      2011/03/24 12:27:13.7  -1.2                          T                3.5  .24 Ml 2.4         4663698
+ORIF  003.77 033.4 m E Pn      2011/03/24 12:26:16.7  -0.2                          T                                        4663709
+ORIF  003.77 033.4 m E Sn      2011/03/24 12:26:59.7   0.8                          T                2.4  .39 Ml 2.4         4663703
+CAF   003.19 348.5 m E Pg      2011/03/24 12:26:18.5  -0.9                          T                                        4663721
+CAF   003.19 348.5 m E Sg      2011/03/24 12:26:59.4  -1.0                          T                5.4  .26 Ml 2.8         4663700
+SBF   003.88 056.5 m E Pn      2011/03/24 12:26:18.9   0.5                          T                                        4663708
+SBF   003.88 056.5 m E Sn      2011/03/24 12:27:02.7   1.2                          T                1.5  .20 Ml 2.5         4663706
+PGF   004.55 078.6 m E Pn      2011/03/24 12:26:26.2  -1.4                          T                                        4663690
+PGF   004.55 078.6 m E Sn      2011/03/24 12:27:15.5  -2.1                          T                2.0  .27 Ml 2.9         4663689
+TCF   004.51 353.4 m E Pn      2011/03/24 12:26:26.9   0.0                          T                                        4663696
+TCF   004.51 353.4 m E Sg      2011/03/24 12:27:40.8  -1.0                          T                1.7  .27 Ml 2.6         4663697
+
+.
+EVENT     257559
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 01:01:42.3     46.2362    1.8455      2.0      76   29 074  Ml 2.5 29  Md 2.4  3              js067245    257559
+
+      0.48   +-  0.04       1.0     .8  138.70 +-  0.0    0.26   4.29   +-0.3      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+TCF   000.26 078.3 m E Pg      2011/03/25 01:01:47.5   0.0                          T                                        4663823
+TCF   000.26 078.3 m E Sg      2011/03/25 01:01:50.9  -0.1                          T               33.1  .22        Md 2.4  4663894
+BGF   000.76 064.7 m E Pg      2011/03/25 01:01:57.0   0.2                          T                                        4668237
+BGF   000.76 064.7 m E Pn      2011/03/25 01:01:59.1   0.5                          T                                        4663819
+BGF   000.76 064.7 m E Sg      2011/03/25 01:02:06.2  -0.5                          T               53.4  .28        Md 2.4  4663895
+RJF   000.96 194.0 m E Pg      2011/03/25 01:02:00.6   0.3                          T                                        4663816
+RJF   000.96 194.0 m E Sg      2011/03/25 01:02:12.8   0.0                          T               35.3  .38 Ml 2.4         4663897
+HYF   001.17 027.6 m E Pg      2011/03/25 01:02:04.4   0.2                          T                                        4663818
+HYF   001.17 027.6 m E Sg      2011/03/25 01:02:19.6   0.3                          T                                        4663891
+AVF   001.18 061.4 m E Pn      2011/03/25 01:02:04.5   0.3                          T                                        4663862
+AVF   001.18 061.4 m E Pg      2011/03/25 01:02:05.3   0.9                          T                                        4668239
+AVF   001.18 061.4 m E Sg      2011/03/25 01:02:19.2  -0.4                          T               12.2  .26 Ml 2.6         4663879
+CAF   001.32 173.2 m E Pn      2011/03/25 01:02:06.6   0.4                          T                                        4663814
+CAF   001.32 173.2 m E Pg      2011/03/25 01:02:07.1   0.1                          T                                        4668235
+CAF   001.32 173.2 m E Sg      2011/03/25 01:02:23.9  -0.2                          T                8.5  .16 Ml 2.7         4663883
+SSF   001.41 053.6 m E Pn      2011/03/25 01:02:08.1   0.7                          T                                        4663822
+SSF   001.41 053.6 m E Pg      2011/03/25 01:02:08.8   0.2                          T                                        4668241
+SSF   001.41 053.6 m E Sg      2011/03/25 01:02:26.3  -0.6                          T               12.6  .22 Ml 2.8         4663893
+SMF   001.44 072.8 m E Pn      2011/03/25 01:02:08.5   0.7                          T                                        4663817
+SMF   001.44 072.8 m E Pg      2011/03/25 01:02:09.5   0.2                          T                                        4668238
+SMF   001.44 072.8 m E Sg      2011/03/25 01:02:27.4  -0.4                          T               10.7  .24 Ml 2.7         4663890
+MFF   001.43 285.6 m E Pg      2011/03/25 01:02:09.0   0.1                          T                                        4663815
+MFF   001.43 285.6 m E Sg      2011/03/25 01:02:27.1  -0.2                          T               11.3  .22 Ml 2.9         4663889
+LFF   001.51 211.3 m E Pg      2011/03/25 01:02:10.2  -0.3                          T                                        4663813
+LFF   001.51 211.3 m E Sg      2011/03/25 01:02:30.0   0.0                          T               10.6  .29 Ml 2.4         4663888
+LOR   001.73 052.6 m E Pn      2011/03/25 01:02:12.3   0.6 234.1  0.1               T                                        4663821
+LOR   001.73 052.6 m E Pg      2011/03/25 01:02:14.7   0.2 231.8  -2.2              T                                        4668240
+LOR   001.73 052.6 m E Sg      2011/03/25 01:02:36.0  -0.8 214.2  -19.8             T               13.4  .24 Ml 2.9         4663892
+VIVF  002.42 123.8 m E Pn      2011/03/25 01:02:20.9  -0.2                          T                                        4663850
+VIVF  002.42 123.8 m E Pg      2011/03/25 01:02:26.9  -0.4                          T                                        4663871
+VIVF  002.42 123.8 m E Sg      2011/03/25 01:02:58.2  -0.2                          T                6.6  .46 Ml 2.5         4663886
+LASF  002.59 145.9 m E Pn      2011/03/25 01:02:23.1  -0.3                          T                                        4663849
+LASF  002.59 145.9 m E Pg      2011/03/25 01:02:30.3  -0.1                          T                                        4663870
+LASF  002.59 145.9 m E Sg      2011/03/25 01:03:03.5  -0.2                          T                3.5  .42 Ml 2.3         4663887
+LDF   002.71 331.2 m E Pn      2011/03/25 01:02:25.7   0.6                          T                                        4663848
+LDF   002.71 331.2 m E Pg      2011/03/25 01:02:32.2  -0.4                          T                                        4663866
+LDF   002.71 331.2 m E Sg      2011/03/25 01:03:07.1  -0.3                          T                2.4  .35 Ml 2.2         4663881
+GRR   002.83 320.5 m E Pn      2011/03/25 01:02:26.5  -0.2                          T                                        4663847
+GRR   002.83 320.5 m E Pg      2011/03/25 01:02:34.8   0.0                          T                                        4663867
+GRR   002.83 320.5 m E Sg      2011/03/25 01:03:11.1  -0.2                          T                2.5  .21 Ml 2.3         4663882
+SFTF  002.93 046.7 m E Pn      2011/03/25 01:02:28.0  -0.1 227.5  -1.5              T                                        4663858
+SFTF  002.93 046.7 m E Sg      2011/03/25 01:03:14.1  -0.3                          T                4.5  .34 Ml 2.5         4663875
+FLN   002.98 328.9 m E Pn      2011/03/25 01:02:28.6  -0.1                          T                                        4663846
+FLN   002.98 328.9 m E Pg      2011/03/25 01:02:37.4  -0.2 145.8  -1.4              T                                        4663865
+FLN   002.98 328.9 m E Sg      2011/03/25 01:03:15.7  -0.2                          T                2.3  .25 Ml 2.2         4663880
+CABF  002.96 081.2 m E Pn      2011/03/25 01:02:28.8   0.2                          T                                        4663843
+CABF  002.96 081.2 m E Sg      2011/03/25 01:03:15.0  -0.3                          T                1.0  .29 Ml 2.0         4663842
+MEZF  003.14 042.7 m E Pn      2011/03/25 01:02:30.8  -0.1                          T                                        4663857
+MEZF  003.14 042.7 m E Sg      2011/03/25 01:03:20.5  -0.5                          T                5.6  .34 Ml 2.7         4663874
+EPF   003.38 199.1 m E Pn      2011/03/25 01:02:34.0  -0.2                          T                                        4663852
+EPF   003.38 199.1 m E Pg      2011/03/25 01:02:44.7  -0.3                          T                                        4663869
+EPF   003.38 199.1 m E Sn      2011/03/25 01:03:12.3  -0.3                          T                                        4663853
+EPF   003.38 199.1 m E Sg      2011/03/25 01:03:28.5   0.0                          T                2.1  .32 Ml 2.3         4663885
+THEF  003.46 053.3 m E Pn      2011/03/25 01:02:34.9  -0.3                          T                                        4663859
+THEF  003.46 053.3 m E Sg      2011/03/25 01:03:30.5  -0.3                          T                4.2  .30 Ml 2.7         4663876
+PAGF  003.51 047.2 m E Pn      2011/03/25 01:02:35.7  -0.3                          T                                        4663856
+PAGF  003.51 047.2 m E Sg      2011/03/25 01:03:32.2  -0.2                          T                 .8  .33 Ml 1.9         4663873
+HAU   003.55 058.4 m E Pn      2011/03/25 01:02:36.2  -0.3                          T                                        4663861
+HAU   003.55 058.4 m E Sg      2011/03/25 01:03:33.2  -0.4                          T                4.2  .38 Ml 2.4         4663877
+SGMF  003.61 305.5 m E Pn      2011/03/25 01:02:37.2  -0.2                          T                                        4663864
+SGMF  003.61 305.5 m E Sn      2011/03/25 01:03:17.9  -0.2                          T                2.0  .31 Ml 2.4         4663863
+HINF  003.77 063.4 m E Pn      2011/03/25 01:02:39.5  -0.1                          T                                        4663860
+HINF  003.77 063.4 m E Sg      2011/03/25 01:03:40.3  -0.4                          T                2.1  .24 Ml 2.5         4663878
+ETSF  003.75 208.1 m E Pn      2011/03/25 01:02:39.7   0.3                          T                                        4663851
+ETSF  003.75 208.1 m E Pg      2011/03/25 01:02:51.8  -0.2                          T                                        4663868
+ETSF  003.75 208.1 m E Sg      2011/03/25 01:03:40.1   0.0                          T                 .9  .23 Ml 2.2         4663884
+QUIF  003.81 298.0 m E Pn      2011/03/25 01:02:40.2   0.2                          T                                        4663845
+QUIF  003.81 298.0 m E Sn      2011/03/25 01:03:22.8   0.0                          T                 .4  .23 Ml 1.8         4663844
+CDF   004.29 057.5 m E Pn      2011/03/25 01:02:46.4  -0.2                          T                                        4663855
+CDF   004.29 057.5 m E Sg      2011/03/25 01:03:56.4  -0.4                          T                1.3  .33 Ml 2.4         4663872
+MTLF  002.91 174.6 m E Sg      2011/03/25 01:03:13.5  -0.1                          T                2.6  .28 Ml 2.4         4663854
+
+.
+EVENT     257560
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 01:04:30.1     46.2339    1.8575      2.0      26   11 101  Ml 1.7 10  Md 2.0  3              js067245    257560
+
+      0.67   +-  0.08       2.0    1.2  145.73 +-  0.0    0.25   1.72   +-0.2      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+TCF   000.25 077.4 m E Pg      2011/03/25 01:04:35.2   0.1                          T                                        4663905
+TCF   000.25 077.4 m E Sg      2011/03/25 01:04:38.5   0.0                          T                3.1  .22        Md 2.0  4663966
+BGF   000.76 064.3 m E Pg      2011/03/25 01:04:44.9   0.6                          T                                        4663899
+BGF   000.76 064.3 m E Sg      2011/03/25 01:04:54.6   0.3                          T                4.7  .28        Md 1.9  4663972
+RJF   000.96 194.5 m E Pg      2011/03/25 01:04:48.4   0.3                          T                                        4663981
+RJF   000.96 194.5 m E Sg      2011/03/25 01:05:00.7   0.2                          T                2.9  .37 Ml 1.4         4663975
+AVF   001.17 061.1 m E Pg      2011/03/25 01:04:52.1   0.1                          T                                        4663902
+AVF   001.17 061.1 m E Sg      2011/03/25 01:05:07.1  -0.1                          T                1.4  .26 Ml 1.6         4663969
+HYF   001.17 027.2 m E Pg      2011/03/25 01:04:52.4   0.5                          T                                        4663900
+HYF   001.17 027.2 m E Sg      2011/03/25 01:05:07.5   0.5                          T                                        4663971
+CAF   001.32 173.6 m E Pg      2011/03/25 01:04:54.3  -0.4                          T                                        4663978
+CAF   001.32 173.6 m E Sg      2011/03/25 01:05:11.7   0.0                          T                1.4  .25 Ml 1.7         4663977
+SSF   001.41 053.3 m E Pg      2011/03/25 01:04:56.1  -0.2                          T                                        4663904
+SSF   001.41 053.3 m E Sg      2011/03/25 01:05:14.2  -0.2                          T                2.2  .37 Ml 1.9         4663967
+SMF   001.43 072.6 m E Pg      2011/03/25 01:04:56.7  -0.1                          T                                        4663901
+SMF   001.43 072.6 m E Sg      2011/03/25 01:05:15.3   0.0                          T                1.2  .27 Ml 1.7         4663970
+MFF   001.43 285.6 m E Pg      2011/03/25 01:04:57.0   0.2                          T                                        4663980
+MFF   001.43 285.6 m E Sg      2011/03/25 01:05:15.1  -0.3                          T                1.1  .25 Ml 1.8         4663974
+LFF   001.51 211.6 m E Pg      2011/03/25 01:04:58.2  -0.1                          T                                        4663979
+LFF   001.51 211.6 m E Sg      2011/03/25 01:05:17.9   0.1                          T                1.5  .36 Ml 1.5         4663976
+LOR   001.72 052.3 m E Pg      2011/03/25 01:05:01.6  -0.5 238.0  4.2               T                                        4663903
+LOR   001.72 052.3 m E Sg      2011/03/25 01:05:23.8  -0.6                          T                2.1  .37 Ml 1.9         4663968
+
+.
+EVENT     257562
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 03:11:11.9     42.8550    -.4732      2.0      20    4 156  Ml 1.9  1  Md 1.9  3              js067245    257562
+
+      0.45   +-  0.14       3.8    2.0  152.96 +-  0.0    0.08   2.26   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.08 304.6 m E Pg      2011/03/25 03:11:14.0   0.2                          T                                        4663994
+ETSF  000.08 304.6 m E Sg      2011/03/25 03:11:15.3   0.3                          T               46.6  .24        Md 1.9  4663993
+SJPF  000.61 295.3 m E Pg      2011/03/25 03:11:23.2  -0.2                          T                                        4663989
+SJPF  000.61 295.3 m E Sg      2011/03/25 03:11:31.5   0.1                          T                1.5  .30        Md 1.9  4663991
+EPF   000.62 073.4 m E Pg      2011/03/25 03:11:23.4  -0.4                          T                                        4663990
+EPF   000.62 073.4 m E Sg      2011/03/25 03:11:32.2   0.3                          T                2.0  .32        Md 1.8  4663992
+LFF   002.26 022.4 m E Pg      2011/03/25 03:11:54.5   0.6                          T                                        4663987
+LFF   002.26 022.4 m E Sg      2011/03/25 03:12:24.6   1.7                          T                3.3  .48 Ml 1.9         4663988
+
+.
+EVENT     257742
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 05:17:56.1     50.3413    7.8469     10.0      15    6 081  Ml 2.1  5  Md 2.3  1              js067245    257742
+
+      0.35   +-  0.07       1.3    1.2   15.76 +-  0.0    0.10   2.61   +-0.1      +-                    m i ke
+
+GERMANY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+RUP   000.82 218.7 m E Pg      2011/03/25 05:18:11.5  -0.1                          T                                        4668252
+RUP   000.82 218.7 m E Sg      2011/03/25 05:18:22.2  -0.2                          T                                Md 2.3  4668253
+LANF  001.36 181.2 m E Pg      2011/03/25 05:18:21.7   0.1                          T                                        4668250
+LANF  001.36 181.2 m E Sg      2011/03/25 05:18:39.2  -0.1                          T                3.4  .27 Ml 2.1         4668251
+GIVF  001.96 264.1 m E Pg      2011/03/25 05:18:32.4  -0.1                          T                                        4668244
+GIVF  001.96 264.1 m E Sg      2011/03/25 05:18:57.4  -0.4                          T                3.7  .24 Ml 2.4         4668245
+CDF   001.97 191.2 m E Pg      2011/03/25 05:18:32.8  -0.1                          T                                        4668248
+CDF   001.97 191.2 m E Sg      2011/03/25 05:18:58.2   0.0                          T                1.2  .23 Ml 2.0         4668249
+BAIF  002.36 264.5 m E Pg      2011/03/25 05:18:39.6  -0.3                          T                                        4668242
+BAIF  002.36 264.5 m E Sg      2011/03/25 05:19:10.2   0.0                          T                2.0  .33 Ml 2.1         4668243
+HINF  002.61 194.9 m E Pg      2011/03/25 05:18:44.5  -0.1                          T                                        4668246
+HINF  002.61 194.9 m E Sg      2011/03/25 05:19:18.0  -0.2                          T                2.2  .32 Ml 2.2         4668247
+
+.
+EVENT     257563
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 07:02:33.4     42.8480    -.3728      2.0      10    4 215  Ml 1.8  2  Md 1.7  3              js067245    257563
+
+      0.22   +-  0.29      13.0    1.2    2.21 +-  0.0    0.15   1.96   +-0.1      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.15 290.3 m E Pg      2011/03/25 07:02:36.1  -0.5                          T                                        4664010
+ETSF  000.15 290.3 m E Sg      2011/03/25 07:02:38.4  -0.2                          T                7.4  .18        Md 1.7  4664009
+EPF   000.55 070.6 m E Pg      2011/03/25 07:02:44.2   0.1                          T                                        4664006
+EPF   000.55 070.6 m E Sg      2011/03/25 07:02:50.9  -0.4                          T                1.9  .18        Md 1.6  4664007
+SJPF  000.68 293.3 m E Pg      2011/03/25 07:02:46.3   0.0                          T                                        4664005
+SJPF  000.68 293.3 m E Sg      2011/03/25 07:02:55.2   0.0                          T                2.9  .30        Md 1.7  4664008
+MTLF  001.96 074.6 m E Pg      2011/03/25 07:03:09.9   0.0                          T                                        4664011
+MTLF  001.96 074.6 m E Sg      2011/03/25 07:03:35.0  -0.1                          T                  1  .32 Ml 1.7         4664012
+
+.
+EVENT     257591
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 07:28:22.4     41.7694    2.9734      8.0 f    29    5 233  Ml 2.2  5                         cm165940    257591
+
+      0.25   +-  0.11       1.8    1.0  139.75 +-  0.0    0.13   3.39   +-0.2                            m i ke
+
+SPAIN
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MTLF  001.67 340.7 m E Pn      2011/03/25 07:28:50.3   0.1                          T                                        4664126
+MTLF  001.67 340.7 m E Sn      2011/03/25 07:29:11.6   1.1                          T                2.0  .20 Ml 2.1         4664121
+EPF   002.32 303.7 m E Pn      2011/03/25 07:28:59.5   0.3                          T                                        4664125
+EPF   002.32 303.7 m E Sg      2011/03/25 07:29:35.8   0.3                          T                2.8  .22 Ml 2.4         4664120
+LASF  002.40 015.4 m E Pn      2011/03/25 07:28:59.8  -0.3                          T                                        4664123
+LASF  002.40 015.4 m E Sn      2011/03/25 07:29:27.8  -0.1                          T                 .9  .27 Ml 1.8         4664122
+ETSF  002.85 294.5 m E Pn      2011/03/25 07:29:07.1   0.7                          T                                        4664124
+ETSF  002.85 294.5 m E Sg      2011/03/25 07:29:52.4   0.4                          T                2.7  .37 Ml 2.3         4664119
+SJPF  003.39 294.8 m E Pn      2011/03/25 07:29:14.1   0.5                          T                                        4664117
+SJPF  003.39 294.8 m E Sg      2011/03/25 07:30:08.8   0.3                          T                1.9  .36 Ml 2.2         4664118
+
+.
+EVENT     257583
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 07:59:16.2     43.0053     .1782     15.0      16    4 155  Ml 2.0  3  Md 2.0  3              js067245    257583
+
+      0.32   +-  0.09       2.2    1.4    1.57 +-  0.0    0.12   1.53   +-0.5      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+EPF   000.12 078.0 m E Pg      2011/03/25 07:59:20.0   0.1                          T                                        4664098
+EPF   000.12 078.0 m E Sg      2011/03/25 07:59:22.6   0.1                          T               31.0  .17        Md 2.0  4664095
+ETSF  000.55 259.1 m E Pg      2011/03/25 07:59:26.8  -0.3                          T                                        4664097
+ETSF  000.55 259.1 m E Sg      2011/03/25 07:59:34.0  -0.5                          T               14.8  .25        Md 2.0  4664096
+SJPF  001.03 276.5 m E Pg      2011/03/25 07:59:36.0   0.3                          T                                        4664091
+SJPF  001.03 276.5 m E Sg      2011/03/25 07:59:50.0   0.7                          T                  1  .25 Ml 1.4 Md 2.0  4664094
+MTLF  001.53 076.6 m E Pg      2011/03/25 07:59:44.6  -0.2                          T                                        4664092
+MTLF  001.53 076.6 m E Sg      2011/03/25 08:00:04.9   0.2                          T                3.7  .26 Ml 2.2         4664093
+
+.
+EVENT     257594
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 11:51:24.4     42.9221   -1.1084       .0 f     6    3 242  Ml 1.5  1  Md 1.6  3              js067245    257594
+
+      0.19   +-  0.36      10.7    1.9   31.62 +-  0.0    0.21   1.07   +-         +-0.0                 m i km
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.21 335.9 m E Pg      2011/03/25 11:51:28.7  -0.1                          T                                        4664181
+SJPF  000.21 335.9 m E Sg      2011/03/25 11:51:31.6  -0.3                          T               17.8  .22        Md 1.6  4664178
+ETSF  000.40 093.1 m E Pg      2011/03/25 11:51:32.3  -0.2                          T                                        4664180
+ETSF  000.40 093.1 m E Sg      2011/03/25 11:51:37.8  -0.2                          T                7.9  .28        Md 1.5  4664179
+EPF   001.07 083.7 m E Pg      2011/03/25 11:51:44.9   0.2                          T                                        4664176
+EPF   001.07 083.7 m E Sg      2011/03/25 11:51:58.7   0.0                          T                 .8  .18 Ml 1.5 Md 1.5  4664177
+
+.
+EVENT     257679
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 12:59:22.5     50.3329    7.7951      8.0 f    46   12 075  Ml 2.6 13  Md 2.6  2              cm165940    257679
+
+      0.46   +-  0.07       1.4    1.1   41.03 +-  0.0    0.10   4.33   +-0.2      +-0.1                 m i ke
+
+GERMANY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+GIVF  001.92 264.2 m E Pn      2011/03/25 12:59:54.3   0.5                          T                                        4665059
+GIVF  001.92 264.2 m E Pg      2011/03/25 12:59:58.4   0.1                          T                                        4665066
+GIVF  001.92 264.2 m E Sg      2011/03/25 13:00:23.1   0.0                          T               14.8  .36 Ml 2.8 Md 2.6  4665044
+CDF   001.95 190.2 m E Pn      2011/03/25 12:59:54.4   0.0                          T                                        4665057
+CDF   001.95 190.2 m E Pg      2011/03/25 12:59:57.9  -1.0                          T                                        4665064
+CDF   001.95 190.2 m E Sg      2011/03/25 13:00:23.8  -0.4                          T                6.4  .26 Ml 2.7 Md 2.5  4665046
+PAGF  002.23 218.0 m E Pn      2011/03/25 12:59:58.3   0.2                          T                                        4665054
+PAGF  002.23 218.0 m E Pg      2011/03/25 13:00:03.8  -0.2                          T                                        4665032
+PAGF  002.23 218.0 m E Sg      2011/03/25 13:00:32.3  -0.5                          T                1.8  .30 Ml 2.0         4665043
+BAIF  002.32 264.6 m E Pn      2011/03/25 12:59:59.3   0.0                          T                                        4665058
+BAIF  002.32 264.6 m E Pg      2011/03/25 13:00:05.1  -0.5                          T                                        4665065
+BAIF  002.32 264.6 m E Sn      2011/03/25 13:00:27.3   1.0                          T                8.3  .26 Ml 2.8         4665045
+HAU   002.52 202.7 m E Pn      2011/03/25 13:00:02.3   0.3                          T                                        4665051
+HAU   002.52 202.7 m E Pg      2011/03/25 13:00:07.8  -1.5                          T                                        4665061
+HAU   002.52 202.7 m E Sg      2011/03/25 13:00:41.3  -0.4                          T                9.0  .36 Ml 2.5         4665048
+MEZF  002.56 225.4 m E Pn      2011/03/25 13:00:02.9   0.4                          T                                        4665053
+MEZF  002.56 225.4 m E Pg      2011/03/25 13:00:08.7  -1.4                          T                                        4665063
+MEZF  002.56 225.4 m E Sg      2011/03/25 13:00:42.7  -0.3                          T                5.0  .22 Ml 2.7         4665038
+HINF  002.59 194.2 m E Pn      2011/03/25 13:00:03.5   0.4                          T                                        4665050
+HINF  002.59 194.2 m E Pg      2011/03/25 13:00:09.5  -1.3                          T                                        4665060
+HINF  002.59 194.2 m E Sg      2011/03/25 13:00:43.7  -0.4                          T                4.8  .25 Ml 2.6         4665049
+LANF  001.35 179.7 m E Sg      2011/03/25 13:00:04.9  -0.5                          T               30.7  .36 Ml 2.9         4668272
+THEF  002.41 209.9 m E Pg      2011/03/25 13:00:05.2  -2.2                          T                                        4668270
+THEF  002.41 209.9 m E Sg      2011/03/25 13:00:37.6  -0.8                          T                7.2  .21 Ml 2.8         4668271
+SFTF  002.79 221.3 m E Pn      2011/03/25 13:00:06.0   0.3                          T                                        4665052
+SFTF  002.79 221.3 m E Pg      2011/03/25 13:00:13.3  -1.0                          T                                        4665062
+SFTF  002.79 221.3 m E Sg      2011/03/25 13:00:49.8  -0.4                          T                6.4  .33 Ml 2.7         4665047
+LOR   004.02 221.8 m E Pn      2011/03/25 13:00:22.5   0.0                          T                                        4665056
+LOR   004.02 221.8 m E Pg      2011/03/25 13:00:36.7  -0.3                          T                                        4665042
+LOR   004.02 221.8 m E Sn      2011/03/25 13:01:06.5  -0.4                          T                                        4665035
+LOR   004.02 221.8 m E Sg      2011/03/25 13:01:28.1  -0.5                          T                2.0  .32 Ml 2.5         4665040
+SSF   004.33 222.6 m E Pn      2011/03/25 13:00:26.8   0.2                          T                                        4665055
+SSF   004.33 222.6 m E Pg      2011/03/25 13:00:42.5  -0.3                          T                                        4665041
+SSF   004.33 222.6 m E Sg      2011/03/25 13:01:38.0  -0.3                          T                 .7  .28 Ml 2.2         4665039
+
+.
+EVENT     257599
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/25 22:37:39.9     43.6924    7.6627      2.0      22    9 158  Ml 1.5  9  Md 1.5  3              js067245    257599
+
+      0.25   +-  0.07       1.8    1.2   48.55 +-  0.0    0.24   1.94   +-0.2      +-0.2                 m i ke
+
+NEAR SOUTH COAST OF FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SBF   000.24 316.1 m E Pg      2011/03/25 22:37:45.2   0.5                          T                                        4664262
+SBF   000.24 316.1 m E Sg      2011/03/25 22:37:47.9  -0.1                          T                9.3  .24        Md 1.7  4664258
+FRF   000.75 260.2 m E Pg      2011/03/25 22:37:54.4   0.4                          T                                        4664261
+FRF   000.75 260.2 m E Sg      2011/03/25 22:38:04.2   0.4                          T               11.9  .20        Md 1.3  4664259
+LMR   000.91 247.3 m E Pg      2011/03/25 22:37:56.6  -0.4                          T                                        4664260
+LMR   000.91 247.3 m E Sg      2011/03/25 22:38:08.5  -0.4                          T                1.3  .20 Ml 1.6 Md 1.5  4664257
+MBDF  001.22 328.5 m E Pg      2011/03/25 22:38:02.7  -0.2                          T                                        4664254
+MBDF  001.22 328.5 m E Sg      2011/03/25 22:38:17.9  -0.7                          T                 .9  .33 Ml 1.4         4664255
+PGF   001.51 139.0 m E Pn      2011/03/25 22:38:06.4   0.0                          T                                        4664264
+PGF   001.51 139.0 m E Sn      2011/03/25 22:38:25.5   0.1                          T                1.3  .40 Ml 1.8         4664263
+SMRF  001.54 281.3 m E Pg      2011/03/25 22:38:08.6  -0.1                          T                                        4664253
+SMRF  001.54 281.3 m E Sg      2011/03/25 22:38:28.5   0.0                          T                2.0  .44 Ml 1.7         4664256
+ORIF  001.77 314.4 m E Pn      2011/03/25 22:38:10.1   0.1                          T                                        4664249
+ORIF  001.77 314.4 m E Sn      2011/03/25 22:38:31.8   0.0                          T                 .3  .31 Ml 1.2         4664251
+LPG   001.92 340.5 m E Pn      2011/03/25 22:38:12.2   0.0                          T                                        4664247
+LPG   001.92 340.5 m E Sn      2011/03/25 22:38:35.5   0.0                          T                 .5  .28 Ml 1.4         4664250
+LPL   001.94 340.3 m E Pn      2011/03/25 22:38:12.3  -0.1                          T                                        4664248
+LPL   001.94 340.3 m E Sn      2011/03/25 22:38:36.0   0.1                          T                 .4  .25 Ml 1.4         4664252
+
+.
+EVENT     257622
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 00:41:04.3     41.7871    2.6538      4.0 f    37    6 113  Ml 1.9  7                         js067245    257622
+
+      0.26   +-  0.08       1.4     .8  148.17 +-  0.0    0.17   3.39   +-0.3                            m i ke
+
+SPAIN
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MTLF  001.59 348.4 m E Pn      2011/03/26 00:41:31.7   0.2                          T                                        4664324
+MTLF  001.59 348.4 m E Sn      2011/03/26 00:41:51.2   0.0                          T                2.2  .22 Ml 2.1         4664314
+EPF   002.12 306.7 m E Pn      2011/03/26 00:41:38.8   0.0                          T                                        4664323
+EPF   002.12 306.7 m E Sn      2011/03/26 00:42:03.8  -0.1                          T                3.8  .35 Ml 2.3         4664315
+LASF  002.45 020.7 m E Pn      2011/03/26 00:41:43.6   0.3                          T                                        4664319
+LASF  002.45 020.7 m E Sn      2011/03/26 00:42:12.3   0.4                          T                 .4  .27 Ml 1.5         4664313
+ETSF  002.63 296.1 m E Pn      2011/03/26 00:41:45.9   0.1                          T                                        4664322
+ETSF  002.63 296.1 m E Sn      2011/03/26 00:42:16.0  -0.2                          T                1.4  .28 Ml 2.0         4664316
+SJPF  003.16 296.1 m E Pn      2011/03/26 00:41:53.1   0.2                          T                                        4664321
+SJPF  003.16 296.1 m E Sn      2011/03/26 00:42:28.8  -0.1                          T                 .3  .25 Ml 1.6         4664317
+CAF   003.17 352.4 m E Pn      2011/03/26 00:41:53.3   0.3                          T                                        4664320
+CAF   003.17 352.4 m E Sn      2011/03/26 00:42:29.0   0.0                          T                 .3  .28 Ml 1.5         4664318
+
+.
+EVENT     257623
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 02:44:34.5     43.0777   -1.3575      2.0      27    3 077  Ml 1.6  1  Md 1.7  3              js067245    257623
+
+      0.26   +-  0.05        .8     .8   98.34 +-  0.0    0.10   1.25   +-         +-0.1                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.10 069.8 m E Pg      2011/03/26 02:44:37.1   0.4                          T                                        4664330
+SJPF  000.10 069.8 m E Sg      2011/03/26 02:44:38.8   0.4                          T                7.3  .22        Md 1.7  4664328
+ETSF  000.61 106.7 m E Pg      2011/03/26 02:44:46.0  -0.2                          T                                        4664329
+ETSF  000.61 106.7 m E Sg      2011/03/26 02:44:54.2   0.0                          T                3.2  .21        Md 1.7  4664327
+EPF   001.25 091.6 m E Pg      2011/03/26 02:44:57.8   0.0                          T                                        4664325
+EPF   001.25 091.6 m E Sg      2011/03/26 02:45:13.6  -0.3                          T                1.1  .22 Ml 1.6 Md 1.6  4664326
+
+.
+EVENT     257600
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 03:43:33.9     44.6186    7.2598      2.0      20    8 170  Ml 1.4  8  Md 1.5  3              js067245    257600
+
+      0.26   +-  0.08       1.9    1.0   59.08 +-  0.0    0.36   2.42   +-0.4      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.36 287.4 m E Pg      2011/03/26 03:43:41.4   0.2                          T                                        4664370
+MBDF  000.36 287.4 m E Sg      2011/03/26 03:43:46.0  -0.1                          T               11.9  .28        Md 1.5  4664360
+SBF   000.77 170.5 m E Pg      2011/03/26 03:43:48.1  -0.4                          T                                        4664364
+SBF   000.77 170.5 m E Sg      2011/03/26 03:43:58.4  -0.1                          T                1.7  .24        Md 1.5  4664361
+LPG   000.95 337.9 m E Pg      2011/03/26 03:43:52.0  -0.1                          T                                        4664367
+LPG   000.95 337.9 m E Sg      2011/03/26 03:44:03.7  -0.8                          T                1.0  .26 Ml 1.4 Md 1.4  4664357
+LPL   000.97 337.6 m E Pg      2011/03/26 03:43:52.7   0.2                          T                                        4664368
+LPL   000.97 337.6 m E Sg      2011/03/26 03:44:05.1   0.0                          T                1.2  .31 Ml 1.4         4664358
+ORIF  001.03 287.4 m E Pg      2011/03/26 03:43:53.4   0.0                          T                                        4664369
+ORIF  001.03 287.4 m E Sg      2011/03/26 03:44:06.0  -0.7                          T                 .5  .24 Ml 1.2         4664359
+SMRF  001.37 242.6 m E Pg      2011/03/26 03:43:59.7   0.1                          T                                        4664366
+SMRF  001.37 242.6 m E Sg      2011/03/26 03:44:17.1  -0.1                          T                 .3  .24 Ml 1.1         4664356
+LMR   001.39 203.1 m E Pg      2011/03/26 03:44:00.2   0.2                          T                                        4664365
+LMR   001.39 203.1 m E Sg      2011/03/26 03:44:17.6  -0.4                          T                3.8  .41 Ml 2.0         4664355
+PGF   002.42 148.0 m E Pn      2011/03/26 03:44:12.8  -0.1                          T                                        4664363
+PGF   002.42 148.0 m E Sn      2011/03/26 03:44:41.5   0.1                          T                  1  .32 Ml 2.0         4664362
+
+.
+EVENT     257601
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 04:14:56.9     44.6174    7.2695      2.0      16    7 193  Ml 1.1  6  Md 1.4  3              js067245    257601
+
+      0.20   +-  0.09       1.9    1.0   75.54 +-  0.0    0.37   1.40   +-0.2      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.37 287.3 m E Pg      2011/03/26 04:15:04.4   0.1                          T                                        4664386
+MBDF  000.37 287.3 m E Sg      2011/03/26 04:15:09.0  -0.2                          T                4.7  .28        Md 1.4  4664379
+SBF   000.76 171.0 m E Pg      2011/03/26 04:15:11.4   0.0                          T                                        4664382
+SBF   000.76 171.0 m E Sg      2011/03/26 04:15:20.7  -0.6                          T                1.1  .34        Md 1.5  4664373
+LPG   000.95 337.5 m E Pg      2011/03/26 04:15:14.9  -0.3                          T                                        4664383
+LPG   000.95 337.5 m E Sg      2011/03/26 04:15:27.4  -0.2                          T                 .6  .18 Ml 1.3 Md 1.4  4664376
+LPL   000.98 337.2 m E Pg      2011/03/26 04:15:15.7   0.2                          T                                        4664384
+LPL   000.98 337.2 m E Sg      2011/03/26 04:15:28.1  -0.1                          T                 .6  .32 Ml 1.1         4664377
+ORIF  001.03 287.4 m E Pg      2011/03/26 04:15:16.4   0.0                          T                                        4664385
+ORIF  001.03 287.4 m E Sg      2011/03/26 04:15:29.6  -0.2                          T                 .3  .29 Ml  .8         4664378
+SMRF  001.38 242.8 m E Pg      2011/03/26 04:15:22.7   0.0                          T                                        4664380
+SMRF  001.38 242.8 m E Sg      2011/03/26 04:15:40.1  -0.3                          T                 .2  .21 Ml 1           4664375
+LMR   001.40 203.4 m E Pg      2011/03/26 04:15:23.0   0.1                          T                                        4664381
+LMR   001.40 203.4 m E Sg      2011/03/26 04:15:41.0   0.1                          T                 .9  .35 Ml 1.4         4664374
+
+.
+EVENT     257602
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 04:16:15.5     44.6199    7.2574      2.0      20    8 170  Ml 1.4  8  Md 1.5  3              js067245    257602
+
+      0.19   +-  0.06       1.4     .8   59.07 +-  0.0    0.36   2.43   +-0.3      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.36 287.3 m E Pg      2011/03/26 04:16:22.9   0.2                          T                                        4664406
+MBDF  000.36 287.3 m E Sg      2011/03/26 04:16:27.0  -0.5                          T                7.9  .28        Md 1.4  4664391
+SBF   000.77 170.3 m E Pg      2011/03/26 04:16:29.9  -0.1                          T                                        4664400
+SBF   000.77 170.3 m E Sg      2011/03/26 04:16:39.8  -0.2                          T                 .4  .16        Md 1.5  4664397
+LPG   000.95 338.0 m E Pg      2011/03/26 04:16:33.3  -0.3                          T                                        4664403
+LPG   000.95 338.0 m E Sg      2011/03/26 04:16:46.0   0.1                          T                 .8  .19 Ml 1.4 Md 1.4  4664394
+LPL   000.97 337.6 m E Pg      2011/03/26 04:16:34.2   0.3                          T                                        4664404
+LPL   000.97 337.6 m E Sg      2011/03/26 04:16:46.6   0.0                          T                1.2  .32 Ml 1.4         4664393
+ORIF  001.03 287.4 m E Pg      2011/03/26 04:16:34.9   0.1                          T                                        4664405
+ORIF  001.03 287.4 m E Sg      2011/03/26 04:16:47.6  -0.5                          T                 .6  .24 Ml 1.2         4664392
+SMRF  001.37 242.5 m E Pg      2011/03/26 04:16:41.1   0.1                          T                                        4664402
+SMRF  001.37 242.5 m E Sg      2011/03/26 04:16:58.7   0.0                          T                 .4  .33 Ml 1.0         4664395
+LMR   001.39 203.0 m E Pg      2011/03/26 04:16:41.6   0.1                          T                                        4664401
+LMR   001.39 203.0 m E Sg      2011/03/26 04:16:59.5   0.0                          T                1.4  .33 Ml 1.6         4664396
+PGF   002.43 148.0 m E Pn      2011/03/26 04:16:54.3  -0.1                          T                                        4664399
+PGF   002.43 148.0 m E Sn      2011/03/26 04:17:23.0   0.0                          T                 .6  .20 Ml 2.0         4664398
+
+.
+EVENT     257603
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 04:19:22.5     44.6157    7.2655      2.0      16    7 192  Ml 1.1  6  Md 1.3  3              js067245    257603
+
+      0.13   +-  0.06       1.3     .7   75.51 +-  0.0    0.37   1.39   +-0.1      +-0.1                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.37 287.7 m E Pg      2011/03/26 04:19:30.0   0.1                          T                                        4664422
+MBDF  000.37 287.7 m E Sg      2011/03/26 04:19:34.7  -0.1                          T                2.5  .21        Md 1.3  4664409
+SBF   000.76 170.7 m E Pg      2011/03/26 04:19:36.8  -0.2                          T                                        4664416
+SBF   000.76 170.7 m E Sg      2011/03/26 04:19:47.0   0.1                          T                 .4  .15        Md 1.4  4664415
+LPG   000.95 337.7 m E Pg      2011/03/26 04:19:40.6  -0.2                          T                                        4664419
+LPG   000.95 337.7 m E Sg      2011/03/26 04:19:53.2   0.0                          T                 .6  .24 Ml 1.2 Md 1.3  4664412
+LPL   000.98 337.4 m E Pg      2011/03/26 04:19:41.4   0.2                          T                                        4664420
+LPL   000.98 337.4 m E Sg      2011/03/26 04:19:53.8   0.0                          T                 .6  .32 Ml 1.1         4664411
+ORIF  001.03 287.5 m E Pg      2011/03/26 04:19:42.0   0.0                          T                                        4664421
+ORIF  001.03 287.5 m E Sg      2011/03/26 04:19:55.2  -0.2                          T                 .6  .32 Ml 1.1         4664410
+SMRF  001.37 242.8 m E Pg      2011/03/26 04:19:48.2   0.1                          T                                        4664418
+SMRF  001.37 242.8 m E Sg      2011/03/26 04:20:05.8  -0.1                          T                 .3  .34 Ml  .9         4664413
+LMR   001.39 203.3 m E Pg      2011/03/26 04:19:48.6   0.1                          T                                        4664417
+LMR   001.39 203.3 m E Sg      2011/03/26 04:20:06.6   0.1                          T                 .5  .23 Ml 1.3         4664414
+
+.
+EVENT     257604
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 04:24:14.8     44.6185    7.2698      2.0      16    7 193  Ml 1.0  6  Md 1.3  3              js067245    257604
+
+      0.11   +-  0.06       1.2     .6   75.54 +-  0.0    0.37   1.40   +-0.3      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.37 287.1 m E Pg      2011/03/26 04:24:22.3   0.1                          T                                        4664438
+MBDF  000.37 287.1 m E Sg      2011/03/26 04:24:27.0  -0.2                          T                3.2  .28        Md 1.3  4664425
+SBF   000.76 171.0 m E Pg      2011/03/26 04:24:29.2  -0.1                          T                                        4664432
+SBF   000.76 171.0 m E Sg      2011/03/26 04:24:39.2  -0.1                          T                 .3  .17        Md 1.4  4664431
+LPG   000.95 337.5 m E Pg      2011/03/26 04:24:32.8  -0.2                          T                                        4664435
+LPG   000.95 337.5 m E Sg      2011/03/26 04:24:45.4   0.0                          T                 .4  .20 Ml 1.1 Md 1.3  4664428
+LPL   000.98 337.2 m E Pg      2011/03/26 04:24:33.6   0.2                          T                                        4664436
+LPL   000.98 337.2 m E Sg      2011/03/26 04:24:46.0   0.0                          T                 .4  .25 Ml 1.0         4664427
+ORIF  001.03 287.3 m E Pg      2011/03/26 04:24:34.2  -0.1                          T                                        4664437
+ORIF  001.03 287.3 m E Sg      2011/03/26 04:24:47.7   0.0                          T                 .3  .22 Ml 1.0         4664426
+SMRF  001.38 242.8 m E Pg      2011/03/26 04:24:40.5   0.0                          T                                        4664434
+SMRF  001.38 242.8 m E Sg      2011/03/26 04:24:58.2  -0.1                          T                 .1  .22 Ml  .5         4664429
+LMR   001.40 203.4 m E Pg      2011/03/26 04:24:40.9   0.1                          T                                        4664433
+LMR   001.40 203.4 m E Sg      2011/03/26 04:24:58.9   0.1                          T                 .5  .19 Ml 1.4         4664430
+
+.
+EVENT     257605
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 04:48:32.4     44.6189    7.2687      2.0      16    7 193  Ml 1.4  6  Md 1.4  3              js067245    257605
+
+      0.14   +-  0.07       1.4     .7   75.53 +-  0.0    0.37   1.40   +-0.3      +-0.1                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.37 287.1 m E Pg      2011/03/26 04:48:39.9   0.1                          T                                        4664454
+MBDF  000.37 287.1 m E Sg      2011/03/26 04:48:44.7   0.0                          T               14.8  .28        Md 1.4  4664441
+SBF   000.77 170.9 m E Pg      2011/03/26 04:48:46.9   0.0                          T                                        4664448
+SBF   000.77 170.9 m E Sg      2011/03/26 04:48:56.8  -0.1                          T                1.9  .21        Md 1.4  4664447
+LPG   000.95 337.5 m E Pg      2011/03/26 04:48:50.4  -0.3                          T                                        4664451
+LPG   000.95 337.5 m E Sg      2011/03/26 04:49:02.8  -0.2                          T                1.2  .26 Ml 1.5 Md 1.3  4664444
+LPL   000.97 337.2 m E Pg      2011/03/26 04:48:51.2   0.2                          T                                        4664452
+LPL   000.97 337.2 m E Sg      2011/03/26 04:49:03.7   0.0                          T                1.6  .31 Ml 1.5         4664443
+ORIF  001.03 287.3 m E Pg      2011/03/26 04:48:51.9   0.0                          T                                        4664453
+ORIF  001.03 287.3 m E Sg      2011/03/26 04:49:05.2  -0.1                          T                 .7  .34 Ml 1.1         4664442
+SMRF  001.38 242.7 m E Pg      2011/03/26 04:48:58.1   0.0                          T                                        4664450
+SMRF  001.38 242.7 m E Sg      2011/03/26 04:49:15.8  -0.1                          T                 .7  .30 Ml 1.4         4664445
+LMR   001.40 203.4 m E Pg      2011/03/26 04:48:58.5   0.1                          T                                        4664449
+LMR   001.40 203.4 m E Sg      2011/03/26 04:49:16.2  -0.3                          T                1.8  .24 Ml 1.9         4664446
+
+.
+EVENT     257606
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 05:00:38.9     44.6191    7.2653      2.0      20    8 170  Ml 1.5  8  Md 1.7  3              js067245    257606
+
+      0.11   +-  0.04        .9     .5   59.06 +-  0.0    0.37   2.42   +-0.3      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.37 287.2 m E Pg      2011/03/26 05:00:46.3   0.1                          T                                        4664348
+MBDF  000.37 287.2 m E Sg      2011/03/26 05:00:51.1  -0.1                          T               15.1  .26        Md 1.7  4664343
+SBF   000.77 170.8 m E Pg      2011/03/26 05:00:53.3  -0.1                          T                                        4664340
+SBF   000.77 170.8 m E Sg      2011/03/26 05:01:03.3  -0.1                          T                2.5  .26        Md 1.8  4664344
+LPG   000.95 337.7 m E Pg      2011/03/26 05:00:56.9  -0.2                          T                                        4664345
+LPG   000.95 337.7 m E Sg      2011/03/26 05:01:09.5   0.0                          T                 .7  .18 Ml 1.4 Md 1.7  4664337
+LPL   000.97 337.4 m E Pg      2011/03/26 05:00:57.6   0.2                          T                                        4664346
+LPL   000.97 337.4 m E Sg      2011/03/26 05:01:10.1   0.0                          T                1.8  .26 Ml 1.6         4664338
+ORIF  001.03 287.4 m E Pg      2011/03/26 05:00:58.3   0.0                          T                                        4664347
+ORIF  001.03 287.4 m E Sg      2011/03/26 05:01:11.7   0.0                          T                 .7  .26 Ml 1.3         4664339
+SMRF  001.37 242.7 m E Pg      2011/03/26 05:01:04.6   0.0                          T                                        4664342
+SMRF  001.37 242.7 m E Sg      2011/03/26 05:01:22.3  -0.1                          T                 .5  .24 Ml 1.3         4664336
+LMR   001.40 203.3 m E Pg      2011/03/26 05:01:05.0   0.1                          T                                        4664341
+LMR   001.40 203.3 m E Sg      2011/03/26 05:01:23.1   0.1                          T                2.1  .27 Ml 1.9         4664335
+PGF   002.42 148.1 m E Pn      2011/03/26 05:01:17.8  -0.1                          T                                        4664334
+PGF   002.42 148.1 m E Sn      2011/03/26 05:01:46.4   0.1                          T                 .9  .26 Ml 2.1         4664333
+
+.
+EVENT     257607
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 05:02:57.8     44.6198    7.2717      2.0      16    7 193  Ml 1.1  6  Md 1.4  3              js067245    257607
+
+      0.13   +-  0.07       1.3     .7   75.55 +-  0.0    0.37   1.40   +-0.2      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.37 286.9 m E Pg      2011/03/26 05:03:05.4   0.1                          T                                        4664470
+MBDF  000.37 286.9 m E Sg      2011/03/26 05:03:09.9  -0.3                          T                5.7  .26        Md 1.4  4664457
+SBF   000.77 171.1 m E Pg      2011/03/26 05:03:12.2  -0.2                          T                                        4664464
+SBF   000.77 171.1 m E Sg      2011/03/26 05:03:22.4   0.0                          T                 .6  .19        Md 1.4  4664463
+LPG   000.95 337.4 m E Pg      2011/03/26 05:03:15.9  -0.2                          T                                        4664467
+LPG   000.95 337.4 m E Sg      2011/03/26 05:03:28.4   0.0                          T                 .9  .32 Ml 1.3 Md 1.3  4664460
+LPL   000.97 337.1 m E Pg      2011/03/26 05:03:16.6   0.2                          T                                        4664468
+LPL   000.97 337.1 m E Sg      2011/03/26 05:03:29.1   0.0                          T                 .2  .20 Ml  .8         4664459
+ORIF  001.04 287.2 m E Pg      2011/03/26 05:03:17.4   0.0                          T                                        4664469
+ORIF  001.04 287.2 m E Sg      2011/03/26 05:03:30.8   0.0                          T                 .4  .28 Ml  .9         4664458
+SMRF  001.38 242.7 m E Pg      2011/03/26 05:03:23.7   0.1                          T                                        4664466
+SMRF  001.38 242.7 m E Sg      2011/03/26 05:03:41.3  -0.1                          T                 .2  .25 Ml  .9         4664461
+LMR   001.40 203.4 m E Pg      2011/03/26 05:03:24.0   0.1                          T                                        4664465
+LMR   001.40 203.4 m E Sg      2011/03/26 05:03:42.0   0.0                          T                 .9  .30 Ml 1.5         4664462
+
+.
+EVENT     257608
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 07:36:28.6     37.2716   -8.3026     10.0 f    81   16 082  Ml 3.9 19                         js067245    257608
+
+      1.05   +-  0.19       4.4    3.7  148.77 +-  0.0    0.28  13.12   +-0.2                            m i ke
+
+PORTUGAL
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  007.96 040.7 m E Pn      2011/03/26 07:38:23.8   1.9                          T                                        4664605
+SJPF  007.96 040.7 m E Sn      2011/03/26 07:39:46.0  -0.7                          T                                        4664601
+SJPF  007.96 040.7 m E Sg      2011/03/26 07:40:39.9   2.4                          T               36.3  .59 Ml 4.2         4664575
+ETSF  008.17 044.2 m E Pn      2011/03/26 07:38:26.3   1.5                          T                                        4664604
+ETSF  008.17 044.2 m E Sn      2011/03/26 07:39:50.6  -1.2                          T                                        4664600
+ETSF  008.17 044.2 m E Sg      2011/03/26 07:40:46.6   2.3                          T               29.4  .68 Ml 4.1         4664574
+EPF   008.76 046.3 m E Pn      2011/03/26 07:38:34.6   1.7                          T                                        4664603
+EPF   008.76 046.3 m E Sn      2011/03/26 07:40:05.2  -0.8                          T                                        4664576
+EPF   008.76 046.3 m E Sg      2011/03/26 07:41:05.3   2.6                          T               35.8  .74 Ml 4.2         4664573
+LFF   010.25 038.8 m E Pn      2011/03/26 07:38:53.5   0.5                          T                                        4664599
+LFF   010.25 038.8 m E Sn      2011/03/26 07:40:41.1  -0.3                          T                9.1  .52 Ml 3.8         4664578
+RJF   010.90 039.5 m E Pn      2011/03/26 07:39:02.0   0.1                          T                                        4664598
+RJF   010.90 039.5 m E Sn      2011/03/26 07:40:56.1  -0.9                          T                4.9  .38 Ml 3.6         4664579
+CAF   010.93 042.4 m E Pn      2011/03/26 07:39:03.3   0.9                          T                                        4664602
+CAF   010.93 042.4 m E Sn      2011/03/26 07:40:57.1  -0.6                          T                5.9  .44 Ml 4.0         4664577
+MFF   011.12 030.5 m E Pn      2011/03/26 07:39:05.1   0.2                          T                                        4664597
+MFF   011.12 030.5 m E Sn      2011/03/26 07:41:01.2  -1.0                          T                5.9  .56 Ml 4.1         4664580
+QUIF  011.29 017.9 m E Pn      2011/03/26 07:39:06.2  -0.9                          T                                        4664596
+QUIF  011.29 017.9 m E Sn      2011/03/26 07:41:04.9  -1.3                          T                3.4  .34 Ml 3.9         4664587
+ROSF  011.66 016.8 m E Pn      2011/03/26 07:39:12.0  -0.2                          T                                        4664594
+ROSF  011.66 016.8 m E Sn      2011/03/26 07:41:13.3  -1.6                          T                2.3  .29 Ml 3.8         4664589
+SGMF  011.76 019.2 m E Pn      2011/03/26 07:39:13.1  -0.4                          T                                        4664595
+SGMF  011.76 019.2 m E Sn      2011/03/26 07:41:15.7  -1.7                          T                4.0  .50 Ml 3.9         4664588
+TCF   011.94 037.7 m E Pn      2011/03/26 07:39:15.6  -0.4                          T                                        4664572
+TCF   011.94 037.7 m E Sn      2011/03/26 07:41:20.7  -1.0                          T                3.0  .42 Ml 3.9         4664569
+GRR   012.37 023.8 m E Pn      2011/03/26 07:39:21.4  -0.5                          T                                        4664584
+GRR   012.37 023.8 m E Sn      2011/03/26 07:41:30.9  -1.2                          T                3.4  .44 Ml 3.8         4664581
+BGF   012.44 038.3 m E Pn      2011/03/26 07:39:22.2  -0.7                          T                                        4664593
+BGF   012.44 038.3 m E Sn      2011/03/26 07:41:32.8  -0.9                          T               14.4  .52 Ml 4.5         4664591
+LDF   012.79 025.3 m E Pn      2011/03/26 07:39:27.1  -0.6                          T                                        4664585
+LDF   012.79 025.3 m E Sn      2011/03/26 07:41:41.1  -1.1                          T                2.4  .43 Ml 3.8         4664582
+FLN   012.82 023.9 m E Pn      2011/03/26 07:39:27.6  -0.4                          T                                        4664586
+FLN   012.82 023.9 m E Sn      2011/03/26 07:41:41.6  -1.2                          T                2.7  .43 Ml 3.7         4664583
+SSF   013.12 038.1 m E Pn      2011/03/26 07:39:31.7  -0.3                          T                                        4664571
+SSF   013.12 038.1 m E Sn      2011/03/26 07:41:48.8  -1.1                          T                3.3  .68 Ml 3.8         4664570
+
+.
+EVENT     257609
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 08:49:26.0     48.0619    9.4920     10.0      40   11 090  Ml 2.2 11                         js067245    257609
+
+      0.46   +-  0.06       1.1     .9  120.75 +-  0.0    0.25   3.89   +-0.3                            m i ke
+
+GERMANY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LANF  001.45 310.0 m E Pn      2011/03/26 08:49:50.8   0.1                          T                                        4664627
+LANF  001.45 310.0 m E Pg      2011/03/26 08:49:53.2   0.1                          T                                        4664628
+LANF  001.45 310.0 m E Sg      2011/03/26 08:50:11.8   0.0                          T                5.6  .25 Ml 2.4         4664629
+CDF   001.52 284.1 m E Pn      2011/03/26 08:49:51.7   0.0                          T                                        4664626
+CDF   001.52 284.1 m E Pg      2011/03/26 08:49:54.4  -0.1                          T                                        4664636
+CDF   001.52 284.1 m E Sg      2011/03/26 08:50:13.9  -0.3                          T                4.2  .22 Ml 2.4         4664633
+HINF  001.79 263.1 m E Pn      2011/03/26 08:49:55.2  -0.1                          T                                        4664623
+HINF  001.79 263.1 m E Pg      2011/03/26 08:49:58.8  -0.6                          T                                        4664634
+HINF  001.79 263.1 m E Sg      2011/03/26 08:50:22.5   0.0                          T                6.5  .36 Ml 2.4         4664632
+HAU   002.11 269.6 m E Pn      2011/03/26 08:49:59.4  -0.2                          T                                        4664624
+HAU   002.11 269.6 m E Pg      2011/03/26 08:50:04.9  -0.3                          T                                        4664635
+HAU   002.11 269.6 m E Sg      2011/03/26 08:50:32.4  -0.1                          T                4.5  .32 Ml 2.2         4664631
+RUP   002.30 316.5 m E Pn      2011/03/26 08:50:02.2   0.0                          T                                        4664625
+RUP   002.30 316.5 m E Sn      2011/03/26 08:50:28.9   0.1                          T                                        4664618
+RUP   002.30 316.5 m E Sg      2011/03/26 08:50:38.0  -0.2                          T                                        4664617
+THEF  002.35 275.4 m E Pn      2011/03/26 08:50:03.0   0.1                          T                                        4664622
+THEF  002.35 275.4 m E Sg      2011/03/26 08:50:39.9   0.0                          T                4.5  .27 Ml 2.5         4664630
+PAGF  002.56 282.5 m E Pn      2011/03/26 08:50:05.8   0.0  99.0  -0.7              T                                        4664621
+PAGF  002.56 282.5 m E Pg      2011/03/26 08:50:13.4  -0.1                          T                                        4664609
+PAGF  002.56 282.5 m E Sg      2011/03/26 08:50:46.5   0.0                          T                 .4  .28 Ml 1.5         4664616
+CABF  002.73 239.2 m E Pn      2011/03/26 08:50:08.2   0.0                          T                                        4664608
+CABF  002.73 239.2 m E Pg      2011/03/26 08:50:16.8   0.0                          T                                        4664611
+CABF  002.73 239.2 m E Sg      2011/03/26 08:50:52.0   0.0                          T                 .7  .19 Ml 1.9         4664610
+MEZF  003.00 280.1 m E Pn      2011/03/26 08:50:11.6  -0.1                          T                                        4664612
+SFTF  002.99 274.4 m E Pn      2011/03/26 08:50:11.6   0.1                          T                                        4664613
+SFTF  002.99 274.4 m E Sg      2011/03/26 08:50:59.7   0.0                          T                5.3  .47 Ml 2.5         4664614
+MEZF  003.00 280.1 m E Sg      2011/03/26 08:51:00.0  -0.1                          T                3.6  .28 Ml 2.5         4664615
+LOR   003.89 260.3 m E Pn      2011/03/26 08:50:24.0   0.1  85.3  9.1               T                                        4664620
+LOR   003.89 260.3 m E Sn      2011/03/26 08:51:06.7  -0.2                          T                  1  .36 Ml 2.1         4664619
+
+.
+EVENT     257610
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 09:51:19.3     44.1836    6.5670      2.0      20    9 101  Ml 1.6  5  Md 1.8  3              js067245    257610
+
+      0.19   +-  0.05       1.4     .9   80.41 +-  0.0    0.56   1.51   +-0.1      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.56 015.0 m E Pg      2011/03/26 09:51:29.8  -0.4                          T                                        4664649
+MBDF  000.56 015.0 m E Sg      2011/03/26 09:51:37.6   0.0                          T                2.2  .34        Md 1.8  4664647
+FRF   000.63 174.7 m E Pg      2011/03/26 09:51:30.9  -0.3                          T                                        4664656
+FRF   000.63 174.7 m E Sg      2011/03/26 09:51:39.4   0.1                          T                2.9  .28        Md 1.9  4664652
+SBF   000.70 116.8 m E Pg      2011/03/26 09:51:32.7   0.0                          T                                        4664648
+SBF   000.70 116.8 m E Sg      2011/03/26 09:51:41.9   0.0                          T                2.2  .21        Md 1.8  4664645
+SMRF  000.74 254.1 m E Pg      2011/03/26 09:51:33.1  -0.2                          T                                        4664654
+SMRF  000.74 254.1 m E Sg      2011/03/26 09:51:43.1   0.0                          T                2.5  .38                4664653
+LMR   000.85 182.8 m E Pg      2011/03/26 09:51:35.7   0.4                          T                                        4664655
+LMR   000.85 182.8 m E Sg      2011/03/26 09:51:46.3   0.0                          T                3.8  .24                4664651
+ORIF  000.88 326.5 m E Pg      2011/03/26 09:51:36.2   0.1                          T                                        4664650
+ORIF  000.88 326.5 m E Sg      2011/03/26 09:51:47.7   0.2                          T                4.5  .58 Ml 1.7         4664646
+LPG   001.32 005.6 m E Pg      2011/03/26 09:51:44.5   0.2                          T                                        4664644
+LPG   001.32 005.6 m E Sg      2011/03/26 09:52:01.5   0.1                          T                 .9  .18 Ml 1.7         4664641
+LPL   001.34 005.0 m E Pg      2011/03/26 09:51:44.5   0.0                          T                                        4664643
+LPL   001.34 005.0 m E Sg      2011/03/26 09:52:02.0   0.2                          T                1.2  .25 Ml 1.6         4664642
+VIVF  001.51 297.1 m E Pn      2011/03/26 09:51:45.8   0.1                          T                                        4664640
+VIVF  001.51 297.1 m E Sn      2011/03/26 09:52:04.8   0.0                          T                1.2  .41 Ml 1.5         4664639
+
+.
+EVENT     257624
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 12:30:39.9     47.3319   -3.7504     15.0      25    7 272  Ml 2.2  8  Md 2.1  3              js067245    257624
+
+      0.69   +-  0.15       2.6    1.8   61.05 +-  0.0    0.71   2.75   +-0.2      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+QUIF  000.71 033.8 m E Pg      2011/03/26 12:30:53.4  -0.1                          T                                        4664681
+QUIF  000.71 033.8 m E Pn      2011/03/26 12:30:53.8  -0.1                          T                                        4664673
+QUIF  000.71 033.8 m E Sg      2011/03/26 12:31:03.1   0.3                          T                9.9  .22        Md 2.1  4664676
+ROSF  001.06 017.5 m E Pn      2011/03/26 12:30:58.4  -0.2                          T                                        4664674
+ROSF  001.06 017.5 m E Pg      2011/03/26 12:30:59.6  -0.2                          T                                        4664679
+ROSF  001.06 017.5 m E Sg      2011/03/26 12:31:13.8   0.2                          T               10.4  .24 Ml 2.5 Md 2.1  4664678
+SGMF  001.22 040.6 m E Pn      2011/03/26 12:31:00.9   0.0                          T                                        4664675
+SGMF  001.22 040.6 m E Pg      2011/03/26 12:31:03.2   0.3                          T                                        4664680
+SGMF  001.22 040.6 m E Sg      2011/03/26 12:31:19.6   0.8                          T                3.8  .24 Ml 2.1 Md 2.1  4664677
+GRR   002.22 060.4 m E Pn      2011/03/26 12:31:14.4  -0.1                          T                                        4664665
+GRR   002.22 060.4 m E Pg      2011/03/26 12:31:21.2   0.0                          T                                        4664664
+GRR   002.22 060.4 m E Sg      2011/03/26 12:31:49.7   0.0                          T                1.9  .22 Ml 2.0         4664667
+MFF   002.57 105.2 m E Pn      2011/03/26 12:31:19.5   0.2                          T                                        4664670
+MFF   002.57 105.2 m E Sg      2011/03/26 12:32:00.7  -0.2                          T                  1  .22 Ml 2.1         4664669
+FLN   002.62 055.7 m E Pn      2011/03/26 12:31:20.0   0.0                          T                                        4664672
+FLN   002.62 055.7 m E Pg      2011/03/26 12:31:28.7   0.1 236.6  -1.5              T                                        4664663
+FLN   002.62 055.7 m E Sg      2011/03/26 12:32:02.1  -0.2                          T                1.2  .26 Ml 1.8         4664668
+LDF   002.75 061.3 m E Pn      2011/03/26 12:31:21.7   0.0                          T                                        4664671
+LDF   002.75 061.3 m E Pg      2011/03/26 12:31:30.7  -0.2                          T                                        4664662
+LDF   002.75 061.3 m E Sg      2011/03/26 12:32:06.2   0.0                          T                1.3  .31 Ml 2.0         4664666
+
+.
+EVENT     257625
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 15:21:35.8     47.7184     .2249      2.0      32   13 113  Ml 2.0 17  Md 2.2  3              js067245    257625
+
+      0.58   +-  0.06       1.6    1.0   49.19 +-  0.0    0.91   3.07   +-0.2      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LDF   000.91 345.3 m E Pg      2011/03/26 15:21:52.8   0.0                          T                                        4664715
+LDF   000.91 345.3 m E Sg      2011/03/26 15:22:05.0   0.5                          T               13.0  .26 Ml 2.4 Md 2.2  4664710
+GRR   000.99 313.1 m E Pg      2011/03/26 15:21:54.6   0.3                          T                                        4664713
+GRR   000.99 313.1 m E Sg      2011/03/26 15:22:07.3   0.1                          T                3.9  .18 Ml 2.0 Md 2.2  4664709
+FLN   001.15 335.9 m E Pg      2011/03/26 15:21:57.3   0.1 158.4  3.0               T                                        4664714
+FLN   001.15 335.9 m E Sg      2011/03/26 15:22:12.2   0.2 161.6  6.2               T                4.0  .26 Ml 1.9         4664711
+MFF   001.14 192.9 m E Pg      2011/03/26 15:21:57.5   0.3                          T                                        4664712
+MFF   001.14 192.9 m E Sg      2011/03/26 15:22:12.1   0.1                          T                3.5  .26 Ml 2.2 Md 2.2  4664708
+SGMF  001.94 287.0 m E Pn      2011/03/26 15:22:08.1   0.1                          T                                        4664694
+SGMF  001.94 287.0 m E Sn      2011/03/26 15:22:31.7   0.2                          T                2.4  .39 Ml 2.0         4664697
+TCF   001.97 135.8 m E Pn      2011/03/26 15:22:08.5   0.0                          T                                        4664705
+TCF   001.97 135.8 m E Sn      2011/03/26 15:22:32.3   0.0                          T                1.1  .27 Ml 1.8         4664700
+QUIF  002.29 276.2 m E Pn      2011/03/26 15:22:13.0   0.2                          T                                        4664695
+QUIF  002.29 276.2 m E Sn      2011/03/26 15:22:40.2   0.3                          T                1.2  .27 Ml 1.9         4664696
+SSF   002.32 105.2 m E Pn      2011/03/26 15:22:13.3   0.1                          T                                        4664703
+SSF   002.32 105.2 m E Sn      2011/03/26 15:22:40.7   0.0                          T                2.7  .52 Ml 2.1         4664701
+LOR   002.50 099.0 m E Pn      2011/03/26 15:22:15.7   0.0 275.6  -6.0              T                                        4664704
+LOR   002.50 099.0 m E Sn      2011/03/26 15:22:44.9  -0.1                          T                1.4  .26 Ml 2.1         4664702
+RJF   002.57 159.3 m E Pn      2011/03/26 15:22:16.7   0.0                          T                                        4664693
+RJF   002.57 159.3 m E Sg      2011/03/26 15:22:56.6  -0.1                          T                1.9  .27 Ml 1.8         4664688
+LFF   002.80 172.5 m E Pn      2011/03/26 15:22:19.8   0.1                          T                                        4664692
+LFF   002.80 172.5 m E Sg      2011/03/26 15:23:03.8   0.1                          T                4.2  .33 Ml 2.3         4664689
+ROSF  002.43 286.0 m E Pg      2011/03/26 15:22:20.2  -0.6                          T                                        4664707
+ROSF  002.43 286.0 m E Sn      2011/03/26 15:22:43.4   0.2                          T                1.4  .39 Ml 1.9         4664698
+CAF   003.07 154.8 m E Pn      2011/03/26 15:22:23.5   0.0                          T                                        4664691
+CAF   003.07 154.8 m E Sg      2011/03/26 15:23:12.2   0.0                          T                 .9  .30 Ml 1.9         4664690
+
+.
+EVENT     257611
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/26 16:39:08.4     43.5795    5.3570      2.0      18    8 189  Ml 2.0  8  Md 2.1  3              js067245    257611
+
+      0.39   +-  0.11       2.0    1.2   27.92 +-  0.0    0.43   1.53   +-0.4      +-0.0                 m i ke
+
+NEAR SOUTH COAST OF FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SMRF  000.43 021.7 m E Pg      2011/03/26 16:39:16.7   0.0                          T                                        4664733
+SMRF  000.43 021.7 m E Sg      2011/03/26 16:39:22.5   0.2                          T               13.1  .30        Md 2.1  4664729
+LMR   000.87 105.9 m E Pg      2011/03/26 16:39:24.8  -0.1                          T                                        4664731
+LMR   000.87 105.9 m E Sg      2011/03/26 16:39:36.2   0.0                          T               19.7  .36 Ml 2.5 Md 2.1  4664727
+FRF   000.94 090.7 m E Pg      2011/03/26 16:39:26.5   0.5                          T                                        4664732
+FRF   000.94 090.7 m E Sg      2011/03/26 16:39:38.3   0.1                          T                 10  .23 Ml 2.5 Md 2.0  4664728
+LASF  001.19 295.1 m E Pg      2011/03/26 16:39:30.7   0.0                          T                                        4664725
+LASF  001.19 295.1 m E Sg      2011/03/26 16:39:46.3   0.1                          T                1.5  .21 Ml 1.8         4664721
+VIVF  001.37 339.2 m E Pg      2011/03/26 16:39:34.0   0.0                          T                                        4664724
+VIVF  001.37 339.2 m E Sg      2011/03/26 16:39:51.5  -0.2                          T                2.1  .32 Ml 1.8         4664720
+ORIF  001.39 015.5 m E Pg      2011/03/26 16:39:34.6   0.1                          T                                        4664722
+ORIF  001.39 015.5 m E Sg      2011/03/26 16:39:52.5   0.0                          T                2.2  .46 Ml 1.7         4664718
+SBF   001.53 078.6 m E Pg      2011/03/26 16:39:36.7  -0.4                          T                                        4664730
+SBF   001.53 078.6 m E Sg      2011/03/26 16:39:56.7  -0.2                          T               12.5  .45 Ml 2.5         4664726
+MBDF  001.53 041.1 m E Pg      2011/03/26 16:39:37.2   0.0                          T                                        4664723
+MBDF  001.53 041.1 m E Sg      2011/03/26 16:39:57.0  -0.1                          T                6.2  .60 Ml 2.1         4664719
+
+.
+EVENT     257626
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 00:25:30.1     43.0920    -.3758      2.0      28    7 096  Ml 1.8  5  Md 1.7  3              js067245    257626
+
+      0.42   +-  0.06       1.7    1.0  176.29 +-  0.0    0.03   2.60   +-0.1      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.24 214.9 m E Pg      2011/03/27 00:25:34.4  -0.5                          T                                        4664807
+ETSF  000.24 214.9 m E Sg      2011/03/27 00:25:37.6  -0.5                          T               16.3  .22        Md 1.7  4664803
+EPF   000.53 096.5 m E Pg      2011/03/27 00:25:40.0  -0.3                          T                                        4664806
+EPF   000.53 096.5 m E Sg      2011/03/27 00:25:47.2   0.0                          T                5.3  .22        Md 1.6  4664802
+SJPF  000.62 272.2 m E Pg      2011/03/27 00:25:41.8  -0.1                          T                                        4664805
+SJPF  000.62 272.2 m E Sg      2011/03/27 00:25:49.6  -0.4                          T                3.1  .28        Md 1.7  4664804
+MTLF  001.91 081.6 m E Pn      2011/03/27 00:26:02.1   0.1                          T                                        4664794
+MTLF  001.91 081.6 m E Sg      2011/03/27 00:26:30.5   0.2                          T                1.4  .32 Ml 1.8         4664801
+LFF   002.01 023.2 m E Pn      2011/03/27 00:26:03.2  -0.1                          T                                        4664797
+LFF   002.01 023.2 m E Sg      2011/03/27 00:26:33.3  -0.2                          T                3.1  .34 Ml 2.0         4664799
+CAF   002.54 043.0 m E Pn      2011/03/27 00:26:10.6   0.1                          T                                        4664796
+CAF   002.54 043.0 m E Sg      2011/03/27 00:26:49.9   0.0                          T                 .9  .23 Ml 1.9         4664798
+RJF   002.60 031.0 m E Pn      2011/03/27 00:26:11.2  -0.1                          T                                        4664795
+RJF   002.60 031.0 m E Sg      2011/03/27 00:26:51.5  -0.1                          T                 .7  .16 Ml 1.7         4664800
+
+.
+EVENT     257612
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 00:35:15.8     43.4715    7.1870      2.0      30   12 130  Ml 2.1 12  Md 2.1  3              js067245    257612
+
+      0.79   +-  0.18       4.1    3.2   27.29 +-  0.0    0.40   3.62   +-0.3      +-0.0                 m i ke
+
+NEAR SOUTH COAST OF FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+FRF   000.40 283.0 m E Pg      2011/03/27 00:35:24.9   1.3                          T                                        4664837
+FRF   000.40 283.0 m E Sg      2011/03/27 00:35:29.3   0.3                          T               54.4  .20        Md 2.1  4664831
+SBF   000.43 024.6 m E Pg      2011/03/27 00:35:25.4   1.2                          T                                        4664836
+SBF   000.43 024.6 m E Sg      2011/03/27 00:35:31.3   1.4                          T               62.4  .25        Md 2.0  4664829
+LMR   000.51 254.7 m E Pg      2011/03/27 00:35:27.4   1.8                          T                                        4664835
+LMR   000.51 254.7 m E Sg      2011/03/27 00:35:34.2   1.9                          T               18.7  .18        Md 2.0  4664830
+SMRF  001.27 293.9 m E Pn      2011/03/27 00:35:39.2   0.2                          T                                        4664828
+SMRF  001.27 293.9 m E Sg      2011/03/27 00:35:57.0   0.8                          T               17.1  .36 Ml 2.6         4664815
+MBDF  001.29 346.7 m E Pg      2011/03/27 00:35:39.8  -0.4                          T                                        4664834
+MBDF  001.29 346.7 m E Sg      2011/03/27 00:35:55.4  -1.4                          T                8.1  .36 Ml 2.3         4664832
+PGF   001.62 124.1 m E Pn      2011/03/27 00:35:44.1   0.3                          T                                        4664833
+PGF   001.62 124.1 m E Sn      2011/03/27 00:36:02.9  -1.1                          T                4.5  .22 Ml 2.6         4664814
+ORIF  001.73 327.4 m E Pn      2011/03/27 00:35:45.2  -0.1                          T                                        4664825
+ORIF  001.73 327.4 m E Sn      2011/03/27 00:36:07.0   0.5                          T                5.1  .45 Ml 2.2         4664818
+LPG   002.05 351.4 m E Pn      2011/03/27 00:35:50.3   0.4                          T                                        4664827
+LPG   002.05 351.4 m E Sn      2011/03/27 00:36:14.9   0.3                          T                1.3  .26 Ml 1.9         4664816
+LPL   002.07 351.1 m E Pn      2011/03/27 00:35:50.5   0.4                          T                                        4664826
+LPL   002.07 351.1 m E Sn      2011/03/27 00:36:15.2   0.3                          T                2.0  .33 Ml 2.0         4664817
+VIVF  002.28 308.3 m E Pn      2011/03/27 00:35:52.3  -0.4                          T                                        4664824
+VIVF  002.28 308.3 m E Sn      2011/03/27 00:36:18.0  -1.7                          T                2.1  .22 Ml 2.3         4664819
+LASF  002.49 285.2 m E Pn      2011/03/27 00:35:55.1  -0.4                          T                                        4664823
+LASF  002.49 285.2 m E Sn      2011/03/27 00:36:24.4  -0.3                          T                 .8  .32 Ml 1.7         4664820
+MTLF  003.62 269.6 m E Pn      2011/03/27 00:36:10.5  -0.5                          T                                        4664822
+MTLF  003.62 269.6 m E Sn      2011/03/27 00:36:50.8  -1.0                          T                 .7  .35 Ml 1.9         4664821
+
+.
+EVENT     257627
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 02:49:59.0     42.8186   -1.0553      2.0      28    3 100  Ml 1.5  1  Md 1.7  3              js067245    257627
+
+      0.32   +-  0.08       1.5    1.1   39.79 +-  0.0    0.12   1.05   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.32 337.1 m E Pg      2011/03/27 02:50:05.0  -0.2                          T                                        4664843
+SJPF  000.32 337.1 m E Sg      2011/03/27 02:50:10.6   1.1                          T                3.8  .26        Md 1.7  4664840
+ETSF  000.37 077.5 m E Pg      2011/03/27 02:50:06.5   0.2                          T                                        4664842
+ETSF  000.37 077.5 m E Sg      2011/03/27 02:50:13.3   2.0                          T                2.7  .31        Md 1.7  4664841
+EPF   001.05 077.9 m E Pg      2011/03/27 02:50:18.6  -0.1                          T                                        4664838
+EPF   001.05 077.9 m E Sg      2011/03/27 02:50:34.2   1.9                          T                 .9  .21 Ml 1.5 Md 1.7  4664839
+
+.
+EVENT     257613
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 03:55:33.3     48.0581    7.9188     10.0      23    8 041  Ml 1.5  6  Md 1.8  3              js067245    257613
+
+      0.31   +-  0.04        .9     .7    6.98 +-  0.0    0.07   1.97   +-0.3      +-0.2                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+CDF   000.56 309.7 m E Pg      2011/03/27 03:55:44.0  -0.2                          T                                        4664859
+CDF   000.56 309.7 m E Sg      2011/03/27 03:55:50.8  -0.7                          T                1.9  .28        Md 1.7  4664856
+HINF  000.76 251.8 m E Pg      2011/03/27 03:55:47.7   0.0                          T                                        4664858
+HINF  000.76 251.8 m E Sg      2011/03/27 03:55:57.8   0.1                          T                1.6  .29        Md 1.6  4664855
+LANF  000.93 355.4 m E Pg      2011/03/27 03:55:50.5  -0.3                          T                                        4664850
+LANF  000.93 355.4 m E Sg      2011/03/27 03:56:02.5  -0.4                          T                1.3  .19 Ml 1.6 Md 2.0  4664851
+HAU   001.06 267.7 m E Pg      2011/03/27 03:55:53.2   0.0                          T                                        4664857
+HAU   001.06 267.7 m E Sg      2011/03/27 03:56:07.0   0.1                          T                2.1  .30 Ml 1.5         4664854
+THEF  001.30 278.2 m E Pg      2011/03/27 03:55:57.7   0.0                          T                                        4664852
+THEF  001.30 278.2 m E Sg      2011/03/27 03:56:14.5   0.0                          T                3.0  .30 Ml 1.9         4664853
+PAGF  001.55 289.6 m E Pg      2011/03/27 03:56:02.2   0.0                          T                                        4664849
+PAGF  001.55 289.6 m E Sg      2011/03/27 03:56:22.0  -0.1                          T                 .4  .46 Ml 1.0         4664844
+SFTF  001.94 275.4 m E Pg      2011/03/27 03:56:09.4   0.1  94.8  1.5               T                                        4664847
+SFTF  001.94 275.4 m E Sg      2011/03/27 03:56:34.4   0.1                          T                 .7  .24 Ml 1.7         4664846
+MEZF  001.97 284.1 m E Pg      2011/03/27 03:56:09.9   0.0                          T                                        4664848
+MEZF  001.97 284.1 m E Sg      2011/03/27 03:56:35.2   0.0                          T                 .9  .42 Ml 1.5         4664845
+
+.
+EVENT     257628
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 05:58:55.2     42.8878    -.5430      2.0      24    4 144  Ml 1.6  2  Md 1.7  3              js067245    257628
+
+      0.60   +-  0.13       4.7    1.9  160.00 +-  0.0    0.02   2.07   +-0.2      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.02 312.2 m E Pg      2011/03/27 05:58:56.2   0.1                          T                                        4664869
+ETSF  000.02 312.2 m E Sg      2011/03/27 05:58:57.2   0.5                          T               66.2  .24        Md 1.7  4664868
+SJPF  000.55 294.5 m E Pg      2011/03/27 05:59:05.7   0.0                          T                                        4664864
+SJPF  000.55 294.5 m E Sg      2011/03/27 05:59:13.0   0.1                          T                2.5  .28        Md 1.7  4664867
+EPF   000.66 077.3 m E Pg      2011/03/27 05:59:08.0   0.2                          T                                        4664865
+EPF   000.66 077.3 m E Sg      2011/03/27 05:59:16.7   0.2                          T                1.8  .20        Md 1.6  4664866
+MTLF  002.07 076.4 m E Pn      2011/03/27 05:59:29.4   0.1                          T                                        4664863
+MTLF  002.07 076.4 m E Sn      2011/03/27 05:59:54.4   0.3                          T                 .4  .25 Ml 1.4         4664862
+
+.
+EVENT     257629
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 09:38:18.2     43.0628    -.8520      2.0       6    3 128  Ml 1.2  1  Md 1.5  3              js067245    257629
+
+      0.25   +-  0.07       2.2    1.1   15.30 +-  0.0    0.10   0.87   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.27 127.3 m E Pg      2011/03/27 09:38:23.4  -0.2                          T                                        4664874
+ETSF  000.27 127.3 m E Sg      2011/03/27 09:38:27.2   0.0                          T               10.4  .32        Md 1.5  4664873
+SJPF  000.28 280.6 m E Pg      2011/03/27 09:38:23.7   0.0                          T                                        4664875
+SJPF  000.28 280.6 m E Sg      2011/03/27 09:38:27.7   0.3                          T                6.6  .21        Md 1.5  4664872
+EPF   000.87 091.7 m E Pg      2011/03/27 09:38:35.8   1.1                          T                                        4664870
+EPF   000.87 091.7 m E Sg      2011/03/27 09:38:46.9   0.8                          T                 .6  .21 Ml 1.2 Md 1.4  4664871
+
+.
+EVENT     257630
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 12:22:49.4     51.5408    6.5974      1.0 f    48   19 246  Ml 2.6 19                         js067245    257630
+
+      0.35   +-  0.15       2.7    1.9  178.20 +-  0.0    0.31   5.56   +-0.3                            m i sr
+
+GERMANY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+GIVF  001.83 218.7 m E Pn      2011/03/27 12:23:20.3   0.1                          T                                        4664910
+GIVF  001.83 218.7 m E P       2011/03/27 12:23:22.4   0.1                          T                                        4668278
+GIVF  001.83 218.7 m E Sn      2011/03/27 12:23:42.9   0.3                          T               14.5  .20 Ml 3.0         4664894
+RUP   001.86 170.7 m E P       2011/03/27 12:23:22.8  -0.1                          T                                        4664909
+RUP   001.86 170.7 m E Sn      2011/03/27 12:23:43.5  -0.1                          T                                        4664892
+BAIF  002.12 226.6 m E Pn      2011/03/27 12:23:25.5   1.3                          T                                        4664906
+BAIF  002.12 226.6 m E Sn      2011/03/27 12:23:49.7   0.0                          T                8.0  .34 Ml 2.6         4664893
+LANF  002.68 162.7 m E Pn      2011/03/27 12:23:31.7  -0.1                          T                                        4664905
+LANF  002.68 162.7 m E P       2011/03/27 12:23:34.5   0.0                          T                                        4668277
+LANF  002.68 162.7 m E Sn      2011/03/27 12:24:02.8  -0.2                          T               11.7  .48 Ml 2.7         4664891
+PAGF  003.04 191.0 m E Pn      2011/03/27 12:23:36.7  -0.1                          T                                        4664903
+PAGF  003.04 191.0 m E Pg      2011/03/27 12:23:46.0   0.2                          T                                        4668274
+PAGF  003.04 191.0 m E Sn      2011/03/27 12:24:10.9  -0.7                          T                1.4  .39 Ml 2.0         4664889
+CDF   003.16 171.8 m E Pn      2011/03/27 12:23:38.5   0.0                          T                                        4664904
+CDF   003.16 171.8 m E Pg      2011/03/27 12:23:48.5   0.4                          T                                        4668273
+CDF   003.16 171.8 m E Sn      2011/03/27 12:24:14.5  -0.2                          T                5.9  .63 Ml 2.5         4664890
+MEZF  003.20 198.7 m E Pn      2011/03/27 12:23:38.5  -0.4                          T                                        4664902
+MEZF  003.20 198.7 m E Pg      2011/03/27 12:23:48.5  -0.2  26.9  9.3               T                                        4668275
+MEZF  003.20 198.7 m E Sn      2011/03/27 12:24:15.2  -0.2                          T                5.5  .38 Ml 2.6         4664888
+THEF  003.34 186.9 m E Pn      2011/03/27 12:23:40.7  -0.1                          T                                        4664901
+THEF  003.34 186.9 m E Sn      2011/03/27 12:24:18.7  -0.1                          T                7.4  .45 Ml 2.7         4664886
+SFTF  003.49 197.4 m E Pn      2011/03/27 12:23:42.6  -0.3                          T                                        4664878
+SFTF  003.49 197.4 m E Pg      2011/03/27 12:23:53.9  -0.2                          T                                        4668276
+SFTF  003.49 197.4 m E Sn      2011/03/27 12:24:23.0   0.6                          T                5.5  .32 Ml 2.8         4664887
+HAU   003.54 182.7 m E Pn      2011/03/27 12:23:43.6   0.0                          T                                        4664900
+HAU   003.54 182.7 m E Sn      2011/03/27 12:24:23.3  -0.3                          T                2.9  .30 Ml 2.3         4664885
+HINF  003.73 177.4 m E Pn      2011/03/27 12:23:46.2   0.0                          T                                        4664899
+HINF  003.73 177.4 m E Sn      2011/03/27 12:24:28.0  -0.2                          T                1.5  .30 Ml 2.3         4664884
+LOR   004.64 203.7 m E Pn      2011/03/27 12:23:58.6   0.2  24.3  2.6               T                                        4664907
+LOR   004.64 203.7 m E Sg      2011/03/27 12:25:14.5  -0.1                          T                2.3  .37 Ml 2.6         4664896
+SSF   004.92 205.5 m E Pn      2011/03/27 12:24:02.3   0.0                          T                                        4664908
+SSF   004.92 205.5 m E Sg      2011/03/27 12:25:23.2  -0.3                          T                2.8  .38 Ml 2.8         4664895
+CABF  004.95 184.1 m E Pn      2011/03/27 12:24:04.0   1.2                          T                                        4664879
+CABF  004.95 184.1 m E Sg      2011/03/27 12:25:24.8   0.4                          T                1.2  .42 Ml 2.3         4664881
+AVF   005.21 205.4 m E Pn      2011/03/27 12:24:05.8  -0.4                          T                                        4664898
+AVF   005.21 205.4 m E Sg      2011/03/27 12:25:32.2  -0.3                          T                 .9  .33 Ml 2.4         4664882
+SMF   005.22 201.3 m E Pn      2011/03/27 12:24:06.6   0.1                          T                                        4664880
+SMF   005.22 201.3 m E Sg      2011/03/27 12:25:33.0   0.0                          T                1.8  .29 Ml 2.7         4664883
+LDF   005.24 238.3 m E Pn      2011/03/27 12:24:07.2   0.6                          T                                        4665457
+LDF   005.24 238.3 m E Sg      2011/03/27 12:25:33.4   0.1                          T                1.9  .48 Ml 2.5         4665455
+FLN   005.33 241.3 m E Pn      2011/03/27 12:24:08.0   0.0                          T                                        4665458
+FLN   005.33 241.3 m E Sg      2011/03/27 12:25:36.4   0.1                          T                1.5  .30 Ml 2.5         4665456
+BGF   005.56 207.8 m E Pn      2011/03/27 12:24:10.5  -0.6                          T                                        4664897
+BGF   005.56 207.8 m E Sg      2011/03/27 12:25:43.6   0.1                          T                6.6  .44 Ml 3.2         4665459
+
+.
+EVENT     257631
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 12:43:00.1     42.8220    -.5121      3.0 f     8    4 228  Ml 2.0  1  Md 1.7  3              js067245    257631
+
+      0.15   +-  0.15       3.9    1.2    7.27 +-  0.0    0.08   2.30   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.08 335.7 m E Pg      2011/03/27 12:43:02.2   0.1                          T                                        4664918
+ETSF  000.08 335.7 m E Sg      2011/03/27 12:43:03.3  -0.2                          T               81.2  .24        Md 1.7  4664917
+SJPF  000.60 299.3 m E Pg      2011/03/27 12:43:11.5   0.0                          T                                        4664913
+SJPF  000.60 299.3 m E Sg      2011/03/27 12:43:19.5   0.2                          T                1.9  .26        Md 1.7  4664916
+EPF   000.66 071.3 m E Pg      2011/03/27 12:43:12.6  -0.1                          T                                        4664914
+EPF   000.66 071.3 m E Sg      2011/03/27 12:43:21.7   0.4                          T                1.9  .33        Md 1.6  4664915
+LFF   002.30 022.7 m E Pn      2011/03/27 12:43:37.0  -0.1                          T                                        4664912
+LFF   002.30 022.7 m E Sn      2011/03/27 12:44:04.3   0.0                          T                2.0  .26 Ml 2.0         4664911
+
+.
+EVENT     257632
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 13:20:45.2     42.7976    -.5605      4.0 f    10    4 229  Ml 1.5  2  Md 1.4  3              js067245    257632
+
+      0.14   +-  0.11       3.0    1.1   14.40 +-  0.0    0.10   2.11   +-0.2      +-0.1                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.10 000.5 m E Pg      2011/03/27 13:20:47.7   0.1                          T                                        4664928
+ETSF  000.10 000.5 m E Sg      2011/03/27 13:20:49.2  -0.1                          T                4.0  .22        Md 1.4  4664925
+SJPF  000.58 303.1 m E Pg      2011/03/27 13:20:56.2   0.0                          T                                        4664921
+SJPF  000.58 303.1 m E Sg      2011/03/27 13:21:03.9   0.0                          T                1.2  .34        Md 1.4  4664924
+EPF   000.70 070.3 m E Pg      2011/03/27 13:20:58.5   0.0                          T                                        4664927
+EPF   000.70 070.3 m E Sg      2011/03/27 13:21:07.4  -0.2                          T                 .4  .23        Md 1.3  4664926
+MTLF  002.11 074.1 m E Pn      2011/03/27 13:21:19.2  -0.2                          T                                        4664923
+MTLF  002.11 074.1 m E Sn      2011/03/27 13:21:44.6   0.0                          T                 .3  .26 Ml 1.4         4664922
+
+.
+EVENT     257633
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 14:40:45.7     43.0778    -.3209     15.0      10    4 167  Ml 1.7  2  Md 1.6  3              js067245    257633
+
+      0.23   +-  0.06       3.2     .9  169.80 +-  0.0    0.25   1.87   +-0.0      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.25 224.4 m E Pg      2011/03/27 14:40:51.3   0.0                          T                                        4664938
+ETSF  000.25 224.4 m E Sg      2011/03/27 14:40:54.4  -0.7                          T               40.9  .32        Md 1.6  4664935
+EPF   000.49 095.4 m E Pg      2011/03/27 14:40:55.0  -0.3                          T                                        4664937
+EPF   000.49 095.4 m E Sg      2011/03/27 14:41:01.9  -0.1                          T                3.7  .24        Md 1.6  4664936
+SJPF  000.66 273.4 m E Pg      2011/03/27 14:40:58.4  -0.1                          T                                        4664933
+SJPF  000.66 273.4 m E Sg      2011/03/27 14:41:07.1  -0.2                          T                2.9  .27        Md 1.6  4664934
+MTLF  001.87 081.1 m E Pg      2011/03/27 14:41:20.6   0.0                          T                                        4664932
+MTLF  001.87 081.1 m E Sg      2011/03/27 14:41:44.8   0.0                          T                1.1  .32 Ml 1.7         4664931
+
+.
+EVENT     257617
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 19:55:23.7     46.5135    2.0220      2.0      12    5 239  Ml 0.9  3  Md 1.0  3              js067245    257617
+
+      0.18   +-  0.15       2.9    1.3   89.79 +-  0.0    0.26   1.47   +-0.4      +-0.1                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+TCF   000.26 149.9 m E Pg      2011/03/27 19:55:29.1   0.2                          T                                        4664952
+TCF   000.26 149.9 m E Sg      2011/03/27 19:55:31.9  -0.5                          T                2.3  .34        Md 1.0  4664949
+BGF   000.57 085.2 m E Pg      2011/03/27 19:55:34.9   0.3                          T                                        4664951
+BGF   000.57 085.2 m E Sg      2011/03/27 19:55:42.0   0.0                          T                3.7  .22        Md 1.0  4664950
+HYF   000.87 029.1 m E Pg      2011/03/27 19:55:39.9  -0.1                          T                                        4664944
+HYF   000.87 029.1 m E Sg      2011/03/27 19:55:51.2  -0.1                          T                                        4664942
+AVF   000.96 072.7 m E Pg      2011/03/27 19:55:41.6  -0.1                          T                                        4664945
+AVF   000.96 072.7 m E Sg      2011/03/27 19:55:54.1   0.0                          T                 .1  .22 Ml  .4         4664943
+LOR   001.47 058.4 m E Pn      2011/03/27 19:55:49.5   0.0                          T                                        4664947
+LOR   001.47 058.4 m E Sn      2011/03/27 19:56:08.2  -0.1                          T                 .4  .34 Ml 1.1         4664948
+
+.
+EVENT     257618
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/27 23:36:10.4     46.3471    1.8043      2.0      24   10 134  Ml 1.7 10  Md 1.9  3              js067245    257618
+
+      0.20   +-  0.04        .9     .6  156.70 +-  0.0    0.29   1.69   +-0.2      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+TCF   000.29 101.7 m E Pg      2011/03/27 23:36:16.3   0.2                          T                                        4664973
+TCF   000.29 101.7 m E Sg      2011/03/27 23:36:20.2   0.2                          T               12.1  .18        Md 1.9  4664972
+BGF   000.75 073.3 m E Pg      2011/03/27 23:36:24.6   0.0                          T                                        4664961
+BGF   000.75 073.3 m E Sg      2011/03/27 23:36:34.5   0.1                          T               10.9  .38        Md 1.8  4664971
+RJF   001.06 191.0 m E Pg      2011/03/27 23:36:30.3   0.0                          T                                        4664966
+RJF   001.06 191.0 m E Sg      2011/03/27 23:36:44.1   0.0                          T                2.0  .20 Ml 1.5         4664968
+AVF   001.16 066.9 m E Pg      2011/03/27 23:36:32.0   0.0                          T                                        4664957
+AVF   001.16 066.9 m E Sg      2011/03/27 23:36:45.5  -1.5                          T                1.7  .34 Ml 1.6         4664960
+SMF   001.44 077.3 m E Pn      2011/03/27 23:36:35.9   0.1                          T                                        4664958
+SMF   001.44 077.3 m E Sn      2011/03/27 23:36:54.4   0.2                          T                 .8  .18 Ml 1.6         4664959
+MFF   001.37 281.4 m E Pg      2011/03/27 23:36:36.1   0.0                          T                                        4664965
+MFF   001.37 281.4 m E Sg      2011/03/27 23:36:53.7  -0.1                          T                2.0  .27 Ml 2.0         4664969
+SSF   001.37 058.0 m E Pg      2011/03/27 23:36:36.1   0.0                          T                                        4664956
+SSF   001.37 058.0 m E Sg      2011/03/27 23:36:52.7  -1.1                          T                 .5  .21 Ml 1.4         4664954
+CAF   001.43 172.6 m E Pg      2011/03/27 23:36:37.2   0.0                          T                                        4664964
+CAF   001.43 172.6 m E Sg      2011/03/27 23:36:55.5  -0.2                          T                1.2  .20 Ml 1.8         4664967
+LOR   001.69 056.1 m E Pn      2011/03/27 23:36:39.3   0.1                          T                                        4664955
+LOR   001.69 056.1 m E Sn      2011/03/27 23:36:59.9  -0.2                          T                 .7  .25 Ml 1.6         4664953
+LFF   001.59 208.3 m E Pg      2011/03/27 23:36:40.0  -0.1                          T                                        4664963
+LFF   001.59 208.3 m E Sg      2011/03/27 23:37:00.5  -0.2                          T                1.2  .29 Ml 1.5         4665010
+
+.
+EVENT     257634
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/28 00:01:15.3     43.0257    -.6846      2.0      10    4 157  Ml 1.5  2  Md 1.7  3              js067245    257634
+
+      0.13   +-  0.05       1.6     .8    5.60 +-  0.0    0.16   2.15   +-0.3      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.16 144.0 m E Pg      2011/03/28 00:01:18.7   0.0                          T                                        4665108
+ETSF  000.16 144.0 m E Sg      2011/03/28 00:01:20.8  -0.1                          T               11.1  .24        Md 1.7  4665104
+SJPF  000.41 282.6 m E Pg      2011/03/28 00:01:23.0  -0.2                          T                                        4665107
+SJPF  000.41 282.6 m E Sg      2011/03/28 00:01:28.8   0.3                          T                2.4  .23        Md 1.7  4665105
+EPF   000.75 089.3 m E Pg      2011/03/28 00:01:29.6   0.1                          T                                        4665106
+EPF   000.75 089.3 m E Sg      2011/03/28 00:01:39.2  -0.1                          T                 .8  .21        Md 1.7  4665103
+MTLF  002.15 080.6 m E Pg      2011/03/28 00:01:55.2   0.0                          T                                        4665101
+MTLF  002.15 080.6 m E Sg      2011/03/28 00:02:22.6  -0.2                          T                 .2  .22 Ml 1.3         4665102
+
+.
+EVENT     257676
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/28 10:38:47.7     42.7686   -1.1676     10.0      14    3 197  Ml 2.1  1  Md 1.5  2              js067245    257676
+
+      0.58   +-  0.29       5.9    3.6  177.72 +-  0.0    0.09   2.57   +-         +-0.1                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.35 353.0 m E Pg      2011/03/28 10:38:54.7   0.2                          T                                        4665116
+SJPF  000.35 353.0 m E Sg      2011/03/28 10:38:59.8   0.5                          T                8.9  .20        Md 1.5  4665114
+ETSF  000.47 073.6 m E Pg      2011/03/28 10:38:56.7   0.0                          T                                        4665115
+ETSF  000.47 073.6 m E Sg      2011/03/28 10:39:03.6   0.5                          T                6.4  .29        Md 1.4  4665113
+LFF   002.57 031.8 m E Pn      2011/03/28 10:39:16.0 -11.6                          T                                        4665112
+LFF   002.57 031.8 m E Sn      2011/03/28 10:39:38.0 -19.0                          T                2.3  .28 Ml 2.1         4665111
+
+.
+EVENT     257698
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/28 13:45:28.7     45.6419   11.4140      2.0      57   18 098  Ml 2.7 18                         js067245    257698
+
+      0.63   +-  0.16       3.6    2.5  123.35 +-  0.0    0.33   5.66   +-0.3                            m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+LPG   003.28 269.1 m E Pn      2011/03/28 13:46:19.6   0.1                          T                                        4665308
+LPG   003.28 269.1 m E Sn      2011/03/28 13:46:56.6  -0.2                          T                3.9  .36 Ml 2.5         4665293
+LPL   003.29 269.5 m E Pn      2011/03/28 13:46:19.7   0.1                          T                                        4665309
+LPL   003.29 269.5 m E Sn      2011/03/28 13:46:56.9  -0.1                          T                4.2  .28 Ml 2.7         4665292
+SBF   003.35 239.3 m E Pn      2011/03/28 13:46:20.4   0.3                          T                                        4665306
+SBF   003.35 239.3 m E Sn      2011/03/28 13:46:58.2   0.1                          T                7.1  .30 Ml 2.9         4665294
+MBDF  003.41 256.1 m E Pn      2011/03/28 13:46:21.2   0.1                          T                                        4665311
+MBDF  003.41 256.1 m E Sn      2011/03/28 13:46:59.6  -0.1                          T               13.5  .68 Ml 2.8         4665290
+PGF   003.55 210.2 m E Pn      2011/03/28 13:46:23.1   0.2                          T                                        4665303
+PGF   003.55 210.2 m E Sn      2011/03/28 13:47:03.2   0.2                          T                 .6  .20 Ml 2.3         4665295
+HINF  003.82 306.4 m E Pn      2011/03/28 13:46:26.4  -0.1                          T                                        4665301
+HINF  003.82 306.4 m E Sn      2011/03/28 13:47:08.5  -0.8                          T                1.8  .28 Ml 2.4         4665287
+CABF  003.83 286.6 m E Pn      2011/03/28 13:46:26.6  -0.1                          T                                        4665302
+CABF  003.83 286.6 m E Sn      2011/03/28 13:47:09.1  -0.6                          T                5.3  .56 Ml 2.6         4665288
+CDF   003.96 315.9 m E Pn      2011/03/28 13:46:28.1  -0.5                          T                                        4665298
+CDF   003.96 315.9 m E Sn      2011/03/28 13:47:11.8  -1.0                          T                2.0  .28 Ml 2.6         4665281
+ORIF  003.97 261.5 m E Pn      2011/03/28 13:46:28.7   0.0                          T                                        4665310
+ORIF  003.97 261.5 m E Sn      2011/03/28 13:47:13.0  -0.1                          T                9.9  .57 Ml 2.9         4665291
+FRF   003.99 240.3 m E Pn      2011/03/28 13:46:28.8   0.0                          T                                        4665307
+LANF  004.14 325.0 m E Pn      2011/03/28 13:46:30.5  -0.4                          T                                        4665283
+LANF  004.14 325.0 m E Sn      2011/03/28 13:47:16.1  -1.0                          T                9.1  .34 Ml 3.1         4665282
+HAU   004.20 306.0 m E Pn      2011/03/28 13:46:31.5  -0.3                          T                                        4665297
+HAU   004.20 306.0 m E Sn      2011/03/28 13:47:17.8  -0.8                          T                8.5  .44 Ml 2.8         4665286
+LMR   004.20 238.4 m E Pn      2011/03/28 13:46:31.6   0.0                          T                                        4665305
+SMRF  004.48 250.2 m E Pn      2011/03/28 13:46:35.8   0.3                          T                                        4665304
+THEF  004.52 306.8 m E Pn      2011/03/28 13:46:35.8  -0.3                          T                                        4665284
+THEF  004.52 306.8 m E Sn      2011/03/28 13:47:25.4  -0.8                          T                6.3  .52 Ml 2.9         4665285
+VIVF  004.83 263.0 m E Pn      2011/03/28 13:46:40.4   0.2                          T                                        4665296
+VIVF  004.83 263.0 m E Sn      2011/03/28 13:47:33.4   0.0                          T                3.7  .44 Ml 2.8         4665289
+LOR   005.47 290.0 m E Pn      2011/03/28 13:46:48.7  -0.2 106.6  2.0               T                                        4665300
+LOR   005.47 290.0 m E Sn      2011/03/28 13:47:48.3  -0.4                          T                4.8  .38 Ml 3.1         4665280
+SSF   005.66 287.4 m E Pn      2011/03/28 13:46:51.5   0.0                          T                                        4665299
+SSF   005.66 287.4 m E Sn      2011/03/28 13:47:52.8  -0.4                          T                1.8  .35 Ml 2.8         4665279
+
+.
+EVENT     257700
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/28 19:10:02.6     42.8284   -1.2185      2.0      18    3 080  Ml 1.7  1  Md 1.8  3              js067245    257700
+
+      0.54   +-  0.12       2.5    2.2   28.12 +-  0.0    0.02   2.10   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.28 359.0 m E Pg      2011/03/28 19:10:08.5   0.2                          T                                        4665317
+SJPF  000.28 359.0 m E Sg      2011/03/28 19:10:12.0  -0.1                          T                7.0  .20        Md 1.9  4665314
+ETSF  000.49 081.5 m E Pg      2011/03/28 19:10:11.7  -0.4                          T                                        4665316
+ETSF  000.49 081.5 m E Sg      2011/03/28 19:10:18.1  -0.5                          T                5.8  .35        Md 1.8  4665313
+EPF   001.16 079.5 m E Pg      2011/03/28 19:10:24.1  -0.3                          T                                        4665315
+EPF   001.16 079.5 m E Sg      2011/03/28 19:10:39.0  -0.5                          T                2.0  .28 Ml 1.7 Md 1.8  4665312
+
+.
+EVENT     257701
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 02:40:58.3     42.7789   -1.2101      2.0      24    3 097  Ml 1.2  1  Md 1.5  3              js067245    257701
+
+      0.31   +-  0.07       1.9    1.1   56.03 +-  0.0    0.04   1.17   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.33 358.1 m E Pg      2011/03/29 02:41:04.9   0.1                          T                                        4665323
+SJPF  000.33 358.1 m E Sg      2011/03/29 02:41:10.2   1.0                          T                2.2  .28        Md 1.5  4665321
+ETSF  000.49 075.8 m E Pg      2011/03/29 02:41:07.4  -0.3                          T                                        4665322
+ETSF  000.49 075.8 m E Sg      2011/03/29 02:41:14.3   0.0                          T                1.3  .28        Md 1.5  4665320
+EPF   001.17 077.0 m E Pg      2011/03/29 02:41:14.7  -5.5                          T                                        4665319
+EPF   001.17 077.0 m E Sg      2011/03/29 02:41:26.7  -8.5                          T                 .4  .24 Ml 1.2 Md 1.4  4665318
+
+.
+EVENT     257702
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 03:33:18.5     42.7831   -1.1880      2.0      40    5 085  Ml 1.7  4  Md 1.5  3              js067245    257702
+
+      0.33   +-  0.05       1.3     .9   36.53 +-  0.0    0.06   2.57   +-0.2      +-0.1                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SJPF  000.33 355.3 m E Pg      2011/03/29 03:33:25.1   0.1                          T                                        4665328
+SJPF  000.33 355.3 m E Sg      2011/03/29 03:33:30.5   1.1                          T                4.6  .18        Md 1.6  4665325
+ETSF  000.48 075.8 m E Pg      2011/03/29 03:33:27.7  -0.1                          T                                        4665327
+ETSF  000.48 075.8 m E Sg      2011/03/29 03:33:34.2   0.2                          T                3.6  .24        Md 1.5  4665326
+EPF   001.15 077.1 m E Pg      2011/03/29 03:33:39.7  -0.4                          T                                        4665362
+EPF   001.15 077.1 m E Sg      2011/03/29 03:33:54.8  -0.2                          T                1.3  .30 Ml 1.5 Md 1.4  4665324
+MTLF  002.56 076.2 m E Pn      2011/03/29 03:33:58.8  -0.3                          T                                        4665361
+MTLF  002.56 076.2 m E Sn      2011/03/29 03:34:29.0   0.0                          T                 .4  .22 Ml 1.5         4665360
+LFF   002.57 032.2 m E Pn      2011/03/29 03:33:59.3   0.0                          T                                        4665358
+LFF   002.57 032.2 m E Sn      2011/03/29 03:34:29.7   0.5                          T                2.9  .37 Ml 2.1         4665359
+
+.
+EVENT     257734
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 09:11:57.1     44.4244    7.4485      2.0      17    8 205  Ml 1.8  6  Md 2.0  3              js067245    257734
+
+      0.15   +-  0.09       1.9     .8   80.13 +-  0.0    0.56   1.42   +-0.4      +-0.0                 m i ke
+
+NORTHERN ITALY
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+SBF   000.56 181.0 m E Pg      2011/03/29 09:12:07.9   0.1                          T                                        4665498
+SBF   000.56 181.0 m E Sg      2011/03/29 09:12:15.1  -0.1                          T                7.5  .23        Md 2.0  4665494
+MBDF  000.57 302.2 m E Pg      2011/03/29 09:12:08.1   0.0                          T                                        4665501
+MBDF  000.57 302.2 m E Sg      2011/03/29 09:12:15.8   0.2                          T                6.0  .20        Md 1.9  4665497
+FRF   001.04 214.1 m E Pg      2011/03/29 09:12:16.8   0.2                          T                                        4665500
+FRF   001.04 214.1 m E Sg      2011/03/29 09:12:30.0   0.0                          T                4.1  .22 Ml 2.1 Md 2.0  4665496
+LPG   001.18 335.5 m E Pg      2011/03/29 09:12:19.6   0.1                          T                                        4665506
+LPG   001.18 335.5 m E Sg      2011/03/29 09:12:35.0   0.1                          T                1.2  .24 Ml 1.6         4665502
+LPL   001.20 335.3 m E Pg      2011/03/29 09:12:19.7  -0.2                          T                                        4665505
+LPL   001.20 335.3 m E Sg      2011/03/29 09:12:35.7   0.2                          T                2.2  .34 Ml 1.7         4665503
+ORIF  001.22 294.4 m E Pg      2011/03/29 09:12:19.8  -0.2                          T                                        4665508
+ORIF  001.22 294.4 m E Sg      2011/03/29 09:12:36.0   0.1                          T                1.4  .34 Ml 1.5         4665504
+LMR   001.28 212.3 m E Pg      2011/03/29 09:12:20.9  -0.2                          T                                        4665499
+LMR   001.28 212.3 m E Sg      2011/03/29 09:12:37.6  -0.1                          T                4.8  .18 Ml 2.4         4665495
+SMRF  001.42 252.2 m E Pg      2011/03/29 09:12:23.6   0.0                          T                                        4665507
+
+.
+EVENT     257744
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 14:45:51.8     44.6610  -11.5526     25.0      96   21 251  Ml 3.6 25                         js067245    257744
+
+      0.91   +-  0.28       5.5    3.0  102.69 +-  0.0    2.53  11.54   +-0.2                            m i ke
+
+NORTH ATLANTIC OCEAN
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+QUIF  006.66 057.8 m E Pn      2011/03/29 14:47:25.2  -0.5                          T                                        4665891
+QUIF  006.66 057.8 m E Sn      2011/03/29 14:48:33.0  -3.2                          T                7.1  .51 Ml 3.3         4665873
+ROSF  006.79 054.3 m E Pn      2011/03/29 14:47:26.7  -0.9                          T                                        4665889
+ROSF  006.79 054.3 m E Sn      2011/03/29 14:48:37.4  -2.0                          T                4.6  .28 Ml 3.4         4665871
+SGMF  007.18 056.8 m E Pn      2011/03/29 14:47:31.7  -1.0                          T                                        4665890
+SGMF  007.18 056.8 m E Sn      2011/03/29 14:48:44.5  -4.1                          T                3.2  .22 Ml 3.4         4665872
+SJPF  007.62 098.1 m E Pn      2011/03/29 14:47:40.0   1.1                          T                                        4665901
+SJPF  007.62 098.1 m E Sn      2011/03/29 14:48:58.8  -0.3                          T                5.9  .30 Ml 3.6         4665884
+MFF   008.23 072.3 m E Pn      2011/03/29 14:47:45.6  -1.5                          T                                        4665894
+MFF   008.23 072.3 m E Sn      2011/03/29 14:49:12.7  -0.9                          T                3.8  .29 Ml 3.7         4665876
+ETSF  008.15 098.6 m E Pn      2011/03/29 14:47:47.2   1.1                          T                                        4665899
+ETSF  008.15 098.6 m E Sn      2011/03/29 14:49:12.1   0.2                          T                3.9  .24 Ml 3.7         4665883
+GRR   008.26 059.4 m E Pn      2011/03/29 14:47:47.3  -0.2                          T                                        4665893
+GRR   008.26 059.4 m E Sn      2011/03/29 14:49:14.9   0.4                          T                4.2  .27 Ml 3.5         4665875
+FLN   008.64 057.7 m E Pn      2011/03/29 14:47:52.6  -0.2                          T                                        4665862
+FLN   008.64 057.7 m E Sn      2011/03/29 14:49:23.4  -0.2                          T                7.2  .42 Ml 3.6         4665861
+LDF   008.79 059.4 m E Pn      2011/03/29 14:47:54.6  -0.2                          T                                        4665892
+LDF   008.79 059.4 m E Sn      2011/03/29 14:49:27.6   0.4                          T                1.2  .27 Ml 3.1         4665874
+EPF   008.75 096.6 m E Pn      2011/03/29 14:47:55.3   1.0                          T                                        4665900
+EPF   008.75 096.6 m E Sn      2011/03/29 14:49:26.8   0.6                          T                5.0  .40 Ml 3.6         4665882
+LFF   008.75 083.9 m E Pn      2011/03/29 14:47:55.7   1.5                          T                                        4665895
+CAF   009.69 083.7 m E Pn      2011/03/29 14:48:06.7  -0.3                          T                                        4665896
+CAF   009.69 083.7 m E Sn      2011/03/29 14:49:49.4   0.8                          T                2.9  .31 Ml 3.7         4665878
+TCF   009.81 075.6 m E Pn      2011/03/29 14:48:06.8  -1.8                          T                                        4665885
+TCF   009.81 075.6 m E Sn      2011/03/29 14:49:50.0  -1.5                          T                4.0  .28 Ml 3.9         4665867
+MTLF  010.01 092.7 m E Pn      2011/03/29 14:48:11.0  -0.5                          T                                        4665860
+MTLF  010.01 092.7 m E Sn      2011/03/29 14:49:56.6   0.3                          T                3.9  .39 Ml 3.7         4665881
+BGF   010.27 074.3 m E Pn      2011/03/29 14:48:14.3  -0.6                          T                                        4665888
+BGF   010.27 074.3 m E Sn      2011/03/29 14:50:00.4  -2.0                          T                5.2  .24 Ml 4.1         4665869
+AVF   010.64 073.2 m E Pn      2011/03/29 14:48:18.9  -1.1                          T                                        4665886
+AVF   010.64 073.2 m E Sn      2011/03/29 14:50:10.7  -0.6                          T                2.0  .32 Ml 3.6         4665868
+SSF   010.78 071.8 m E Pn      2011/03/29 14:48:22.0   0.2                          T                                        4665863
+SSF   010.78 071.8 m E Sn      2011/03/29 14:50:14.1  -0.5                          T                1.9  .39 Ml 3.6         4665866
+LOR   011.04 070.9 m E Pn      2011/03/29 14:48:24.5  -1.0                          T                                        4665864
+LOR   011.04 070.9 m E Sn      2011/03/29 14:50:21.4   0.5                          T                2.5  .45 Ml 3.6         4665865
+LASF  011.05 087.6 m E Pn      2011/03/29 14:48:27.5   1.9                          T                                        4665898
+LASF  011.05 087.6 m E Sn      2011/03/29 14:50:21.6   0.5                          T                2.6  .33 Ml 3.8         4665880
+VIVF  011.54 083.3 m E Pn      2011/03/29 14:48:34.2   1.9                          T                                        4665897
+VIVF  011.54 083.3 m E Sn      2011/03/29 14:50:33.6   0.7                          T               11.0  .76 Ml 4.1         4665879
+RJF   009.29 081.4 m E Sn      2011/03/29 14:49:39.8   0.9                          T                3.5  .26 Ml 3.4         4665877
+
+.
+EVENT     257745
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 17:01:15.4     43.0595    -.4468      2.0      30    7 102  Ml 2.2  5  Md 2.1  3              js067245    257745
+
+      0.50   +-  0.08       1.8    1.3  178.94 +-  0.0    0.18   2.69   +-0.1      +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.18 207.2 m E Pg      2011/03/29 17:01:19.2   0.1                          T                                        4665917
+ETSF  000.18 207.2 m E Sg      2011/03/29 17:01:21.4  -0.3                          T               31.9  .22        Md 2.1  4665914
+EPF   000.58 092.6 m E Pg      2011/03/29 17:01:25.5  -0.9                          T                                        4665915
+EPF   000.58 092.6 m E Sg      2011/03/29 17:01:33.1  -0.9                          T                7.4  .16        Md 2.1  4665912
+SJPF  000.57 275.7 m E Pg      2011/03/29 17:01:25.9  -0.4                          T                                        4665916
+SJPF  000.57 275.7 m E Sg      2011/03/29 17:01:33.6  -0.2                          T                3.4  .23        Md 2.2  4665913
+MTLF  001.97 080.9 m E Pn      2011/03/29 17:01:48.0   0.0                          T                                        4665908
+MTLF  001.97 080.9 m E Sn      2011/03/29 17:02:11.9   0.1                          T                2.0  .31 Ml 2.0         4665904
+LFF   002.07 024.1 m E Pn      2011/03/29 17:01:49.5   0.2                          T                                        4665911
+LFF   002.07 024.1 m E Sn      2011/03/29 17:02:14.3   0.2                          T                8.4  .46 Ml 2.3         4665906
+CAF   002.60 043.3 m E Pn      2011/03/29 17:01:56.6   0.0                          T                                        4665909
+CAF   002.60 043.3 m E Sn      2011/03/29 17:02:26.9   0.0                          T                3.0  .36 Ml 2.3         4665905
+RJF   002.65 031.5 m E Pn      2011/03/29 17:01:57.0  -0.3                          T                                        4665910
+RJF   002.65 031.5 m E Sn      2011/03/29 17:02:28.4   0.3                          T                2.5  .20 Ml 2.1         4665907
+
+.
+EVENT     257746
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 18:54:08.2     43.1395    -.4556      2.0      20    4 175  Ml 1.7  1  Md 1.7  3              js067245    257746
+
+      0.31   +-  0.12       3.0    1.4  162.12 +-  0.0    0.25   1.96   +-         +-0.0                 m i ke
+
+PYRENEES
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+ETSF  000.25 197.6 m E Pg      2011/03/29 18:54:13.4   0.1                          T                                        4665925
+ETSF  000.25 197.6 m E Sg      2011/03/29 18:54:16.6  -0.1                          T                5.1  .22        Md 1.7  4665924
+EPF   000.59 100.3 m E Pg      2011/03/29 18:54:19.4  -0.2                          T                                        4665920
+EPF   000.59 100.3 m E Sg      2011/03/29 18:54:27.0  -0.4                          T                1.9  .25        Md 1.7  4665923
+SJPF  000.56 267.6 m E Pg      2011/03/29 18:54:19.4   0.4                          T                                        4665922
+SJPF  000.56 267.6 m E Sg      2011/03/29 18:54:26.7   0.3                          T                2.6  .40        Md 1.8  4665921
+MTLF  001.96 083.2 m E Pn      2011/03/29 18:54:40.9   0.1                          T                                        4665919
+MTLF  001.96 083.2 m E Sn      2011/03/29 18:55:04.8   0.3                          T                 .7  .22 Ml 1.7         4665918
+
+.
+EVENT     257747
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 22:13:42.8     46.8001    7.2146      4.0 f    48   21 075  Ml 2.4 22  Md 2.5  3              js067245    257747
+
+      0.59   +-  0.08       1.6    1.1   98.81 +-  0.0    0.18   3.49   +-0.3      +-0.0                 m i ke
+
+SWITZERLAND
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+CABF  000.80 256.7 m E Pg      2011/03/29 22:13:58.5   0.6                          T                                        4665969
+CABF  000.80 256.7 m E Sg      2011/03/29 22:14:08.3   0.0                          T               15.2  .22        Md 2.4  4665962
+HINF  001.05 346.5 m E Pg      2011/03/29 22:14:03.0   0.5                          T                                        4665968
+HINF  001.05 346.5 m E Sg      2011/03/29 22:14:16.5   0.5                          T               14.5  .24 Ml 2.6 Md 2.5  4665961
+HAU   001.34 334.3 m E Pg      2011/03/29 22:14:07.8  -0.1                          T                                        4665967
+HAU   001.34 334.3 m E Sg      2011/03/29 22:14:24.8  -0.4                          T               15.7  .30 Ml 2.5         4665960
+LPL   001.33 194.8 m E Pg      2011/03/29 22:14:08.8   1.0                          T                                        4665966
+LPG   001.34 194.1 m E Pg      2011/03/29 22:14:08.8   0.6                          T                                        4665965
+LPL   001.33 194.8 m E Sg      2011/03/29 22:14:25.4   0.4                          T                4.9  .37 Ml 2.1 Md 2.4  4665932
+LPG   001.34 194.1 m E Sg      2011/03/29 22:14:26.3   0.7                          T                8.8  .36 Ml 2.4         4665931
+CDF   001.61 001.5 m E Pg      2011/03/29 22:14:13.0   0.1                          T                                        4665963
+CDF   001.61 001.5 m E Sg      2011/03/29 22:14:34.0   0.2                          T                6.1  .42 Ml 2.4         4665956
+THEF  001.65 330.4 m E Pg      2011/03/29 22:14:13.6   0.1                          T                                        4665943
+THEF  001.65 330.4 m E Sg      2011/03/29 22:14:35.2   0.3                          T               19.2  .45 Ml 2.7         4665959
+PAGF  002.02 330.7 m E Pg      2011/03/29 22:14:20.6   0.2                          T                                        4665945
+SFTF  002.04 314.4 m E Pg      2011/03/29 22:14:20.6   0.0 132.8  0.0               T                                        4665944
+PAGF  002.02 330.7 m E Sg      2011/03/29 22:14:46.5   0.0                          T                1.3  .29 Ml 1.9         4665957
+SFTF  002.04 314.4 m E Sg      2011/03/29 22:14:47.1   0.2 136.4  3.6               T                5.3  .28 Ml 2.5         4665958
+ORIF  002.10 206.8 m E Pg      2011/03/29 22:14:21.7  -0.2                          T                                        4665934
+ORIF  002.10 206.8 m E Sg      2011/03/29 22:14:49.0   0.0                          T                3.3  .36 Ml 2.2         4665930
+MBDF  002.10 188.7 m E Pg      2011/03/29 22:14:22.1   0.1                          T                                        4665964
+MBDF  002.10 188.7 m E Sg      2011/03/29 22:14:49.2   0.3                          T                4.2  .48 Ml 2.2         4665929
+LANF  002.22 010.1 m E Pg      2011/03/29 22:14:23.3  -0.7                          T                                        4665947
+LANF  002.22 010.1 m E Sg      2011/03/29 22:14:51.8  -0.7                          T                1.2  .21 Ml 2.0         4665946
+MEZF  002.24 320.1 m E Pg      2011/03/29 22:14:24.5   0.0 140.2  1.6               T                                        4665926
+MEZF  002.24 320.1 m E Sg      2011/03/29 22:14:53.4   0.1                          T                6.9  .34 Ml 2.6         4665927
+LOR   002.34 282.8 m E Pg      2011/03/29 22:14:26.0  -0.3 106.9  6.6               T                                        4665951
+LOR   002.34 282.8 m E Sg      2011/03/29 22:14:54.8  -1.6                          T                3.7  .18 Ml 2.6         4665954
+SMF   002.33 267.4 m E Pg      2011/03/29 22:14:26.2   0.3                          T                                        4665941
+SMF   002.33 267.4 m E Sg      2011/03/29 22:14:55.0  -1.0                          T                9.4  .28 Ml 2.8         4665940
+SSF   002.55 277.2 m E Pg      2011/03/29 22:14:30.3   0.1                          T                                        4665950
+SSF   002.55 277.2 m E Sg      2011/03/29 22:15:00.9  -2.1                          T                3.7  .28 Ml 2.5         4665953
+VIVF  002.63 223.3 m E Pg      2011/03/29 22:14:31.5  -0.2                          T                                        4665933
+VIVF  002.63 223.3 m E Sg      2011/03/29 22:15:05.2  -0.3                          T                3.5  .32 Ml 2.4         4665928
+AVF   002.65 271.2 m E Pg      2011/03/29 22:14:32.5   0.5                          T                                        4665942
+AVF   002.65 271.2 m E Sg      2011/03/29 22:15:04.6  -1.5                          T                2.8  .32 Ml 2.3         4665939
+RUP   002.91 358.0 m E Pg      2011/03/29 22:14:36.4  -0.3                          T                                        4665948
+RUP   002.91 358.0 m E Sg      2011/03/29 22:15:14.0   0.0                          T                                        4665955
+BGF   003.02 267.0 m E Pg      2011/03/29 22:14:38.6  -0.1                          T                                        4665936
+BGF   003.02 267.0 m E Sg      2011/03/29 22:15:17.1  -0.4                          T                6.3  .34 Ml 2.7         4665938
+TCF   003.49 263.4 m E Pg      2011/03/29 22:14:47.3  -0.1                          T                                        4665949
+TCF   003.49 263.4 m E Sg      2011/03/29 22:15:32.4   0.1                          T                 .7  .19 Ml 2.1         4665952
+
+.
+EVENT     257756
+    Date      Time       Latitude Longitude    Depth    Ndef Nsta Gap    Mag1  N    Mag2  N    Mag3  N   Author         ID
+       rms   OT_Error      Smajor Sminor Az        Err   mdist  Mdist     Err        Err        Err      Quality
+
+2011/03/29 23:23:40.1     44.4763    6.9206      2.0      20    9 155  Ml 1.7  8  Md 2.0  3              js067245    257756
+
+      0.24   +-  0.07       1.7     .9   78.67 +-  0.0    0.27   1.65   +-0.4      +-0.0                 m i ke
+
+FRANCE
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+MBDF  000.27 337.0 m E Pg      2011/03/29 23:23:45.6   0.0                          T                                        4666118
+MBDF  000.27 337.0 m E Sg      2011/03/29 23:23:49.6   0.3                          T               12.0  .28        Md 2.0  4666114
+SBF   000.72 148.7 m E Pg      2011/03/29 23:23:53.8   0.1                          T                                        4666110
+SBF   000.72 148.7 m E Sg      2011/03/29 23:24:02.7  -0.3                          T                5.5  .39        Md 2.0  4666111
+ORIF  000.86 301.1 m E Pg      2011/03/29 23:23:56.5   0.1                          T                                        4666117
+ORIF  000.86 301.1 m E Sg      2011/03/29 23:24:07.0  -0.6                          T                2.1  .24 Ml 1.7 Md 2.0  4666113
+FRF   000.94 192.3 m E Pg      2011/03/29 23:23:57.4  -0.2                          T                                        4666116
+FRF   000.94 192.3 m E Sg      2011/03/29 23:24:09.3  -0.5                          T                5.0  .16 Ml 2.3         4666101
+LPL   001.05 352.8 m E Pg      2011/03/29 23:23:59.8  -0.3                          T                                        4666107
+LPL   001.05 352.8 m E Sg      2011/03/29 23:24:13.5  -0.1                          T                1.1  .26 Ml 1.5         4666104
+LPG   001.03 353.4 m E Pg      2011/03/29 23:23:59.8   0.1                          T                                        4666108
+LPG   001.03 353.4 m E Sg      2011/03/29 23:24:13.1   0.0                          T                1.3  .36 Ml 1.4         4666103
+SMRF  001.09 243.1 m E Pg      2011/03/29 23:24:00.8   0.3                          T                                        4666109
+SMRF  001.09 243.1 m E Sg      2011/03/29 23:24:14.5  -0.1                          T                1.2  .24 Ml 1.5         4666102
+LMR   001.18 194.7 m E Pg      2011/03/29 23:24:02.3   0.1                          T                                        4666115
+LMR   001.18 194.7 m E Sg      2011/03/29 23:24:17.4   0.0                          T                3.3  .20 Ml 2.1         4666112
+VIVF  001.65 284.1 m E Pn      2011/03/29 23:24:08.6   0.2                          T                                        4666106
+VIVF  001.65 284.1 m E Sn      2011/03/29 23:24:28.8  -0.1                          T                 .4  .22 Ml 1.3         4666105
+
+.
+
+DATA_TYPE ARRIVAL
+Sta     Dist  EvAz     Phase      Date       Time     TRes  Azim  AzRes  Slow  SRes Def   SNR       Amp   Per   Mag1   Mag2       ID
+
+STOP
