@@ -15,9 +15,9 @@ from catalog_io_plot import *
 
 # Trimouns
 filename='trimouns.hdf5'
-#eq_cat=generate_eq_catalog(1000,-30,30,-30,30)
-#blast_cat=generate_blast_catalog(1000,0,0,3,3,30,17,0.1)
-#write__catalogs_hdf5(eq_cat, blast_cat, filename)
+eq_cat=generate_eq_catalog(1000,-30,30,-30,30)
+blast_cat=generate_blast_catalog(1000,0,0,3,3,30,17,0.1)
+write_catalogs_hdf5(eq_cat, blast_cat, filename)
 X, y, features, labels = read_catalog_hdf5(filename)
 min_cat=np.min(X, axis=0)
 max_cat=np.max(X, axis=0)
@@ -26,9 +26,9 @@ plot_catalog(X, y, features, labels, 'Trimouns synthetic catalog', 'trimouns_syn
 
 # Mollard
 filename='mollard.hdf5'
-#eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
-#blast_cat=generate_blast_catalog(1000,0,0,10,10,30,12,2)
-#write__catalogs_hdf5(eq_cat, blast_cat, filename)
+eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
+blast_cat=generate_blast_catalog(1000,0,0,10,10,30,12,2)
+write_catalogs_hdf5(eq_cat, blast_cat, filename)
 X, y, features, labels = read_catalog_hdf5(filename)
 min_cat=np.min(X, axis=0)
 max_cat=np.max(X, axis=0)
@@ -36,9 +36,9 @@ plot_catalog(X, y, features, labels, 'Mollard synthetic catalog', 'mollard_syn.p
 
 # skew
 filename='skew.hdf5'
-#eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
-#blast_cat=generate_blast_catalog(1000,0,0,5,15,30,12,2)
-#write__catalogs_hdf5(eq_cat, blast_cat, filename)
+eq_cat=generate_eq_catalog(1000,-40,40,-40,40)
+blast_cat=generate_blast_catalog(1000,0,0,5,15,30,12,2)
+write_catalogs_hdf5(eq_cat, blast_cat, filename)
 X, y, features, labels = read_catalog_hdf5(filename)
 min_cat=np.min(X, axis=0)
 max_cat=np.max(X, axis=0)
@@ -65,7 +65,7 @@ for filename, base_title, C, gamma in zip(filenames, base_titles, C_values, gamm
     X, y, features, labels = read_catalog_hdf5(filename)
 
     # do feature scaling
-    scaler = preprocessing.Scaler()
+    scaler = preprocessing.StandardScaler()
     scaler.fit(X)
     X_scaled = scaler.transform(X)
 

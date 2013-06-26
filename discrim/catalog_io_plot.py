@@ -1,4 +1,4 @@
-import os, h5py, string
+import os, h5py, string, re, glob
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -8,20 +8,17 @@ from_zone = tz.gettz('UTC')
 to_zone =   tz.gettz('Europe/Paris')
 base_date = datetime(1987,1,1)
 base_date = base_date.replace(tzinfo=from_zone)
+features = "x (km),y (km),Time (days),Hour,day/night,week"
+labels = {'earthquake' : 0, 'blast' : 1}
 
-def write_catalog_hdf5(X, y, features, labels):
+def write_catalog_hdf5(X, y, filename):
 
-    X = np.vstack((eq_cat,blast_cat))
-    n_eq, f_f = eq_cat.shape
     n_s, n_f =  X.shape
-    # set labels : 0 = eq, 1=mine blast
-    y = np.ones(n_s)
-    y[0:n_eq]=0
 
     f=h5py.File(filename,'w')
     X_data=f.create_dataset('X',data=X)
     y_data=f.create_dataset('y',data=y)
-    X_data.attrs['features'] = string.join(features,',')
+    X_data.attrs['features'] = features
     y_data.attrs['earthquake'] = labels['earthquake']
     y_data.attrs['blast'] = labels['blast']
     f.close()
@@ -50,9 +47,9 @@ def write_catalogs_hdf5(eq_cat, blast_cat, filename):
     f=h5py.File(filename,'w')
     X_data=f.create_dataset('X',data=X)
     y_data=f.create_dataset('y',data=y)
-    X_data.attrs['features'] = "x (km),y (km),Time (days),Hour,day/night,week"
-    y_data.attrs['earthquake'] = 0
-    y_data.attrs['blast'] = 1
+    X_data.attrs['features'] = features
+    y_data.attrs['earthquake'] = labels['earthquake']
+    y_data.attrs['blast'] = labels['blast']
     f.close()
 
 
@@ -104,31 +101,8 @@ def read_isc_catalog(filename):
         otime=datetime(year, month, day, hour, mins, sec, usec)
         otime = otime.replace(tzinfo=from_zone)
 
-        # get origin time in local time
-        otime_local = otime.astimezone(to_zone)
-        #print otime.isoformat(' '), otime_local.isoformat(' ')
-
-        # get t, fractional days since base_date
-        t[i]=((otime - base_date).days*86400 + (otime - base_date).seconds) / float(86400)
-
-        # use local time to get h
-        h[i]=(otime_local.hour*3600+otime_local.minute*60+otime_local.second)/float(3600)
-
-
-        # set day/night flag
-        # for now cheat, and use 6-18h as daytime
-        # TODO : use ephemerides to set day or night flag
-        if h[i] > 6.0 and h[i] < 18.0 :
-            d[i] = 1
-        else :
-            d[i] = 0
-
-        # set weekday flag
-        wday = otime_local.weekday()
-        if wday < 5 : 
-            w[i] = 1
-        else :
-            w[i] = 0
+	# get time-related features
+	t[i],h[i],d[i],w[i] = set_time_features_from_otime(otime)
         
         i=i+1
 
@@ -168,37 +142,124 @@ def read_chooz_catalog(filename):
         otime=datetime.strptime(words[0]+' '+words[1], '%Y-%m-%d %H:%M:%S.%f')
         otime = otime.replace(tzinfo=from_zone)
 
-        # get origin time in local time
-        otime_local = otime.astimezone(to_zone)
-        #print otime.isoformat(' '), otime_local.isoformat(' ')
+	# get time-related features
+	t[i],h[i],d[i],w[i] = set_time_features_from_otime(otime)
 
-        # get t, fractional days since base_date
-        t[i]=((otime - base_date).days*86400 + (otime - base_date).seconds) / float(86400)
-
-        # use local time to get h
-        h[i]=(otime_local.hour*3600+otime_local.minute*60+otime_local.second)/float(3600)
-
-
-        # set day/night flag
-        # for now cheat, and use 6-18h as daytime
-        # TODO : use ephemerides to set day or night flag
-        if h[i] > 6.0 and h[i] < 18.0 :
-            d[i] = 1
-        else :
-            d[i] = 0
-
-        # set weekday flag
-        wday = otime_local.weekday()
-        if wday < 5 : 
-            w[i] = 1
-        else :
-            w[i] = 0
-        
         i=i+1
 
     X = np.vstack((x,y,t,h,d,w))
     return X.T
 
+def read_gse2_cat(filename):
+
+    # read file
+    f=open(filename,'r')
+    lines=f.readlines()
+    f.close()
+    
+    # count the number of events
+    
+    n_ev = 0
+    for line in lines :
+        if line.strip().startswith('EVENT'):
+            n_ev += 1
+            
+    x = np.empty(n_ev, dtype=float) 
+    y = np.empty(n_ev, dtype=float) 
+    t = np.empty(n_ev, dtype=float) 
+    h = np.empty(n_ev, dtype=float) 
+    d = np.empty(n_ev, dtype=int) 
+    w = np.empty(n_ev, dtype=int) 
+    y_class = np.empty(n_ev, dtype=int) 
+      
+    i=0
+    
+    for line in lines :
+        # skip empty lines
+        if len( line.strip() ) == 0 :
+            continue
+        # if the first column is not empty
+        if len( line[0].strip() ) > 0:
+            # check if it is a date
+            match_str = r'\d{4}/\d{2}/\d{2}\s+'
+            if re.match(match_str, line.strip()):
+		#print line
+                # it is a date - this is the origin of the event
+		words = line.split()
+
+        	# parse date and time strings
+        	# get origin time in UTC
+        	otime=datetime.strptime(words[0]+' '+words[1], '%Y/%m/%d %H:%M:%S.%f')
+        	otime = otime.replace(tzinfo=from_zone)
+
+ 		# get time-related features
+		t1,h1,d1,w1 = set_time_features_from_otime(otime)
+
+		# lat et lon
+		# Note : do not use word decomposition as extraenous characters may be present
+		lat_text = line[25:33]
+		lon_text = line[34:43]
+		# Some events may be detected but not located - must ignore them completely
+		if len(lat_text.strip()) == 0 or len(lon_text.strip()) == 0 : 
+		    ignore_next_type = True
+		else : 
+  		    lat = float(line[25:33])
+		    lon = float(line[34:43])
+		    ignore_next_type = False
+
+        else :
+            if not(line.strip().startswith('Date') or line.strip().startswith('rms') or line.strip().startswith('_ldg')):
+                # TODO : Do parsing here
+		words = line.split()
+		ev_type = words[-1]	
+		if ignore_next_type :
+		    continue
+                if ev_type == 'ke' or ev_type == 'km' :	
+		    x[i] = lon
+		    y[i] = lat
+		    t[i] = t1
+		    h[i] = h1
+		    d[i] = d1
+		    w[i] = w1
+		    if ev_type == 'ke' :
+                        y_class[i] = labels['earthquake']
+		    else :
+			y_class[i] = labels['blast']
+		    i += 1
+		else :
+		   continue
+    # There are now i elements in the vectors. So resize to length i.
+    x.resize(i)
+    y.resize(i)
+    t.resize(i)
+    h.resize(i)
+    d.resize(i)
+    w.resize(i)
+    y_class.resize(i)
+
+    X = np.vstack((x,y,t,h,d,w))
+    return X.T, y_class
+                
+    # TODO : return catalog as for other inputs
+
+            
+
+
+def read_gse2_cat_from_directory(dir):
+    X_list = []
+    y_list = []
+    files = glob.glob(dir + os.sep + '*.txt')
+    for filename in files : 
+	#print filename
+	X, y = read_gse2_cat(filename)
+	X_list.append(X)
+	y_list.append(y)
+
+    y_final = np.hstack((y_list))
+    X_final = np.vstack((X_list))
+
+    return X_final, y_final
+    
 def read_mine_cat(filename):
 
     f=open(filename,'r')
@@ -410,6 +471,40 @@ def plot_mines(mines_dict, title, filename):
     plt.suptitle(title, fontsize=16)
     plt.savefig(filename)
     plt.clf()
+
+def set_time_features_from_otime(otime):
+    """
+    Requires origin time in UTC. Returns t, h, d, w features.
+    """
+
+    # get origin time in local time
+    otime_local = otime.astimezone(to_zone)
+    #print otime.isoformat(' '), otime_local.isoformat(' ')
+
+    # get t, fractional days since base_date
+    t=((otime - base_date).days*86400 + (otime - base_date).seconds) / float(86400)
+
+    # use local time to get h
+    h=(otime_local.hour*3600+otime_local.minute*60+otime_local.second)/float(3600)
+
+
+    # set day/night flag
+    # for now cheat, and use 6-18h as daytime
+    # TODO : use ephemerides to set day or night flag
+    if h > 6.0 and h < 18.0 :
+        d = 1
+    else :
+        d = 0
+
+    # set weekday flag
+    wday = otime_local.weekday()
+    if wday < 5 : 
+        w = 1
+    else :
+        w = 0
+    
+    return t, h, d, w
+	
 
 if __name__ == '__main__' :
 

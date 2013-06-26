@@ -40,7 +40,7 @@ plot_catalog(X, y, features, labels, 'Chooz catalog', 'chooz.png', ranges = (min
 basename='chooz'
 base_title='Chooz'
 
-scaler = preprocessing.Scaler()
+scaler = preprocessing.StandardScaler()
 scaler.fit(X)
 X_scaled = scaler.transform(X)
 

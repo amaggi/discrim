@@ -17,7 +17,8 @@ from catalog_io_plot import *
 #eq_cat = read_isc_catalog('../CATALOGS/Loc_1987_2009_tri_no.txt')
 #write_catalogs_hdf5(eq_cat, bl_cat, '../CATALOGS/Loc_1987_2009_features.hdf5')
 
-X_tmp, y_tmp, features, labels = read_catalog_hdf5('../CATALOGS/Loc_1987_2009_features.hdf5')
+#X_tmp, y_tmp, features, labels = read_catalog_hdf5('../CATALOGS/Loc_1987_2009_features.hdf5')
+X_tmp, y_tmp, features, labels = read_catalog_hdf5('ldg.hdf5')
 # extract only Marlebach events
 #x_min=6.5 ; x_max = 7.2 ; y_min = 49 ; y_max = 49.5
 
@@ -37,7 +38,7 @@ plot_catalog(X, y, features, labels, 'Merlebach catalog', 'merlebach.png', range
 basename='marlebach'
 base_title='Marlebach'
 
-scaler = preprocessing.Scaler()
+scaler = preprocessing.StandardScaler()
 scaler.fit(X)
 X_scaled = scaler.transform(X)
 
